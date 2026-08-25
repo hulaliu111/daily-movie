@@ -149,6 +149,7 @@ function movieCardHtml(m, withShare) {
     ? `<a class="action-btn primary" href="${esc(m.douban_url)}" target="_blank" rel="noopener">在豆瓣查看 ↗</a>`
     : "";
   const trailerLink = `<a class="action-btn" href="${esc(trailerUrl)}" target="_blank" rel="noopener">看预告片 ▶</a>`;
+  const resourceLink = `<a class="action-btn" href="https://quanpan.xyz/?q=${encodeURIComponent(m.title)}" target="_blank" rel="noopener">资源搜索</a>`;
   const shareButtons = withShare
     ? `<button class="action-btn" id="copy-btn" type="button">复制推荐</button>
        <button class="action-btn" id="share-btn" type="button">生成分享图</button>`
@@ -176,6 +177,7 @@ function movieCardHtml(m, withShare) {
       <div class="actions">
         ${doubanLink}
         ${trailerLink}
+        ${resourceLink}
         ${shareButtons}
       </div>
       <p class="source-note">数据来源：豆瓣 Top 250 · TMDB</p>
