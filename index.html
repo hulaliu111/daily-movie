@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日一部好电影</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="page-header">
+      <p class="date" id="date"></p>
+      <h1 class="site-title">每日推荐 · 一部好电影</h1>
+    </header>
+
+    <section class="card" id="card">
+      <!-- 由 app.js 渲染 -->
+    </section>
+
+    <footer class="page-footer">
+      <p>数据来源：豆瓣 Top 250 · 烂番茄 Top 100 · TMDB</p>
+      <p class="tip">想看其它日期的推荐？在网址后面加 <code>?date=2026-08-26</code></p>
+    </footer>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
