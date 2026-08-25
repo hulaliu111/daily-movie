@@ -18,7 +18,8 @@ DOUBAN_FILE = os.path.join(DATA_DIR, "douban_top250.json")
 TMDB_FILE = os.path.join(DATA_DIR, "tmdb_matched.json")
 OUT_FILE = os.path.join(SCRIPT_DIR, "..", "data.js")
 
-POSTER_BASE = "https://image.tmdb.org/t/p/w500"
+# 海报改为下载到本地 posters/ 目录（scripts/download_posters.py 负责），
+# 避免依赖 image.tmdb.org（国内被墙）/ doubanio.com（防盗链）
 
 
 def clean(s):
@@ -86,14 +87,15 @@ def build():
         # 导演：优先豆瓣中文名，否则用 TMDB
         final_directors = directors or ([t["director"]] if t.get("director") else [])
 
-        poster = POSTER_BASE + t["poster_path"] if t.get("poster_path") else ""
+        mid = "douban-" + subject_id(d.get("url"))
+        poster = f"posters/{mid}.jpg" if t.get("poster_path") else ""
 
         reason = d.get("quote", "").strip()
         if not reason:
             reason = f"豆瓣 Top 250 第 {d.get('rank', '')} 名，评分 {d.get('douban_rating', '')}。"
 
         movies.append({
-            "id": "douban-" + subject_id(d.get("url")),
+            "id": mid,
             "title": d.get("title", ""),
             "title_en": d.get("title_en", ""),
             "year": year,

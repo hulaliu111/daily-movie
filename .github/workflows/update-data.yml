@@ -35,6 +35,9 @@ jobs:
       - name: 生成 data.js
         run: python3 scripts/build_data.py
 
+      - name: 下载海报到本地
+        run: python3 scripts/download_posters.py
+
       - name: 提交更新
         run: |
           git config user.name "github-actions[bot]"
