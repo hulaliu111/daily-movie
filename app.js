@@ -653,6 +653,9 @@ function renderChart() {
       : `<span class="chart-poster placeholder">🎬</span>`;
     const meta = [m.year, (m.genres || []).slice(0, 3).join(" / ")]
       .filter(Boolean).join(" · ");
+    const tmdbScore = m.tmdb_rating != null
+      ? `<span class="cs-tmdb">TMDB ${fmtScore(m.tmdb_rating)}</span>`
+      : "";
     return `
       <li class="chart-item">
         <a href="${esc(m.douban_url)}" target="_blank" rel="noopener">
@@ -662,7 +665,10 @@ function renderChart() {
             <span class="chart-name">${esc(m.title)}</span>
             ${meta ? `<span class="chart-meta">${esc(meta)}</span>` : ""}
           </span>
-          <span class="chart-score">豆瓣 ${fmtScore(m.douban_rating)}</span>
+          <span class="chart-score">
+            <span class="cs-douban">豆瓣 ${fmtScore(m.douban_rating)}</span>
+            ${tmdbScore}
+          </span>
         </a>
       </li>`;
   }).join("");

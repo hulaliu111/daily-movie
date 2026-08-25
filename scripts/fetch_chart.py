@@ -119,9 +119,9 @@ def load_tmdb_key():
 
 
 def tmdb_search_poster(key, title, year):
-    """用中文名+年份搜 TMDB，返回第一个有海报的结果的 (tmdb_id, poster_path)。"""
+    """用中文名+年份搜 TMDB，返回第一个有海报的结果的 (tmdb_id, poster_path, vote_average)。"""
     if not key:
-        return None, None
+        return None, None, None
     params = {"api_key": key, "query": title, "language": "zh-CN"}
     if year:
         params["year"] = year
@@ -129,8 +129,9 @@ def tmdb_search_poster(key, title, year):
     resp.raise_for_status()
     for res in resp.json().get("results", []):
         if res.get("poster_path"):
-            return res.get("id"), res.get("poster_path")
-    return None, None
+            va = res.get("vote_average")
+            return res.get("id"), res.get("poster_path"), (va if va else None)
+    return None, None, None
 
 
 def download_poster(sid, poster_path):
@@ -177,15 +178,17 @@ def main():
         except Exception as e:  # noqa: BLE001
             print(f"  [{i}] {it['title']} subject_abstract 失败：{e}")
 
-        # TMDB 补海报
+        # TMDB 补海报 + 评分
         try:
-            tmdb_id, poster_path = tmdb_search_poster(key, it["title"], entry.get("year"))
+            tmdb_id, poster_path, vote_average = tmdb_search_poster(key, it["title"], entry.get("year"))
             entry["tmdb_id"] = tmdb_id
+            entry["tmdb_rating"] = vote_average
             entry["poster"] = download_poster(sid, poster_path)
         except Exception as e:  # noqa: BLE001
             entry["tmdb_id"] = None
+            entry["tmdb_rating"] = None
             entry["poster"] = ""
-            print(f"  [{i}] {it['title']} TMDB 匹配失败（海报留空）：{e}")
+            print(f"  [{i}] {it['title']} TMDB 匹配失败（海报/评分留空）：{e}")
 
         chart.append(entry)
         print(f"  [{i}/{len(items)}] {it['title']} 豆瓣 {entry.get('douban_rating')} 分"
