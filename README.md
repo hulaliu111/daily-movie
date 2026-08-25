@@ -1,21 +1,53 @@
 # 每日一部好电影
 
-每天推荐一部电影，片库来自豆瓣 Top 250 与烂番茄 Top 100（TMDB 补全海报 / 预告片 / 观看入口）。
+每天推荐一部电影，按日期确定性地轮换。片库来自豆瓣 Top 250（250 部），TMDB 补全演员与第二评分。
 
-## 当前进度
+- 线上地址：https://hulaliu111.github.io/daily-movie/
+- 纯静态站（HTML/CSS/JS），无后端，托管在 GitHub Pages
 
-- [x] 阶段 0：确认需求与方案
-- [ ] 阶段 1：搭最小可运行页面（假数据渲染当天卡片）
-- [ ] 阶段 2：写采集脚本（低频同步榜单到本地缓存 + 失败回退）
-- [ ] 阶段 3：烂番茄数据与双评分对比
-- [ ] 阶段 4：往期归档 / 每日氛围 / 分享海报 / 预告片
-- [ ] 阶段 5：随机多档推荐
-- [ ] 阶段 6：定时任务自动化
-- [ ] 阶段 7：部署上线
-- [ ] 阶段 8：合规与优化
+## 目录结构
+
+| 路径 | 说明 |
+|------|------|
+| `index.html` / `style.css` / `app.js` | 页面、样式、逻辑 |
+| `data.js` | 片库数据（由脚本生成，勿手改） |
+| `posters/` | 250 张海报（已本地化，勿删） |
+| `data/` | 采集的原始 JSON（豆瓣、TMDB 匹配结果） |
+| `scripts/` | Python 采集与合成脚本 |
+| `.github/workflows/update-data.yml` | 每周一定时更新 |
+
+## 数据更新
+
+**自动**：每周一北京时间 11:00，GitHub Actions 自动「抓豆瓣 → 抓 TMDB → 生成 data.js → 下载海报 → 提交」。也可在仓库 Actions 页手动触发 Run workflow。
+
+**手动（本地）**：需 Python 3 + `pip install -r requirements.txt` + TMDB key（放 `config.local.json`，格式 `{"tmdb_api_key": "..."}`，已 gitignore）：
+
+```
+python3 scripts/fetch_douban.py       # 抓豆瓣 Top 250
+python3 scripts/fetch_tmdb.py         # TMDB 匹配补演员/评分
+python3 scripts/build_data.py         # 合成 data.js
+python3 scripts/download_posters.py   # 下载海报到 posters/
+```
+
+## 兜底策略
+
+- 豆瓣必须抓满 250 部才写文件，否则保留上一次成功的数据（不覆盖）。
+- TMDB 单部失败不影响整体；海报缺失时前端有文字占位兜底。
+- 海报下载幂等，缺的图重跑脚本即可补齐。
+
+## 常见问题
+
+- **封面加载不出**：海报已本地化到 `posters/`，正常不会发生；若发生，重跑 `python3 scripts/download_posters.py`。
+- **git push 报 `SSL_ERROR_SYSCALL`**：代理软件对 HTTP/2 干扰所致，仓库已配置 `git config http.version HTTP/1.1`；新 clone 的仓库需手动再配一次。
 
 ## 本地预览
 
-方式一：直接双击 `index.html` 用浏览器打开。
+```
+python3 -m http.server 8000
+```
 
-方式二：在项目目录运行 `python3 -m http.server 8000`，然后浏览器打开 http://localhost:8000
+然后浏览器打开 http://localhost:8000
+
+## 免责声明
+
+本站仅供学习交流、非商业用途。影片数据、海报与文字介绍版权归原作者及来源平台（豆瓣、TMDB）所有。
