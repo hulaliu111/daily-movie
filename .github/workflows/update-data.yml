@@ -32,6 +32,11 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: python3 scripts/fetch_tmdb.py
 
+      - name: 抓取一周口碑榜
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: python3 scripts/fetch_chart.py
+
       - name: 生成 data.js
         run: python3 scripts/build_data.py
 

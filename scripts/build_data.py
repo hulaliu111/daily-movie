@@ -16,6 +16,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, "..", "data")
 DOUBAN_FILE = os.path.join(DATA_DIR, "douban_top250.json")
 TMDB_FILE = os.path.join(DATA_DIR, "tmdb_matched.json")
+CHART_FILE = os.path.join(DATA_DIR, "douban_chart.json")
 OUT_FILE = os.path.join(SCRIPT_DIR, "..", "data.js")
 
 # 海报改为下载到本地 posters/ 目录（scripts/download_posters.py 负责），
@@ -114,11 +115,18 @@ def build():
             "tmdb_id": t.get("tmdb_id"),
         })
 
+    # 一周口碑榜（近期热门电影），字段由 fetch_chart.py 生成，直接透传
+    chart = []
+    if os.path.exists(CHART_FILE):
+        with open(CHART_FILE, encoding="utf-8") as f:
+            chart = json.load(f)
+
     js = "// 本文件由 scripts/build_data.py 自动生成，请勿手动编辑\n"
     js += "const MOVIES = " + json.dumps(movies, ensure_ascii=False, indent=2) + ";\n"
+    js += "const CHART = " + json.dumps(chart, ensure_ascii=False, indent=2) + ";\n"
     with open(OUT_FILE, "w", encoding="utf-8") as f:
         f.write(js)
-    print(f"[完成] 已生成 {OUT_FILE}，共 {len(movies)} 部")
+    print(f"[完成] 已生成 {OUT_FILE}，共 {len(movies)} 部主片 + {len(chart)} 部口碑榜")
 
 
 if __name__ == "__main__":

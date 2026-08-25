@@ -1,6 +1,6 @@
 # 每日一部好电影
 
-每天推荐一部电影，按日期确定性地轮换。片库来自豆瓣 Top 250（250 部），TMDB 补全演员与第二评分。
+每天推荐一部电影，按日期确定性地轮换。片库来自豆瓣 Top 250（250 部），TMDB 补全演员与第二评分；另有一个「一周口碑榜」区块，展示豆瓣近期热门的 10 部电影。
 
 - 线上地址：https://hulaliu111.github.io/daily-movie/
 - 纯静态站（HTML/CSS/JS），无后端，托管在 GitHub Pages
@@ -10,23 +10,24 @@
 | 路径 | 说明 |
 |------|------|
 | `index.html` / `style.css` / `app.js` | 页面、样式、逻辑 |
-| `data.js` | 片库数据（由脚本生成，勿手改） |
-| `posters/` | 250 张海报（已本地化，勿删） |
-| `data/` | 采集的原始 JSON（豆瓣、TMDB 匹配结果） |
-| `scripts/` | Python 采集与合成脚本 |
+| `data.js` | 片库 + 一周口碑榜数据（由脚本生成，勿手改） |
+| `posters/` | 海报（已本地化，勿删） |
+| `data/` | 采集的原始 JSON（豆瓣 Top250、TMDB 匹配、豆瓣口碑榜） |
+| `scripts/` | Python 采集与合成脚本（含 fetch_chart.py 抓口碑榜） |
 | `.github/workflows/update-data.yml` | 每周一定时更新 |
 
 ## 数据更新
 
-**自动**：每周一北京时间 11:00，GitHub Actions 自动「抓豆瓣 → 抓 TMDB → 生成 data.js → 下载海报 → 提交」。也可在仓库 Actions 页手动触发 Run workflow。
+**自动**：每周一北京时间 11:00，GitHub Actions 自动「抓豆瓣 Top250 → 抓 TMDB → 抓口碑榜 → 生成 data.js → 下载海报 → 提交」。也可在仓库 Actions 页手动触发 Run workflow。
 
 **手动（本地）**：需 Python 3 + `pip install -r requirements.txt` + TMDB key（放 `config.local.json`，格式 `{"tmdb_api_key": "..."}`，已 gitignore）：
 
 ```
 python3 scripts/fetch_douban.py       # 抓豆瓣 Top 250
 python3 scripts/fetch_tmdb.py         # TMDB 匹配补演员/评分
+python3 scripts/fetch_chart.py        # 抓一周口碑榜（评分 + 海报）
 python3 scripts/build_data.py         # 合成 data.js
-python3 scripts/download_posters.py   # 下载海报到 posters/
+python3 scripts/download_posters.py   # 下载 Top250 海报到 posters/
 ```
 
 ## 兜底策略

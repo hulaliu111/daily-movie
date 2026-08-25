@@ -638,5 +638,42 @@ window.addEventListener("popstate", function () {
   render();
 });
 
+// —— 一周口碑榜（近期热门电影）——
+function renderChart() {
+  const box = document.getElementById("chart");
+  // data.js 旧版可能没有 CHART，用 typeof 兜底避免报错
+  if (typeof CHART === "undefined" || !CHART || !CHART.length) {
+    box.hidden = true;
+    return;
+  }
+
+  const items = CHART.map(function (m) {
+    const poster = m.poster
+      ? `<img class="chart-poster" src="${esc(m.poster)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+      : `<span class="chart-poster placeholder">🎬</span>`;
+    const meta = [m.year, (m.genres || []).slice(0, 3).join(" / ")]
+      .filter(Boolean).join(" · ");
+    return `
+      <li class="chart-item">
+        <a href="${esc(m.douban_url)}" target="_blank" rel="noopener">
+          <span class="chart-rank">${esc(m.rank)}</span>
+          ${poster}
+          <span class="chart-info">
+            <span class="chart-name">${esc(m.title)}</span>
+            ${meta ? `<span class="chart-meta">${esc(meta)}</span>` : ""}
+          </span>
+          <span class="chart-score">豆瓣 ${fmtScore(m.douban_rating)}</span>
+        </a>
+      </li>`;
+  }).join("");
+
+  box.innerHTML = `
+    <h2 class="chart-title">一周口碑榜 <span class="chart-sub">近期热门</span></h2>
+    <ol class="chart-list">${items}</ol>
+  `;
+  box.hidden = false;
+}
+
 bindRandomButtons();
+renderChart();
 render();
