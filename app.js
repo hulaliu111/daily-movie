@@ -255,6 +255,44 @@ function wrapText(ctx, text, maxWidth) {
   return lines;
 }
 
+// 30 条落款语录：生成分享图时随机选一条，避免每次都是同一句
+const QUOTES = [
+  "每天一部，记得看电影",
+  "电影是生活的延长线",
+  "好电影，值得反复看",
+  "生活太短，电影很长",
+  "今晚把时间交给一部好电影",
+  "一部电影，一个世界",
+  "愿你被好电影温柔以待",
+  "光影之间，藏着人生",
+  "看别人的故事，过自己的人生",
+  "好电影从不辜负等待",
+  "一部好片，胜过千言万语",
+  "让电影陪你度过今晚",
+  "在别人的故事里找到自己",
+  "每一帧都是时光",
+  "电影落幕，感动未散",
+  "今天也好好看一部电影吧",
+  "屏幕亮起，世界安静",
+  "用一场电影治愈今天",
+  "好电影是写给生活的情书",
+  "光影流转，初心不改",
+  "一部片的时间，换一个心情",
+  "别急着快进，慢慢看",
+  "电影是最好的陪伴",
+  "今晚的仪式感，从电影开始",
+  "故事会结束，余味很长",
+  "把今天交给一部好电影",
+  "好电影值得被记住",
+  "愿光影照亮你的夜晚",
+  "每天一部，慢慢变老",
+  "有电影的日子，不算虚度",
+];
+
+function randomQuote() {
+  return QUOTES[Math.floor(Math.random() * QUOTES.length)];
+}
+
 async function generateShareCard(m) {
   const mood = moodFor(m.genres);
   const colors = MOOD_COLORS[mood] || MOOD_COLORS.drama;
@@ -282,61 +320,95 @@ async function generateShareCard(m) {
   ctx.font = "22px " + FONT;
   ctx.fillText(currentDate, W / 2, 108);
 
-  let y = 140;
-
   // 海报：能加载就画，失败用大字片名代替
+  const PW = 320, PH = 480;
+  const POSTER_TOP = 140;
+  const px = (W - PW) / 2;
   let hasPoster = false;
   if (m.poster) {
     try {
       const img = await loadImage(m.poster);
-      const pw = 340, ph = 510;
-      const px = (W - pw) / 2;
       ctx.save();
-      roundRect(ctx, px, y, pw, ph, 16);
+      roundRect(ctx, px, POSTER_TOP, PW, PH, 16);
       ctx.fillStyle = "#161824";
       ctx.fill();
       ctx.clip();
-      ctx.drawImage(img, px, y, pw, ph);
+      ctx.drawImage(img, px, POSTER_TOP, PW, PH);
       ctx.restore();
-      y = y + ph + 40;
       hasPoster = true;
     } catch (e) {
       hasPoster = false;
     }
   }
   if (!hasPoster) {
-    // 占位：圆角框 + 大字片名
-    const pw = 340, ph = 510;
-    const px = (W - pw) / 2;
+    // 占位：圆角框 + 大字片名（按字数自适应字号）
     ctx.save();
-    roundRect(ctx, px, y, pw, ph, 16);
+    roundRect(ctx, px, POSTER_TOP, PW, PH, 16);
     ctx.strokeStyle = colors.accent;
     ctx.lineWidth = 2;
     ctx.stroke();
     ctx.fillStyle = colors.accent;
-    ctx.font = "bold 72px " + FONT;
-    ctx.fillText(m.title, W / 2, y + ph / 2 + 20);
+    const len = m.title.length;
+    const fs = len >= 7 ? 44 : len >= 5 ? 56 : 72;
+    ctx.font = "bold " + fs + "px " + FONT;
+    ctx.fillText(m.title, W / 2, POSTER_TOP + PH / 2 + 20);
     ctx.restore();
-    y = y + ph + 40;
   }
 
-  // 片名
+  // 海报底部留足间距，再排片名（避免压到海报）
+  const contentTop = POSTER_TOP + PH + 92;
+
+  // 片名（过长自动缩小）
   ctx.fillStyle = "#ececf4";
-  ctx.font = "bold 52px " + FONT;
+  ctx.textAlign = "center";
+  let titleSize = 52;
+  ctx.font = "bold " + titleSize + "px " + FONT;
+  if (ctx.measureText(m.title).width > W - 80) {
+    titleSize = 42;
+    ctx.font = "bold " + titleSize + "px " + FONT;
+  }
+  let y = contentTop + 20;
   ctx.fillText(m.title, W / 2, y);
-  y += 46;
 
   // 英文名
+  y += 48;
   if (m.title_en) {
     ctx.fillStyle = "#9a9ab3";
-    ctx.font = "24px " + FONT;
+    ctx.font = "22px " + FONT;
     ctx.fillText(m.title_en, W / 2, y);
-    y += 48;
+    y += 42;
   }
 
+  // 年份 · 类型
+  const metaBits = [];
+  if (m.year) metaBits.push(m.year);
+  if (m.genres && m.genres.length) metaBits.push(m.genres.slice(0, 2).join(" / "));
+  if (metaBits.length) {
+    ctx.fillStyle = "#9a9ab3";
+    ctx.font = "22px " + FONT;
+    ctx.fillText(metaBits.join(" · "), W / 2, y);
+    y += 42;
+  }
+
+  // 导演（有就显示）
+  if (m.directors && m.directors.length) {
+    ctx.fillStyle = "#9a9ab3";
+    ctx.font = "22px " + FONT;
+    ctx.fillText("导演：" + m.directors.join("、"), W / 2, y);
+    y += 44;
+  }
+
+  // 分隔线
+  ctx.strokeStyle = colors.accent;
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  ctx.moveTo(W / 2 - 30, y - 14);
+  ctx.lineTo(W / 2 + 30, y - 14);
+  ctx.stroke();
+  y += 26;
+
   // 评分：豆瓣 + TMDB 并排居中
-  y += 14;
-  ctx.font = "bold 36px " + FONT;
+  ctx.font = "bold 38px " + FONT;
   const s1 = "豆瓣 " + fmtScore(m.douban_rating);
   const sep = "     ·     ";
   const s2 = m.tmdb_rating != null ? "TMDB " + fmtScore(m.tmdb_rating) : "";
@@ -354,29 +426,28 @@ async function generateShareCard(m) {
     ctx.fillStyle = "#01b4e4";
     ctx.fillText(s2, sx, y);
   }
-  y += 62;
+  y += 70;
 
-  // 推荐语（逐字换行，最多 3 行）
+  // 推荐语（大字、舒展，逐字换行，最多 3 行）
   if (m.reason) {
     ctx.fillStyle = "#d8d8e6";
-    ctx.font = "26px " + FONT;
-    const lines = wrapText(ctx, m.reason, W - 120).slice(0, 3);
+    ctx.font = "30px " + FONT;
+    const lines = wrapText(ctx, m.reason, W - 140).slice(0, 3);
     ctx.textAlign = "left";
-    const lh = 42;
+    const lh = 56;
     const startY = y;
     for (let i = 0; i < lines.length; i++) {
       const lw = ctx.measureText(lines[i]).width;
       const lx = (W - lw) / 2;
       ctx.fillText(lines[i], lx, startY + i * lh);
     }
-    y = startY + lines.length * lh;
   }
 
-  // 底部水印
-  ctx.fillStyle = "#9a9ab3";
-  ctx.font = "22px " + FONT;
+  // 底部落款：随机语录
+  ctx.fillStyle = colors.accent;
+  ctx.font = "24px " + FONT;
   ctx.textAlign = "center";
-  ctx.fillText("每天一部 · 记得看电影", W / 2, H - 46);
+  ctx.fillText("—— " + randomQuote(), W / 2, H - 48);
 
   // 导出下载
   const a = document.createElement("a");
