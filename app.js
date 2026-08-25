@@ -10,6 +10,13 @@ function fmtScore(x) {
   return x == null ? "" : Number(x).toFixed(1);
 }
 
+// 评分星级：满分 10 换算成 5 星的填充百分比
+function starsHtml(score10) {
+  if (score10 == null) return "";
+  const pct = Math.max(0, Math.min(100, (score10 / 10) * 100));
+  return '<span class="stars"><span class="stars-fill" style="width:' + pct + '%"></span></span>';
+}
+
 // 海报加载失败时，回退为占位色块
 function fallbackPoster(img) {
   const poster = img.closest(".poster");
@@ -104,7 +111,7 @@ function movieCardHtml(m, withShare) {
   if (m.rt_tomatometer != null) {
     secondScoreHtml = `<span class="score rt">烂番茄 <b>${m.rt_tomatometer}%</b> <small>新鲜度</small></span>`;
   } else if (m.tmdb_rating != null) {
-    secondScoreHtml = `<span class="score tmdb">TMDB <b>${fmtScore(m.tmdb_rating)}</b> <small>观众评分</small></span>`;
+    secondScoreHtml = `<span class="score tmdb">TMDB <b>${fmtScore(m.tmdb_rating)}</b>${starsHtml(m.tmdb_rating)} <small>观众评分</small></span>`;
   } else {
     secondScoreHtml = `<span class="score tmdb">TMDB <b>待接入</b></span>`;
   }
@@ -141,7 +148,12 @@ function movieCardHtml(m, withShare) {
        <button class="action-btn" id="share-btn" type="button">生成分享图</button>`
     : "";
 
+  const bgHtml = m.poster
+    ? `<div class="card-bg" style="background-image:url('${esc(m.poster)}')"></div>`
+    : "";
+
   return `
+    ${bgHtml}
     <div class="poster" aria-hidden="true">${posterHtml}</div>
     <div class="info">
       <h2 class="movie-title">${esc(m.title)}</h2>
@@ -150,7 +162,7 @@ function movieCardHtml(m, withShare) {
       ${directors ? `<p class="meta">导演：${esc(directors)}</p>` : ""}
       ${actors ? `<p class="meta">主演：${esc(actors)}</p>` : ""}
       <div class="scores">
-        <span class="score douban">豆瓣 <b>${fmtScore(m.douban_rating)}</b> <small>${esc(m.douban_votes || "")}</small></span>
+        <span class="score douban">豆瓣 <b>${fmtScore(m.douban_rating)}</b>${starsHtml(m.douban_rating)} <small>${esc(m.douban_votes || "")}</small></span>
         ${secondScoreHtml}
       </div>
       ${diverge}
@@ -176,7 +188,11 @@ function render() {
   document.getElementById("date").textContent = currentDate;
   document.getElementById("today-btn").hidden = currentDate === todayStr();
 
-  document.getElementById("card").innerHTML = movieCardHtml(m, true);
+  const card = document.getElementById("card");
+  card.innerHTML = movieCardHtml(m, true);
+  card.classList.remove("animate");
+  void card.offsetWidth; // 强制重排，让动画每次翻页都能重新触发
+  card.classList.add("animate");
 
   // 动态按钮事件（每次 render 重建 DOM，需重新绑定）
   const copyBtn = document.getElementById("copy-btn");
