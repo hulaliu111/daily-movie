@@ -810,3 +810,30 @@ document.getElementById("library-search").addEventListener("input", function () 
 bindRandomButtons();
 renderChart();
 render();
+
+// —— 白天/晚上主题切换 ——
+function applyTheme(theme) {
+  if (theme === "light") {
+    document.body.dataset.theme = "light";
+  } else {
+    delete document.body.dataset.theme;
+  }
+  updateThemeBtn();
+  try { localStorage.setItem("theme", theme); } catch (e) { /* 忽略 */ }
+}
+
+function updateThemeBtn() {
+  const btn = document.getElementById("theme-btn");
+  if (!btn) return;
+  btn.textContent = document.body.dataset.theme === "light" ? "🌙 晚上模式" : "☀️ 白天模式";
+}
+
+document.getElementById("theme-btn").addEventListener("click", function () {
+  applyTheme(document.body.dataset.theme === "light" ? "dark" : "light");
+});
+
+(function initTheme() {
+  let theme = "dark";
+  try { theme = localStorage.getItem("theme") || "dark"; } catch (e) { /* 忽略 */ }
+  applyTheme(theme);
+})();

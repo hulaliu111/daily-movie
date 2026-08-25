@@ -488,8 +488,14 @@ body[data-mood="drama"]   { --glow: #23263a; --accent: #e6b85c; }
 }
 
 /* —— 全部片库 —— */
-.library-btn {
+.header-actions {
   margin-top: 18px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.library-btn {
   padding: 10px 22px;
   border-radius: 10px;
   border: 1px solid var(--accent);
@@ -501,6 +507,18 @@ body[data-mood="drama"]   { --glow: #23263a; --accent: #e6b85c; }
   transition: background 0.15s, color 0.15s;
 }
 .library-btn:hover { background: var(--accent); color: var(--bg-0); }
+.theme-btn {
+  padding: 10px 22px;
+  border-radius: 10px;
+  border: 1px solid var(--card-border);
+  background: var(--card);
+  color: var(--text);
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+.theme-btn:hover { border-color: var(--accent); color: var(--accent); }
 
 .library-overlay {
   position: fixed;
@@ -633,3 +651,29 @@ body.no-scroll { overflow: hidden; }
   .library-row { gap: 8px; }
   .library-label { width: 32px; }
 }
+
+/* —— 浅色主题（白天模式）—— */
+body[data-theme="light"] {
+  --bg-0: #ffffff;
+  --bg-1: #f7f8fb;
+  --card: #ffffff;
+  --card-border: rgba(0, 0, 0, 0.08);
+  --text: #1c1e26;
+  --text-dim: #7a7f8c;
+  --accent: #c88a2a;
+  --glow: #f5f1e8;
+}
+body[data-theme="light"] .site-title {
+  background: linear-gradient(120deg, #1c1e26 10%, var(--accent) 95%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+body[data-theme="light"] .card { box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08); }
+body[data-theme="light"] .card-bg::after {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.72));
+}
+body[data-theme="light"] .stars { color: rgba(0, 0, 0, 0.15); }
+body[data-theme="light"] .reason { color: #3a3f4d; }
+body[data-theme="light"] .diverge { color: #3a3f4d; }
+body[data-theme="light"] .library-overlay { background: rgba(245, 247, 250, 0.85); }
+body[data-theme="light"] .chart-item:nth-child(2) .chart-rank { color: #9aa0a8; }
