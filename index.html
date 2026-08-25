@@ -24,6 +24,41 @@
       <!-- 由 app.js 渲染 -->
     </section>
 
+    <section class="random-section">
+      <h2 class="random-title">想看点别的？</h2>
+
+      <div class="random-actions">
+        <button class="random-btn big" data-kind="any" type="button">🎲 随便来一部</button>
+        <button class="random-btn big" data-kind="cold" type="button">💎 冷门佳作</button>
+      </div>
+
+      <div class="random-group">
+        <span class="random-label">按类型</span>
+        <div class="random-tags">
+          <button class="random-tag" data-type="爱情" type="button">爱情</button>
+          <button class="random-tag" data-type="喜剧" type="button">喜剧</button>
+          <button class="random-tag" data-type="科幻" type="button">科幻</button>
+          <button class="random-tag" data-type="悬疑" type="button">悬疑</button>
+          <button class="random-tag" data-type="犯罪" type="button">犯罪</button>
+          <button class="random-tag" data-type="动画" type="button">动画</button>
+          <button class="random-tag" data-type="动作" type="button">动作</button>
+          <button class="random-tag" data-type="战争" type="button">战争</button>
+        </div>
+      </div>
+
+      <div class="random-group">
+        <span class="random-label">按年代</span>
+        <div class="random-tags">
+          <button class="random-tag" data-decade="1990" type="button">90年代</button>
+          <button class="random-tag" data-decade="2000" type="button">00年代</button>
+          <button class="random-tag" data-decade="2010" type="button">10年代</button>
+          <button class="random-tag" data-decade="old" type="button">更早</button>
+        </div>
+      </div>
+
+      <div class="random-result" id="random-result" hidden></div>
+    </section>
+
     <footer class="page-footer">
       <p>数据来源：豆瓣 Top 250 · 烂番茄 Top 100 · TMDB</p>
       <p class="tip">每天一部 · 按日期确定，点箭头可翻看往日推荐</p>

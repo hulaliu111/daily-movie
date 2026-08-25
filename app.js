@@ -92,16 +92,8 @@ function moodFor(genres) {
 
 let currentDate = dateFromUrl();
 
-function render() {
-  const m = pickMovie(currentDate);
-
-  // 氛围背景：按电影类型换色调
-  document.body.dataset.mood = moodFor(m.genres);
-
-  // 日期 + 「回到今天」按钮
-  document.getElementById("date").textContent = currentDate;
-  document.getElementById("today-btn").hidden = currentDate === todayStr();
-
+// 生成一张电影卡片的 HTML（今日卡片和随机卡片共用）
+function movieCardHtml(m, withShare) {
   const genres = (m.genres || []).join(" / ");
   const directors = (m.directors || []).join("、");
   const actors = (m.actors || []).join("、");
@@ -140,13 +132,16 @@ function render() {
 
   const trailerUrl = "https://search.bilibili.com/all?keyword=" +
     encodeURIComponent(m.title + " 预告片");
-
   const doubanLink = m.douban_url
     ? `<a class="action-btn primary" href="${esc(m.douban_url)}" target="_blank" rel="noopener">在豆瓣查看 ↗</a>`
     : "";
   const trailerLink = `<a class="action-btn" href="${esc(trailerUrl)}" target="_blank" rel="noopener">看预告片 ▶</a>`;
+  const shareButtons = withShare
+    ? `<button class="action-btn" id="copy-btn" type="button">复制推荐</button>
+       <button class="action-btn" id="share-btn" type="button">生成分享图</button>`
+    : "";
 
-  document.getElementById("card").innerHTML = `
+  return `
     <div class="poster" aria-hidden="true">${posterHtml}</div>
     <div class="info">
       <h2 class="movie-title">${esc(m.title)}</h2>
@@ -163,12 +158,25 @@ function render() {
       <div class="actions">
         ${doubanLink}
         ${trailerLink}
-        <button class="action-btn" id="copy-btn" type="button">复制推荐</button>
-        <button class="action-btn" id="share-btn" type="button">生成分享图</button>
+        ${shareButtons}
       </div>
       <p class="source-note">数据来源：豆瓣 Top 250 · TMDB</p>
     </div>
   `;
+}
+
+// 渲染今日推荐卡片
+function render() {
+  const m = pickMovie(currentDate);
+
+  // 氛围背景：按电影类型换色调
+  document.body.dataset.mood = moodFor(m.genres);
+
+  // 日期 + 「回到今天」按钮
+  document.getElementById("date").textContent = currentDate;
+  document.getElementById("today-btn").hidden = currentDate === todayStr();
+
+  document.getElementById("card").innerHTML = movieCardHtml(m, true);
 
   // 动态按钮事件（每次 render 重建 DOM，需重新绑定）
   const copyBtn = document.getElementById("copy-btn");
@@ -188,6 +196,79 @@ function gotoDate(dateStr) {
   }
   history.pushState({}, "", url);
   render();
+}
+
+// —— 随机多档推荐 ——
+function parseVotes(s) {
+  const n = String(s || "").replace(/[^0-9]/g, "");
+  return n ? parseInt(n, 10) : 0;
+}
+
+function randomPick(list) {
+  return list[Math.floor(Math.random() * list.length)];
+}
+
+// 随便来一部
+function randomAny() {
+  return randomPick(MOVIES);
+}
+
+// 冷门佳作：高分（≥8.8）但评价人数少（<60万）
+function randomCold() {
+  const cold = MOVIES.filter(function (m) {
+    return m.douban_rating != null && m.douban_rating >= 8.8 &&
+      parseVotes(m.douban_votes) < 600000;
+  });
+  return randomPick(cold);
+}
+
+// 按类型随机
+function randomByType(type) {
+  const list = MOVIES.filter(function (m) {
+    return (m.genres || []).includes(type);
+  });
+  return list.length ? randomPick(list) : null;
+}
+
+// 按年代随机：1990/2000/2010 或 "old"（更早）
+function randomByDecade(d) {
+  const list = MOVIES.filter(function (m) {
+    const y = parseInt(m.year, 10) || 0;
+    if (!y) return false;
+    if (d === "old") return y < 1990;
+    const start = parseInt(d, 10);
+    return y >= start && y < start + 10;
+  });
+  return list.length ? randomPick(list) : null;
+}
+
+function showRandom(m) {
+  if (!m) return;
+  const box = document.getElementById("random-result");
+  box.hidden = false;
+  box.innerHTML =
+    '<p class="random-result-label">为你随机挑了一部 ↓</p>' +
+    '<section class="card">' + movieCardHtml(m, false) + "</section>";
+  box.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
+function bindRandomButtons() {
+  document.querySelector(".random-actions").addEventListener("click", function (e) {
+    const btn = e.target.closest("[data-kind]");
+    if (!btn) return;
+    showRandom(btn.dataset.kind === "cold" ? randomCold() : randomAny());
+  });
+
+  document.querySelectorAll(".random-tags").forEach(function (box) {
+    box.addEventListener("click", function (e) {
+      const btn = e.target.closest("[data-type], [data-decade]");
+      if (!btn) return;
+      let m = null;
+      if (btn.dataset.type) m = randomByType(btn.dataset.type);
+      else if (btn.dataset.decade) m = randomByDecade(btn.dataset.decade);
+      showRandom(m);
+    });
+  });
 }
 
 // —— 复制推荐文案 ——
@@ -475,4 +556,5 @@ window.addEventListener("popstate", function () {
   render();
 });
 
+bindRandomButtons();
 render();
