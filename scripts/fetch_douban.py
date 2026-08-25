@@ -15,6 +15,7 @@ import argparse
 import json
 import os
 import re
+import sys
 import time
 
 import requests
@@ -121,9 +122,10 @@ def main():
         print(f"第 {page + 1} 页完成，共 {len(movies)} 部")
         time.sleep(2)  # 礼貌间隔，降低被封风险
 
-    if not movies:
-        print("[失败] 没有抓到任何数据，保留旧数据不变。")
-        return
+    expected = args.limit * 25
+    if len(movies) < expected:
+        print(f"[失败] 只抓到 {len(movies)}/{expected} 部，数据不完整，保留旧数据不变。")
+        sys.exit(1)  # 非零退出码，让 CI 任务失败，不提交残缺数据
 
     os.makedirs(DATA_DIR, exist_ok=True)
     tmp = OUT_FILE + ".tmp"

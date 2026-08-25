@@ -34,6 +34,10 @@ OVERRIDES = {
 
 
 def load_key():
+    # CI 环境优先从环境变量读（GitHub Actions 用 secret 注入）
+    env_key = os.environ.get("TMDB_API_KEY")
+    if env_key:
+        return env_key
     with open(CONFIG_FILE, encoding="utf-8") as f:
         return json.load(f)["tmdb_api_key"]
 
