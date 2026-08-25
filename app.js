@@ -17,6 +17,14 @@ function starsHtml(score10) {
   return '<span class="stars"><span class="stars-fill" style="width:' + pct + '%"></span></span>';
 }
 
+// 把导演/演员名字列表变成可点击的链接（用「、」分隔）
+function personLinks(names) {
+  return (names || []).map(function (n, i) {
+    return (i > 0 ? "、" : "") +
+      '<button class="person-link" data-person="' + esc(n) + '" type="button">' + esc(n) + '</button>';
+  }).join("");
+}
+
 // 海报加载失败时，回退为占位色块
 function fallbackPoster(img) {
   const poster = img.closest(".poster");
@@ -102,8 +110,6 @@ let currentDate = dateFromUrl();
 // 生成一张电影卡片的 HTML（今日卡片和随机卡片共用）
 function movieCardHtml(m, withShare) {
   const genres = (m.genres || []).join(" / ");
-  const directors = (m.directors || []).join("、");
-  const actors = (m.actors || []).join("、");
   const year = m.year || "";
 
   // 第二评分：优先烂番茄，否则降级 TMDB
@@ -159,8 +165,8 @@ function movieCardHtml(m, withShare) {
       <h2 class="movie-title">${esc(m.title)}</h2>
       <p class="movie-title-en">${esc(m.title_en)}</p>
       ${metaLine ? `<p class="meta">${esc(metaLine)}</p>` : ""}
-      ${directors ? `<p class="meta">导演：${esc(directors)}</p>` : ""}
-      ${actors ? `<p class="meta">主演：${esc(actors)}</p>` : ""}
+      ${m.directors && m.directors.length ? `<p class="meta">导演：${personLinks(m.directors)}</p>` : ""}
+      ${m.actors && m.actors.length ? `<p class="meta">主演：${personLinks(m.actors)}</p>` : ""}
       <div class="scores">
         <span class="score douban">豆瓣 <b>${fmtScore(m.douban_rating)}</b>${starsHtml(m.douban_rating)} <small>${esc(m.douban_votes || "")}</small></span>
         ${secondScoreHtml}
@@ -183,6 +189,9 @@ function render() {
 
   // 氛围背景：按电影类型换色调
   document.body.dataset.mood = moodFor(m.genres);
+
+  // 换片时收起合集面板
+  document.getElementById("collection").hidden = true;
 
   // 日期 + 「回到今天」按钮
   document.getElementById("date").textContent = currentDate;
@@ -268,6 +277,49 @@ function showRandom(m) {
   box.scrollIntoView({ behavior: "smooth", block: "nearest" });
 }
 
+// —— 导演/演员作品合集 ——
+function personMovies(name) {
+  return MOVIES.filter(function (m) {
+    return (m.directors || []).indexOf(name) >= 0 ||
+           (m.actors || []).indexOf(name) >= 0;
+  });
+}
+
+function showCollection(name) {
+  const movies = personMovies(name);
+  const box = document.getElementById("collection");
+
+  const items = movies.map(function (m) {
+    const poster = m.poster
+      ? `<img class="collection-poster" src="${esc(m.poster)}" alt="" loading="lazy" onerror="this.style.display='none'">`
+      : `<span class="collection-poster placeholder">🎬</span>`;
+    const year = m.year ? `${esc(m.year)} · ` : "";
+    return `
+      <a class="collection-item" href="${esc(m.douban_url)}" target="_blank" rel="noopener">
+        ${poster}
+        <span class="collection-info">
+          <span class="collection-title">${esc(m.title)}</span>
+          <span class="collection-meta">${year}豆瓣 ${fmtScore(m.douban_rating)}</span>
+        </span>
+      </a>`;
+  }).join("");
+
+  const searchUrl = "https://www.douban.com/search?q=" + encodeURIComponent(name);
+
+  box.innerHTML = `
+    <div class="collection-head">
+      <h3 class="collection-name">「${esc(name)}」的作品
+        <span class="collection-count">（片库内 ${movies.length} 部）</span></h3>
+      <button class="collection-close" type="button" aria-label="关闭">×</button>
+    </div>
+    <div class="collection-list">${items}</div>
+    <a class="collection-douban" href="${searchUrl}" target="_blank" rel="noopener">在豆瓣查看「${esc(name)}」全部作品 ↗</a>
+  `;
+
+  box.hidden = false;
+  box.scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
 function bindRandomButtons() {
   document.querySelector(".random-actions").addEventListener("click", function (e) {
     const btn = e.target.closest("[data-kind]");
@@ -286,6 +338,18 @@ function bindRandomButtons() {
     });
   });
 }
+
+// 点击导演/演员名 → 展示合集；点关闭 → 收起
+document.addEventListener("click", function (e) {
+  const link = e.target.closest(".person-link");
+  if (link) {
+    showCollection(link.dataset.person);
+    return;
+  }
+  if (e.target.closest(".collection-close")) {
+    document.getElementById("collection").hidden = true;
+  }
+});
 
 // —— 复制推荐文案 ——
 function copyRecommend(m) {

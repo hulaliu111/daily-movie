@@ -301,6 +301,97 @@ body[data-mood="drama"]   { --glow: #23263a; --accent: #e6b85c; }
 }
 .card.animate { animation: cardIn 0.35s ease; }
 
+/* —— 可点击的导演/演员名 —— */
+.person-link {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: var(--text-dim);
+  text-underline-offset: 3px;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+.person-link:hover { color: var(--accent); text-decoration-color: var(--accent); }
+
+/* —— 导演/演员作品合集 —— */
+.collection {
+  margin-top: 24px;
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 20px;
+}
+.collection-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.collection-name { font-size: 18px; }
+.collection-count { color: var(--text-dim); font-size: 13px; font-weight: 400; }
+.collection-close {
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+}
+.collection-close:hover { color: var(--text); }
+.collection-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+}
+.collection-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.15s;
+}
+.collection-item:hover { border-color: var(--accent); }
+.collection-poster {
+  width: 44px;
+  height: 62px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex: none;
+}
+.collection-poster.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(160deg, #3a3f5c, #202338);
+  font-size: 20px;
+}
+.collection-info { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.collection-title {
+  font-size: 14px;
+  line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.collection-meta { color: var(--text-dim); font-size: 12px; }
+.collection-douban {
+  display: inline-block;
+  margin-top: 16px;
+  color: var(--accent);
+  font-size: 14px;
+  text-decoration: none;
+}
+.collection-douban:hover { text-decoration: underline; }
+
 @media (max-width: 640px) {
   .card { flex-direction: column; }
   .poster { flex: none; width: 100%; max-width: 220px; margin: 0 auto; }
