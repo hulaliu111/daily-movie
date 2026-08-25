@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-把 data/douban_top250.json 转成前端 data.js（const MOVIES = [...]）。
+合并「豆瓣 Top 250」和「TMDB 匹配」两份数据，生成前端 data.js（const MOVIES = [...]）。
 
-豆瓣数据里没有烂番茄分，rt_tomatometer / rt_audience 先置 None，阶段 3 由 TMDB 或烂番茄补全。
+- 海报、完整演员表、第二评分（TMDB 评分）来自 TMDB；
+- 烂番茄接口不可用，rt_tomatometer / rt_audience 置 None（页面降级展示 TMDB 评分）。
 
 用法：python3 scripts/build_data.py
 """
@@ -13,8 +14,11 @@ import re
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, "..", "data")
-IN_FILE = os.path.join(DATA_DIR, "douban_top250.json")
+DOUBAN_FILE = os.path.join(DATA_DIR, "douban_top250.json")
+TMDB_FILE = os.path.join(DATA_DIR, "tmdb_matched.json")
 OUT_FILE = os.path.join(SCRIPT_DIR, "..", "data.js")
+
+POSTER_BASE = "https://image.tmdb.org/t/p/w500"
 
 
 def clean(s):
@@ -37,14 +41,12 @@ def parse_info(info):
 
     directors, actors, genres = [], [], []
 
-    # 导演：`导演: ` 到 `主演:` 之间，去掉英文名只留中文
     dm = re.search(r"导演:\s*(.*?)\s*主演:", info)
     if dm:
         d = clean(re.sub(r"[A-Za-z][A-Za-z\s.\-]*", " ", dm.group(1)))
         if d:
             directors = [d]
 
-    # 主演：`主演: ` 到年份之间，按 / 分割，去掉英文名
     am = re.search(r"主演:\s*(.*?)\s*\d{4}", info)
     if am:
         for p in am.group(1).split("/"):
@@ -52,7 +54,6 @@ def parse_info(info):
             if p and p != "...":
                 actors.append(p)
 
-    # 类型：最后一个 / 后面按空格分词
     parts = [clean(x) for x in info.split("/")]
     if parts:
         genres = [g for g in parts[-1].split() if g]
@@ -66,12 +67,27 @@ def subject_id(url):
 
 
 def build():
-    with open(IN_FILE, encoding="utf-8") as f:
-        data = json.load(f)
+    with open(DOUBAN_FILE, encoding="utf-8") as f:
+        douban = json.load(f)
+
+    tmdb_map = {}
+    if os.path.exists(TMDB_FILE):
+        with open(TMDB_FILE, encoding="utf-8") as f:
+            for t in json.load(f):
+                tmdb_map[t.get("douban_url")] = t
 
     movies = []
-    for d in data:
+    for d in douban:
         year, directors, actors, genres = parse_info(d.get("info", ""))
+        t = tmdb_map.get(d.get("url"), {})
+
+        # 演员：优先用 TMDB 完整演员表，否则用豆瓣解析的
+        final_actors = t.get("actors") or actors
+        # 导演：优先豆瓣中文名，否则用 TMDB
+        final_directors = directors or ([t["director"]] if t.get("director") else [])
+
+        poster = POSTER_BASE + t["poster_path"] if t.get("poster_path") else ""
+
         reason = d.get("quote", "").strip()
         if not reason:
             reason = f"豆瓣 Top 250 第 {d.get('rank', '')} 名，评分 {d.get('douban_rating', '')}。"
@@ -81,16 +97,19 @@ def build():
             "title": d.get("title", ""),
             "title_en": d.get("title_en", ""),
             "year": year,
-            "directors": directors,
-            "actors": actors[:5],
+            "directors": final_directors,
+            "actors": final_actors[:6],
             "genres": genres,
             "douban_rating": to_float(d.get("douban_rating")),
             "douban_votes": d.get("douban_votes", ""),
-            "rt_tomatometer": None,   # 阶段 3 补
-            "rt_audience": None,       # 阶段 3 补
+            "tmdb_rating": t.get("vote_average"),
+            "rt_tomatometer": None,   # 烂番茄接口不可用，暂空
+            "rt_audience": None,
             "reason": reason,
-            "poster": d.get("poster", ""),
+            "poster": poster,
+            "overview": t.get("overview", ""),
             "douban_url": d.get("url", ""),
+            "tmdb_id": t.get("tmdb_id"),
         })
 
     js = "// 本文件由 scripts/build_data.py 自动生成，请勿手动编辑\n"

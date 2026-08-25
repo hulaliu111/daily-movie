@@ -6,6 +6,10 @@ function esc(s) {
   });
 }
 
+function fmtScore(x) {
+  return x == null ? "" : Number(x).toFixed(1);
+}
+
 // 海报加载失败时，回退为占位色块
 function fallbackPoster(img) {
   const poster = img.closest(".poster");
@@ -50,7 +54,26 @@ function render() {
   const actors = (m.actors || []).join("、");
   const year = m.year || "";
 
-  const rtScore = m.rt_tomatometer != null ? m.rt_tomatometer + "%" : "待接入";
+  // 第二评分：优先烂番茄，否则降级 TMDB
+  let secondScoreHtml;
+  if (m.rt_tomatometer != null) {
+    secondScoreHtml = `<span class="score rt">烂番茄 <b>${m.rt_tomatometer}%</b> <small>新鲜度</small></span>`;
+  } else if (m.tmdb_rating != null) {
+    secondScoreHtml = `<span class="score tmdb">TMDB <b>${fmtScore(m.tmdb_rating)}</b> <small>观众评分</small></span>`;
+  } else {
+    secondScoreHtml = `<span class="score tmdb">TMDB <b>待接入</b></span>`;
+  }
+
+  // 双评分差异大时，加一句「评价分化」趣味文案
+  let diverge = "";
+  if (m.douban_rating != null && m.tmdb_rating != null) {
+    const diff = m.douban_rating - m.tmdb_rating;
+    if (Math.abs(diff) >= 1.5) {
+      diverge = diff > 0
+        ? `<p class="diverge">📊 评分分化：豆瓣影迷打了 ${m.douban_rating}，海外观众（TMDB）只给 ${fmtScore(m.tmdb_rating)}——这部片国内外的口碑差得挺有意思。</p>`
+        : `<p class="diverge">📊 评分分化：海外观众（TMDB）给了 ${fmtScore(m.tmdb_rating)}，比豆瓣的 ${m.douban_rating} 还高——是部被豆瓣低估的好片。</p>`;
+    }
+  }
 
   const metaParts = [];
   if (year) metaParts.push(year);
@@ -72,10 +95,11 @@ function render() {
       ${actors ? `<p class="meta">主演：${esc(actors)}</p>` : ""}
       <div class="scores">
         <span class="score douban">豆瓣 <b>${m.douban_rating}</b> <small>${esc(m.douban_votes || "")}</small></span>
-        <span class="score rt">烂番茄 <b>${rtScore}</b> <small>新鲜度</small></span>
+        ${secondScoreHtml}
       </div>
+      ${diverge}
       <p class="reason">${esc(m.reason)}</p>
-      <p class="source-note">数据来源：豆瓣 Top 250 · 烂番茄 Top 100</p>
+      <p class="source-note">数据来源：豆瓣 Top 250 · TMDB</p>
     </div>
   `;
 }
