@@ -18,6 +18,7 @@
         </div>
         <button class="nav-btn" id="next-day" aria-label="后一天">›</button>
       </div>
+      <button class="library-btn" id="library-btn" type="button">浏览全部片库</button>
     </header>
 
     <section class="card" id="card">
@@ -69,6 +70,32 @@
       <p class="disclaimer">本站仅供学习交流、非商业用途；影片数据、海报与文字介绍版权归原作者及来源平台（豆瓣、TMDB）所有。</p>
     </footer>
   </main>
+
+  <div class="library-overlay" id="library-overlay" hidden>
+    <div class="library-panel">
+      <div class="library-head">
+        <h2 class="library-title">全部片库</h2>
+        <button class="library-close" id="library-close" type="button" aria-label="关闭">×</button>
+      </div>
+      <input class="library-search" id="library-search" type="search" placeholder="搜索片名 / 导演 / 演员">
+      <div class="library-filters">
+        <div class="library-row">
+          <span class="library-label">类型</span>
+          <div class="library-tags" id="library-genres"></div>
+        </div>
+        <div class="library-row">
+          <span class="library-label">年代</span>
+          <div class="library-tags" id="library-decades"></div>
+        </div>
+        <div class="library-row">
+          <span class="library-label">排序</span>
+          <div class="library-tags" id="library-sort"></div>
+        </div>
+      </div>
+      <p class="library-count" id="library-count"></p>
+      <div class="library-grid" id="library-grid"></div>
+    </div>
+  </div>
 
   <script src="data.js"></script>
   <script src="app.js"></script>

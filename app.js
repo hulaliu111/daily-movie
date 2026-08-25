@@ -674,6 +674,133 @@ function renderChart() {
   box.hidden = false;
 }
 
+// —— 全部片库（浏览 / 搜索 / 筛选 / 排序）——
+const libraryState = { genre: "全部", decade: "全部", sort: "rating", query: "" };
+
+const LIBRARY_SORTS = [
+  { label: "评分最高", value: "rating" },
+  { label: "最新上映", value: "year" },
+  { label: "片名", value: "title" },
+];
+const LIBRARY_DECADES = ["全部", "20年代", "10年代", "00年代", "90年代", "更早"];
+
+// 从片库提取所有类型，按出现次数从多到少排
+function collectGenres() {
+  const count = {};
+  MOVIES.forEach(function (m) {
+    (m.genres || []).forEach(function (g) { count[g] = (count[g] || 0) + 1; });
+  });
+  return Object.keys(count).sort(function (a, b) { return count[b] - count[a]; });
+}
+
+function decadeOf(year) {
+  const y = parseInt(year, 10) || 0;
+  if (!y) return "";
+  if (y < 1990) return "更早";
+  if (y < 2000) return "90年代";
+  if (y < 2010) return "00年代";
+  if (y < 2020) return "10年代";
+  return "20年代";
+}
+
+// 按当前搜索词 + 类型 + 年代过滤，再排序
+function filteredMovies() {
+  let list = MOVIES.slice();
+  const q = libraryState.query.trim().toLowerCase();
+  if (q) {
+    list = list.filter(function (m) {
+      const hay = [m.title, m.title_en, (m.directors || []).join(" "), (m.actors || []).join(" ")]
+        .join(" ").toLowerCase();
+      return hay.indexOf(q) >= 0;
+    });
+  }
+  if (libraryState.genre !== "全部") {
+    list = list.filter(function (m) { return (m.genres || []).indexOf(libraryState.genre) >= 0; });
+  }
+  if (libraryState.decade !== "全部") {
+    list = list.filter(function (m) { return decadeOf(m.year) === libraryState.decade; });
+  }
+  list.sort(function (a, b) {
+    if (libraryState.sort === "year") {
+      return (parseInt(b.year, 10) || 0) - (parseInt(a.year, 10) || 0);
+    }
+    if (libraryState.sort === "title") {
+      return (a.title || "").localeCompare(b.title || "", "zh");
+    }
+    return (b.douban_rating || 0) - (a.douban_rating || 0);
+  });
+  return list;
+}
+
+// 渲染一行筛选标签（options 是字符串数组或 {label,value} 数组）
+function renderTagRow(id, options, active) {
+  const box = document.getElementById(id);
+  box.innerHTML = options.map(function (opt) {
+    const label = typeof opt === "string" ? opt : opt.label;
+    const value = typeof opt === "string" ? opt : opt.value;
+    const cls = value === active ? "library-tag active" : "library-tag";
+    return '<button class="' + cls + '" data-value="' + esc(value) + '" type="button">' + esc(label) + "</button>";
+  }).join("");
+}
+
+function renderFilters() {
+  renderTagRow("library-genres", ["全部"].concat(collectGenres()), libraryState.genre);
+  renderTagRow("library-decades", LIBRARY_DECADES, libraryState.decade);
+  renderTagRow("library-sort", LIBRARY_SORTS, libraryState.sort);
+}
+
+function renderLibrary() {
+  const list = filteredMovies();
+  document.getElementById("library-count").textContent = "共 " + list.length + " 部";
+  document.getElementById("library-grid").innerHTML = list.map(function (m) {
+    const poster = m.poster
+      ? '<img class="lib-poster" src="' + esc(m.poster) + '" alt="' + esc(m.title) + '" loading="lazy" onerror="this.style.display=\'none\'">'
+      : '<span class="lib-poster placeholder">🎬</span>';
+    return (
+      '<a class="lib-card" href="' + esc(m.douban_url) + '" target="_blank" rel="noopener">' +
+        '<div class="lib-poster-wrap">' + poster + "</div>" +
+        '<span class="lib-name">' + esc(m.title) + "</span>" +
+        '<span class="lib-meta">' + (m.year || "") + " · 豆瓣 " + fmtScore(m.douban_rating) + "</span>" +
+      "</a>"
+    );
+  }).join("");
+}
+
+function openLibrary() {
+  document.getElementById("library-overlay").hidden = false;
+  document.body.classList.add("no-scroll");
+  renderFilters();
+  renderLibrary();
+}
+function closeLibrary() {
+  document.getElementById("library-overlay").hidden = true;
+  document.body.classList.remove("no-scroll");
+}
+
+document.getElementById("library-btn").addEventListener("click", openLibrary);
+document.getElementById("library-close").addEventListener("click", closeLibrary);
+document.getElementById("library-overlay").addEventListener("click", function (e) {
+  if (e.target === this) closeLibrary(); // 点遮罩空白处关闭
+});
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape" && !document.getElementById("library-overlay").hidden) closeLibrary();
+});
+document.getElementById("library-search").addEventListener("input", function () {
+  libraryState.query = this.value;
+  renderLibrary();
+});
+["library-genres", "library-decades", "library-sort"].forEach(function (id) {
+  document.getElementById(id).addEventListener("click", function (e) {
+    const btn = e.target.closest("[data-value]");
+    if (!btn) return;
+    if (id === "library-genres") libraryState.genre = btn.dataset.value;
+    else if (id === "library-decades") libraryState.decade = btn.dataset.value;
+    else if (id === "library-sort") libraryState.sort = btn.dataset.value;
+    renderFilters();
+    renderLibrary();
+  });
+});
+
 bindRandomButtons();
 renderChart();
 render();
