@@ -42,12 +42,54 @@ function pickMovie(dateStr) {
   return MOVIES[hashStr(dateStr) % MOVIES.length];
 }
 
-function render() {
-  const params = new URLSearchParams(location.search);
-  const dateStr = params.get("date") || localDateStr(new Date());
-  const m = pickMovie(dateStr);
+// 今天的日期字符串
+function todayStr() {
+  return localDateStr(new Date());
+}
 
-  document.getElementById("date").textContent = dateStr;
+// 从 URL 读取日期，缺省今天
+function dateFromUrl() {
+  const params = new URLSearchParams(location.search);
+  return params.get("date") || todayStr();
+}
+
+// 日期加减 N 天
+function shiftDate(dateStr, delta) {
+  const [y, m, d] = dateStr.split("-").map(Number);
+  const dt = new Date(y, m - 1, d);
+  dt.setDate(dt.getDate() + delta);
+  return localDateStr(dt);
+}
+
+// 氛围背景：按电影类型给页面换一套色调
+const MOODS = [
+  { key: "anime",   tags: ["动画"] },
+  { key: "romance", tags: ["爱情", "同性", "歌舞", "音乐"] },
+  { key: "dark",    tags: ["悬疑", "惊悚", "犯罪", "恐怖"] },
+  { key: "scifi",   tags: ["科幻", "奇幻", "冒险"] },
+  { key: "action",  tags: ["动作", "战争", "西部"] },
+  { key: "happy",   tags: ["喜剧", "家庭", "儿童"] },
+  { key: "drama",   tags: ["剧情", "传记", "历史"] },
+];
+
+function moodFor(genres) {
+  for (const m of MOODS) {
+    if ((genres || []).some((g) => m.tags.includes(g))) return m.key;
+  }
+  return "drama";
+}
+
+let currentDate = dateFromUrl();
+
+function render() {
+  const m = pickMovie(currentDate);
+
+  // 氛围背景：按电影类型换色调
+  document.body.dataset.mood = moodFor(m.genres);
+
+  // 日期 + 「回到今天」按钮
+  document.getElementById("date").textContent = currentDate;
+  document.getElementById("today-btn").hidden = currentDate === todayStr();
 
   const genres = (m.genres || []).join(" / ");
   const directors = (m.directors || []).join("、");
@@ -85,6 +127,10 @@ function render() {
          data-title="${esc(m.title)}" data-title-en="${esc(m.title_en)}" onerror="fallbackPoster(this)">`
     : `<span class="poster-title">${esc(m.title)}</span><span class="poster-en">${esc(m.title_en)}</span>`;
 
+  const doubanLink = m.douban_url
+    ? `<a class="action-btn" href="${esc(m.douban_url)}" target="_blank" rel="noopener">在豆瓣查看 ↗</a>`
+    : "";
+
   document.getElementById("card").innerHTML = `
     <div class="poster" aria-hidden="true">${posterHtml}</div>
     <div class="info">
@@ -99,9 +145,40 @@ function render() {
       </div>
       ${diverge}
       <p class="reason">${esc(m.reason)}</p>
+      <div class="actions">${doubanLink}</div>
       <p class="source-note">数据来源：豆瓣 Top 250 · TMDB</p>
     </div>
   `;
 }
+
+// 翻看日期：更新 URL（不刷新页面）并重渲染
+function gotoDate(dateStr) {
+  currentDate = dateStr;
+  const url = new URL(location.href);
+  if (dateStr === todayStr()) {
+    url.searchParams.delete("date");
+  } else {
+    url.searchParams.set("date", dateStr);
+  }
+  history.pushState({}, "", url);
+  render();
+}
+
+// 绑定翻页按钮
+document.getElementById("prev-day").addEventListener("click", function () {
+  gotoDate(shiftDate(currentDate, -1));
+});
+document.getElementById("next-day").addEventListener("click", function () {
+  gotoDate(shiftDate(currentDate, 1));
+});
+document.getElementById("today-btn").addEventListener("click", function () {
+  gotoDate(todayStr());
+});
+
+// 浏览器前进/后退时同步
+window.addEventListener("popstate", function () {
+  currentDate = dateFromUrl();
+  render();
+});
 
 render();

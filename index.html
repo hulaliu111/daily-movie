@@ -9,8 +9,15 @@
 <body>
   <main class="page">
     <header class="page-header">
-      <p class="date" id="date"></p>
       <h1 class="site-title">每日推荐 · 一部好电影</h1>
+      <div class="date-nav">
+        <button class="nav-btn" id="prev-day" aria-label="前一天">‹</button>
+        <div class="date-wrap">
+          <p class="date" id="date"></p>
+          <button class="today-btn" id="today-btn" hidden>回到今天</button>
+        </div>
+        <button class="nav-btn" id="next-day" aria-label="后一天">›</button>
+      </div>
     </header>
 
     <section class="card" id="card">
@@ -19,7 +26,7 @@
 
     <footer class="page-footer">
       <p>数据来源：豆瓣 Top 250 · 烂番茄 Top 100 · TMDB</p>
-      <p class="tip">想看其它日期的推荐？在网址后面加 <code>?date=2026-08-26</code></p>
+      <p class="tip">每天一部 · 按日期确定，点箭头可翻看往日推荐</p>
     </footer>
   </main>
 
