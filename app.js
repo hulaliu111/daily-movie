@@ -37,8 +37,9 @@ function render() {
 
   document.getElementById("card").innerHTML = `
     <div class="poster" aria-hidden="true">
-      <span class="poster-title">${esc(m.title)}</span>
-      <span class="poster-en">${esc(m.title_en)}</span>
+      ${m.poster
+        ? `<img class="poster-img" src="${esc(m.poster)}" alt="${esc(m.title)} 海报">`
+        : `<span class="poster-title">${esc(m.title)}</span><span class="poster-en">${esc(m.title_en)}</span>`}
     </div>
     <div class="info">
       <h2 class="movie-title">${esc(m.title)}</h2>

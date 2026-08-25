@@ -44,6 +44,7 @@ const MOVIES = [
   },
   {
     id: "tt0245429",
+    poster: "https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Spirited_Away_Japanese_poster.png/500px-Spirited_Away_Japanese_poster.png",
     title: "千与千寻",
     title_en: "Spirited Away",
     year: 2001,
