@@ -1,39 +1,6 @@
 [
   {
     "rank": "1",
-    "title": "欢迎来龙餐馆",
-    "douban_url": "https://movie.douban.com/subject/35811064/",
-    "subject_id": "35811064",
-    "douban_rating": 8.7,
-    "directors": [
-      "文牧野"
-    ],
-    "actors": [
-      "沈腾",
-      "蒋奇明",
-      "奥马尔·谢里夫",
-      "李治廷",
-      "谢里夫·萨比",
-      "艾哈迈德·塞利姆",
-      "法鲁克·穆罕穆德",
-      "拉塞尔·希利",
-      "奈拉·阿克西姆",
-      "卡尔玛·哈齐姆"
-    ],
-    "genres": [
-      "剧情",
-      "战争"
-    ],
-    "year": "2026",
-    "region": "中国大陆",
-    "duration": "140分钟",
-    "short_comment": "这就是沈腾的奥德赛，足以让“沈腾0票”成为那个奖永远的耻辱柱。",
-    "tmdb_id": 1391021,
-    "tmdb_rating": 9.136,
-    "poster": "posters/douban-35811064.jpg"
-  },
-  {
-    "rank": "2",
     "title": "奥德赛",
     "douban_url": "https://movie.douban.com/subject/36808876/",
     "subject_id": "36808876",
@@ -64,41 +31,73 @@
     "duration": "173分钟",
     "short_comment": "大臣们集体敲地板的时候真怕把沙虫引来了",
     "tmdb_id": 1368337,
-    "tmdb_rating": 7.987,
+    "tmdb_rating": 8.0,
     "poster": "posters/douban-36808876.jpg"
   },
   {
-    "rank": "3",
-    "title": "女仆日记",
-    "douban_url": "https://movie.douban.com/subject/37331353/",
-    "subject_id": "37331353",
-    "douban_rating": 7.4,
+    "rank": "2",
+    "title": "欢迎来龙餐馆",
+    "douban_url": "https://movie.douban.com/subject/35811064/",
+    "subject_id": "35811064",
+    "douban_rating": 8.7,
     "directors": [
-      "拉杜·裘德"
+      "文牧野"
     ],
     "actors": [
-      "安娜·杜米特拉斯库",
-      "梅兰尼·蒂埃里",
-      "樊尚·马凯涅",
-      "玛丽·里维埃",
-      "卢昂·布泰耶",
-      "阿诺·博杜安",
-      "伊林卡·马诺拉切",
-      "索菲亚·德拉戈曼",
-      "莉莉安娜·吉塔",
-      "普林斯·隆戈"
+      "沈腾",
+      "蒋奇明",
+      "奥马尔·谢里夫",
+      "李治廷",
+      "谢里夫·萨比",
+      "艾哈迈德·塞利姆",
+      "法鲁克·穆罕穆德",
+      "拉塞尔·希利",
+      "奈拉·阿克西姆",
+      "卡尔玛·哈齐姆"
     ],
     "genres": [
       "剧情",
-      "喜剧"
+      "战争"
     ],
     "year": "2026",
-    "region": "罗马尼亚",
-    "duration": "94分钟",
-    "short_comment": "Ｂ＋ / 构成上几乎是拉杜裘德近期最清晰的一部。精细的驱动力则几乎都体现在剪辑上，尤其以中间那段罗马尼亚童话讲述的变奏为最。对当代数码媒介的运用在某个时刻抵达了一种近乎超自然的维度。私人情感上真的很想给五星因为拉杜裘德真的好会骂好会骂好会骂欧洲人法国人啊啊啊啊啊。",
-    "tmdb_id": 1472813,
-    "tmdb_rating": null,
-    "poster": "posters/douban-37331353.jpg"
+    "region": "中国大陆",
+    "duration": "140分钟",
+    "short_comment": "这就是沈腾的奥德赛，足以让“沈腾0票”成为那个奖永远的耻辱柱。",
+    "tmdb_id": 1391021,
+    "tmdb_rating": 9.29,
+    "poster": "posters/douban-35811064.jpg"
+  },
+  {
+    "rank": "3",
+    "title": "抓特务",
+    "douban_url": "https://movie.douban.com/subject/36812879/",
+    "subject_id": "36812879",
+    "douban_rating": 7.4,
+    "directors": [
+      "冯小刚"
+    ],
+    "actors": [
+      "雷佳音",
+      "胡歌",
+      "啜妮",
+      "张瑶",
+      "林晓凡",
+      "杨舒伊",
+      "刘佩琦",
+      "姜武",
+      "杨青",
+      "陈国星"
+    ],
+    "genres": [
+      "剧情"
+    ],
+    "year": "2026",
+    "region": "中国大陆",
+    "duration": "141分钟",
+    "short_comment": "且看且珍惜吧！中国电影的风评也不知道是怎么了，也不知道以后还能不能看到这样以小看大，从两个政治面对立的两个人的生活过往，跨越四十年见证国家的发展历程。。看完以后感慨万千，按现在的电影环境，以后还有没有导演能拍这种题材的影片了。看一部少一部了……",
+    "tmdb_id": 1305672,
+    "tmdb_rating": 6.9,
+    "poster": "posters/douban-36812879.jpg"
   },
   {
     "rank": "4",
@@ -127,7 +126,7 @@
     "duration": "107分钟",
     "short_comment": "要是结局是夫妻俩温情脉脉地弹琴时突然又听到楼上的噪音就好了！前半段非常喜剧非常抓马，整个影厅感觉都笑飞了笑个不停，后半又变成比较老套的couple therapy了。",
     "tmdb_id": 950028,
-    "tmdb_rating": 7.259,
+    "tmdb_rating": 7.3,
     "poster": "posters/douban-35801126.jpg"
   },
   {
@@ -164,111 +163,66 @@
   },
   {
     "rank": "6",
-    "title": "荣光与暗影",
-    "douban_url": "https://movie.douban.com/subject/36960592/",
-    "subject_id": "36960592",
-    "douban_rating": 7.4,
+    "title": "女仆日记",
+    "douban_url": "https://movie.douban.com/subject/37331353/",
+    "subject_id": "37331353",
+    "douban_rating": 7.3,
     "directors": [
-      "泽维尔·吉亚诺利"
+      "拉杜·裘德"
     ],
     "actors": [
-      "奥古斯特·迪赫",
-      "让·杜雅尔丹",
-      "娜斯提亚·戈卢别娃·卡拉克斯",
-      "安德烈·马尔孔",
-      "玛丽亚·卡弗利尔-巴赞"
+      "安娜·杜米特拉斯库",
+      "梅兰尼·蒂埃里",
+      "樊尚·马凯涅",
+      "玛丽·里维埃",
+      "卢昂·布泰耶",
+      "阿诺·博杜安",
+      "伊林卡·马诺拉切",
+      "索菲亚·德拉戈曼",
+      "莉莉安娜·吉塔",
+      "普林斯·隆戈"
     ],
     "genres": [
-      "剧情"
+      "剧情",
+      "喜剧"
     ],
     "year": "2026",
-    "region": "法国",
-    "duration": "199分钟",
-    "short_comment": "“平庸之恶”外，我们看到人之为人的根本。",
-    "tmdb_id": 1318335,
-    "tmdb_rating": 7.541,
-    "poster": "posters/douban-36960592.jpg"
+    "region": "罗马尼亚",
+    "duration": "94分钟",
+    "short_comment": "Ｂ＋ / 构成上几乎是拉杜裘德近期最清晰的一部。精细的驱动力则几乎都体现在剪辑上，尤其以中间那段罗马尼亚童话讲述的变奏为最。对当代数码媒介的运用在某个时刻抵达了一种近乎超自然的维度。私人情感上真的很想给五星因为拉杜裘德真的好会骂好会骂好会骂欧洲人法国人啊啊啊啊啊。",
+    "tmdb_id": 1472813,
+    "tmdb_rating": null,
+    "poster": "posters/douban-37331353.jpg"
   },
   {
     "rank": "7",
-    "title": "太空见习生",
-    "douban_url": "https://movie.douban.com/subject/35633079/",
-    "subject_id": "35633079",
-    "douban_rating": 7.9,
+    "title": "凤仙花",
+    "douban_url": "https://movie.douban.com/subject/36907269/",
+    "subject_id": "36907269",
+    "douban_rating": 7.3,
     "directors": [
-      "考拉小子"
+      "木下麦"
     ],
-    "actors": [],
+    "actors": [
+      "小林薰",
+      "户塚纯贵",
+      "满岛光",
+      "宫崎美子",
+      "泷正则"
+    ],
     "genres": [
       "动画"
     ],
     "year": "2025",
-    "region": "加拿大",
-    "duration": "86分钟",
-    "short_comment": "这部动画片推荐给所有的影迷，无论是大人还是小孩，相信大朋友会更加喜欢这部影片。片名「太空见习生 Space Cadet」是故事内容的表象概括，当你看完电影就会感受到，其实我们每个人都是「人生的见习生」。正因为「人生只有一次」，无论是离开地球去探索太空，还是家乡出国留学、工作与生活，我们无论是作为家长还是孩子，都会面临与亲人分别的抉择；有时候一次选择就是一辈子，我们每个人都在追寻着什么，又难免留下些遗憾和老朋友。影片把未来的第一代看护机器人，完美的拟人为我们的祖父母一代人。这让一个冰冷机械的身体，一下子就有了温暖的灵魂。作为一部完全没有对白的动画片，再一次让我们作为观众，享受到了画面叙事的简单和美好。",
-    "tmdb_id": 1404169,
-    "tmdb_rating": 6.833,
-    "poster": "posters/douban-35633079.jpg"
+    "region": "日本",
+    "duration": "90分钟",
+    "short_comment": "OddTaxi原班人马，木下麦的人设太好认了，作画由P.I.C.S.&OLM换成CLAP，质感稍显粗糙但也完全够看了，脚本稳定发挥，跟前作中男主的病症类似，一个设定的巧思既画龙点睛又优化了叙事结构，虽然故事有点俗套但完美自洽，最后的punch也足够有效，整体符合预期。",
+    "tmdb_id": 1294972,
+    "tmdb_rating": 8.0,
+    "poster": "posters/douban-36907269.jpg"
   },
   {
     "rank": "8",
-    "title": "废用身",
-    "douban_url": "https://movie.douban.com/subject/38067530/",
-    "subject_id": "38067530",
-    "douban_rating": 7.1,
-    "directors": [
-      "吉田光希"
-    ],
-    "actors": [
-      "染谷将太",
-      "北村有起哉",
-      "泷内公美",
-      "广末哲万",
-      "中井友望",
-      "中村映里子",
-      "吉冈睦雄",
-      "六平直政"
-    ],
-    "genres": [
-      "剧情"
-    ],
-    "year": "2026",
-    "region": "日本",
-    "duration": "125分钟",
-    "short_comment": "虽然血腥场面非常克制，但故事本身实在是恐怖片，人老了下肢和左臂瘫痪失能好惨，被家人嫌弃，疏于照护，想上厕所没人帮忙，爬去厕所拉了一路，再被家属一次一次摁进水塘教训，简直恨不得你马上死😠老龄化社会的实质就是如此，哪有那么多久病床前的孝子贤孙，怕麻烦别人，可又不得不麻烦别人的苦🥲“哪会遇见什么好事”…最后也是无路可走…冷峻的《楢山节考》就是真实，人老到最后，就是废用身，如何有尊严的死去，可能是最后的命题。染谷将太影帝级别的演技，点赞。",
-    "tmdb_id": 1630435,
-    "tmdb_rating": 8.0,
-    "poster": "posters/douban-38067530.jpg"
-  },
-  {
-    "rank": "9",
-    "title": "一切从头来过",
-    "douban_url": "https://movie.douban.com/subject/36922688/",
-    "subject_id": "36922688",
-    "douban_rating": 7.2,
-    "directors": [
-      "杰罗姆·波奈"
-    ],
-    "actors": [
-      "斯万·阿劳德",
-      "加拉泰亚·贝露琪",
-      "路易丝·舍维约特",
-      "艾曼纽·德芙",
-      "Aymeline Alix"
-    ],
-    "genres": [
-      "剧情"
-    ],
-    "year": "2025",
-    "region": "法国",
-    "duration": "103分钟",
-    "short_comment": "很喜歡這部片。很棒的拍法，並不是對白推進的電影，但對白也很重要，特別是最後一出戲，一切簡簡單單由兩位女演員的眼神還有話語輕重表達的很清楚。整部片拍得很克制，也很符合歷史時期，音樂也沒有過度使用。故事很簡單，也很美好，最後的愛情是那麼溫暖和珍貴。SA將一個悲劇人物演的很好，其實在父權男權社會裡，很多很多男人即是施暴者也是受害者。另外豆瓣此片中文翻譯錯了。",
-    "tmdb_id": 1119548,
-    "tmdb_rating": 6.0,
-    "poster": "posters/douban-36922688.jpg"
-  },
-  {
-    "rank": "10",
     "title": "伪钞之王",
     "douban_url": "https://movie.douban.com/subject/37116027/",
     "subject_id": "37116027",
@@ -293,10 +247,64 @@
     ],
     "year": "2025",
     "region": "法国",
-    "duration": "",
-    "short_comment": "不精彩但是挺正常的。波兰人淘到了法国但是因为没有身份做的发明不被认可，最终开始做伪钞。\n匠人、艺术家、发明家。。手稳还会动脑子。。。\n哥们儿也太聪明了！\n简直是达芬奇人设！",
+    "duration": "128分钟",
+    "short_comment": "偽鈔界的塞尚，假幣真品大師，好精彩",
     "tmdb_id": 1376415,
-    "tmdb_rating": 7.092,
+    "tmdb_rating": 7.084,
     "poster": "posters/douban-37116027.jpg"
+  },
+  {
+    "rank": "9",
+    "title": "荣光与暗影",
+    "douban_url": "https://movie.douban.com/subject/36960592/",
+    "subject_id": "36960592",
+    "douban_rating": 7.4,
+    "directors": [
+      "泽维尔·吉亚诺利"
+    ],
+    "actors": [
+      "奥古斯特·迪赫",
+      "让·杜雅尔丹",
+      "娜斯提亚·戈卢别娃·卡拉克斯",
+      "安德烈·马尔孔",
+      "玛丽亚·卡弗利尔-巴赞"
+    ],
+    "genres": [
+      "剧情"
+    ],
+    "year": "2026",
+    "region": "法国",
+    "duration": "199分钟",
+    "short_comment": "“平庸之恶”外，我们看到人之为人的根本。",
+    "tmdb_id": 1318335,
+    "tmdb_rating": 7.527,
+    "poster": "posters/douban-36960592.jpg"
+  },
+  {
+    "rank": "10",
+    "title": "一切从头来过",
+    "douban_url": "https://movie.douban.com/subject/36922688/",
+    "subject_id": "36922688",
+    "douban_rating": 7.1,
+    "directors": [
+      "杰罗姆·波奈"
+    ],
+    "actors": [
+      "斯万·阿劳德",
+      "加拉泰亚·贝露琪",
+      "路易丝·舍维约特",
+      "艾曼纽·德芙",
+      "Aymeline Alix"
+    ],
+    "genres": [
+      "剧情"
+    ],
+    "year": "2025",
+    "region": "法国",
+    "duration": "103分钟",
+    "short_comment": "一座孤立的房子，四个女人，一个男人就足以展现patriarchy带给女性的磨难。虚伪的温柔，拒绝后的恼怒和强迫，搞砸后发泄式的哭泣和乞求。没有什么可以停止他们的发疯和暴力。",
+    "tmdb_id": 1119548,
+    "tmdb_rating": 6.0,
+    "poster": "posters/douban-36922688.jpg"
   }
 ]
