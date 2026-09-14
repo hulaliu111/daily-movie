@@ -1,74 +1,6 @@
 [
   {
     "rank": "1",
-    "title": "奥德赛",
-    "douban_url": "https://movie.douban.com/subject/36808876/",
-    "subject_id": "36808876",
-    "douban_rating": 8.6,
-    "directors": [
-      "克里斯托弗·诺兰"
-    ],
-    "actors": [
-      "马特·达蒙",
-      "汤姆·霍兰德",
-      "安妮·海瑟薇",
-      "罗伯特·帕丁森",
-      "查理兹·塞隆",
-      "赞达亚",
-      "萨曼莎·莫顿",
-      "约翰·雷吉扎莫",
-      "露皮塔·尼永奥",
-      "艾利奥特·佩吉"
-    ],
-    "genres": [
-      "动作",
-      "历史",
-      "奇幻",
-      "冒险"
-    ],
-    "year": "2026",
-    "region": "美国",
-    "duration": "173分钟",
-    "short_comment": "大臣们集体敲地板的时候真怕把沙虫引来了",
-    "tmdb_id": 1368337,
-    "tmdb_rating": 8.0,
-    "poster": "posters/douban-36808876.jpg"
-  },
-  {
-    "rank": "2",
-    "title": "欢迎来龙餐馆",
-    "douban_url": "https://movie.douban.com/subject/35811064/",
-    "subject_id": "35811064",
-    "douban_rating": 8.7,
-    "directors": [
-      "文牧野"
-    ],
-    "actors": [
-      "沈腾",
-      "蒋奇明",
-      "奥马尔·谢里夫",
-      "李治廷",
-      "谢里夫·萨比",
-      "艾哈迈德·塞利姆",
-      "法鲁克·穆罕穆德",
-      "拉塞尔·希利",
-      "奈拉·阿克西姆",
-      "卡尔玛·哈齐姆"
-    ],
-    "genres": [
-      "剧情",
-      "战争"
-    ],
-    "year": "2026",
-    "region": "中国大陆",
-    "duration": "140分钟",
-    "short_comment": "这就是沈腾的奥德赛，足以让“沈腾0票”成为那个奖永远的耻辱柱。",
-    "tmdb_id": 1391021,
-    "tmdb_rating": 9.29,
-    "poster": "posters/douban-35811064.jpg"
-  },
-  {
-    "rank": "3",
     "title": "抓特务",
     "douban_url": "https://movie.douban.com/subject/36812879/",
     "subject_id": "36812879",
@@ -96,106 +28,104 @@
     "duration": "141分钟",
     "short_comment": "且看且珍惜吧！中国电影的风评也不知道是怎么了，也不知道以后还能不能看到这样以小看大，从两个政治面对立的两个人的生活过往，跨越四十年见证国家的发展历程。。看完以后感慨万千，按现在的电影环境，以后还有没有导演能拍这种题材的影片了。看一部少一部了……",
     "tmdb_id": 1305672,
-    "tmdb_rating": 6.9,
+    "tmdb_rating": 6.867,
     "poster": "posters/douban-36812879.jpg"
   },
   {
-    "rank": "4",
-    "title": "激情邀约",
-    "douban_url": "https://movie.douban.com/subject/35801126/",
-    "subject_id": "35801126",
+    "rank": "2",
+    "title": "欧盟制造",
+    "douban_url": "https://movie.douban.com/subject/36956292/",
+    "subject_id": "36956292",
     "douban_rating": 7.4,
     "directors": [
-      "奥利维亚·王尔德"
+      "斯特凡·科曼达雷夫"
     ],
     "actors": [
-      "塞斯·罗根",
-      "奥利维亚·王尔德",
-      "佩内洛普·克鲁兹",
-      "爱德华·诺顿",
-      "雷切尔·图洛夫",
-      "马里奥·瓦尔迪兹"
+      "伊万·博尔内夫",
+      "Francesco Frattini",
+      "Gerasim Georgiev",
+      "伊瓦洛·克里斯托夫",
+      "Anastasia Ingilizova",
+      "Todor Kotzev",
+      "Martina Peneva",
+      "Gergana Pletnyova",
+      "Ovanes Torosian"
+    ],
+    "genres": [
+      "剧情"
+    ],
+    "year": "2025",
+    "region": "德国",
+    "duration": "102分钟",
+    "short_comment": "有什么好稀奇的。无非一部保加利亚人拍的中国电影。",
+    "tmdb_id": 974236,
+    "tmdb_rating": 6.9,
+    "poster": "posters/douban-36956292.jpg"
+  },
+  {
+    "rank": "3",
+    "title": "歪心狼对阵ACME",
+    "douban_url": "https://movie.douban.com/subject/27190137/",
+    "subject_id": "27190137",
+    "douban_rating": 7.5,
+    "directors": [
+      "戴夫·格林"
+    ],
+    "actors": [
+      "威尔·福特",
+      "约翰·塞纳",
+      "拉娜·康多",
+      "P·J·伯恩",
+      "Zoe Buchansky",
+      "南茜·林韩·查尔斯",
+      "艾米·麦圭尔",
+      "道格·蒙托亚",
+      "Kelsey Leos Montoya",
+      "特拉维斯·西蒙"
+    ],
+    "genres": [
+      "喜剧",
+      "动画",
+      "奇幻",
+      "冒险"
+    ],
+    "year": "2026",
+    "region": "美国",
+    "duration": "101分钟",
+    "short_comment": "华纳这部动画+真人电影有太多IP了，估计现在的小朋友都不认识兔八哥、达菲鸭、翠迪鸟、猪小弟，片子里有很多复古老动画片的搞笑桥段，果然，动画角色就是韧性十足！歪心狼虽然是反派，但也不能这么欺负人家吧，用了几十年的道具，没有一个攒劲的，必须支持维权！最后哔哔鸟出庭真的感动哭了歪心狼，对手都看不过去了。可见黑心公司给歪心狼造成了多大的伤害。西西弗斯在他的巨石见证下显得更加伟岸！",
+    "tmdb_id": 1204680,
+    "tmdb_rating": 7.617,
+    "poster": "posters/douban-27190137.jpg"
+  },
+  {
+    "rank": "4",
+    "title": "银魂 吉原大炎上",
+    "douban_url": "https://movie.douban.com/subject/37482099/",
+    "subject_id": "37482099",
+    "douban_rating": 7.6,
+    "directors": [
+      "安藤尚也"
+    ],
+    "actors": [
+      "杉田智和",
+      "阪口大助",
+      "钉宫理惠"
     ],
     "genres": [
       "剧情",
       "喜剧",
-      "爱情"
+      "动画"
     ],
     "year": "2026",
-    "region": "美国",
-    "duration": "107分钟",
-    "short_comment": "要是结局是夫妻俩温情脉脉地弹琴时突然又听到楼上的噪音就好了！前半段非常喜剧非常抓马，整个影厅感觉都笑飞了笑个不停，后半又变成比较老套的couple therapy了。",
-    "tmdb_id": 950028,
-    "tmdb_rating": 7.3,
-    "poster": "posters/douban-35801126.jpg"
+    "region": "日本",
+    "duration": "",
+    "short_comment": "最战斗爽的一集",
+    "tmdb_id": 1530941,
+    "tmdb_rating": 8.941,
+    "poster": "posters/douban-37482099.jpg"
   },
   {
     "rank": "5",
-    "title": "无界之环",
-    "douban_url": "https://movie.douban.com/subject/37234857/",
-    "subject_id": "37234857",
-    "douban_rating": 7.9,
-    "directors": [
-      "奥斯卡·哈德森"
-    ],
-    "actors": [
-      "卢克·提特恩索",
-      "艾略特·提特恩索",
-      "尼尔·马斯克尔",
-      "罗伯特·霍布斯",
-      "菲奥娜·拉姆齐",
-      "扎克·罗兰兹",
-      "马修·迪伦·罗伯茨",
-      "迈克尔·理查德",
-      "卡特里奥娜·安德鲁",
-      "卡米拉·瓦尔德曼"
-    ],
-    "genres": [
-      "喜剧"
-    ],
-    "year": "2025",
-    "region": "英国",
-    "duration": "108分钟",
-    "short_comment": "根本不是什么喜剧片啊，完全被营销几个title标签骗进来的，今年上影节就赶上这一场，侥幸不用加班手机开着飞行模式特别安详专注的看完，周围邻座朋友们都特棒，让这场体验更棒了。如果看进去了，这绝对绝对是部心理惊悚片，可以有很多背景角度去分析（军队士兵战后创伤/现代社会结构对人的要求趋于同质化/父辈角色的成长影响等等），但都避不开讨论人心理上的孤独与恐惧让我们拥抱相同又分清你我，在你我渲染的过程中是血淋淋的崩溃和杀戮，过程看的我极其难受，然后摄影的镜头语言也特别妙，不想多说了，总之是部严肃的片子，就几个破梗别被喜剧片子被骗了…",
-    "tmdb_id": 1433601,
-    "tmdb_rating": 6.8,
-    "poster": "posters/douban-37234857.jpg"
-  },
-  {
-    "rank": "6",
-    "title": "女仆日记",
-    "douban_url": "https://movie.douban.com/subject/37331353/",
-    "subject_id": "37331353",
-    "douban_rating": 7.3,
-    "directors": [
-      "拉杜·裘德"
-    ],
-    "actors": [
-      "安娜·杜米特拉斯库",
-      "梅兰尼·蒂埃里",
-      "樊尚·马凯涅",
-      "玛丽·里维埃",
-      "卢昂·布泰耶",
-      "阿诺·博杜安",
-      "伊林卡·马诺拉切",
-      "索菲亚·德拉戈曼",
-      "莉莉安娜·吉塔",
-      "普林斯·隆戈"
-    ],
-    "genres": [
-      "剧情",
-      "喜剧"
-    ],
-    "year": "2026",
-    "region": "罗马尼亚",
-    "duration": "94分钟",
-    "short_comment": "Ｂ＋ / 构成上几乎是拉杜裘德近期最清晰的一部。精细的驱动力则几乎都体现在剪辑上，尤其以中间那段罗马尼亚童话讲述的变奏为最。对当代数码媒介的运用在某个时刻抵达了一种近乎超自然的维度。私人情感上真的很想给五星因为拉杜裘德真的好会骂好会骂好会骂欧洲人法国人啊啊啊啊啊。",
-    "tmdb_id": 1472813,
-    "tmdb_rating": null,
-    "poster": "posters/douban-37331353.jpg"
-  },
-  {
-    "rank": "7",
     "title": "凤仙花",
     "douban_url": "https://movie.douban.com/subject/36907269/",
     "subject_id": "36907269",
@@ -216,72 +146,49 @@
     "year": "2025",
     "region": "日本",
     "duration": "90分钟",
-    "short_comment": "OddTaxi原班人马，木下麦的人设太好认了，作画由P.I.C.S.&OLM换成CLAP，质感稍显粗糙但也完全够看了，脚本稳定发挥，跟前作中男主的病症类似，一个设定的巧思既画龙点睛又优化了叙事结构，虽然故事有点俗套但完美自洽，最后的punch也足够有效，整体符合预期。",
+    "short_comment": "以植物的尺度，以烟花的记忆深度，以昭和末的疯狂和平成泡沫的崩溃速度。",
     "tmdb_id": 1294972,
     "tmdb_rating": 8.0,
     "poster": "posters/douban-36907269.jpg"
   },
   {
-    "rank": "8",
-    "title": "伪钞之王",
-    "douban_url": "https://movie.douban.com/subject/37116027/",
-    "subject_id": "37116027",
-    "douban_rating": 7.2,
+    "rank": "6",
+    "title": "求救信号",
+    "douban_url": "https://movie.douban.com/subject/36439868/",
+    "subject_id": "36439868",
+    "douban_rating": 7.1,
     "directors": [
-      "让-保尔·萨罗米"
+      "约翰·弗朗西斯·戴利",
+      "乔纳森·戈尔茨坦"
     ],
     "actors": [
-      "勒达·卡代布",
-      "萨拉·吉罗多",
-      "巴斯蒂安·布永",
-      "皮埃尔·洛廷",
-      "康坦·多尔迈尔",
-      "Victor Poirier",
-      "奥利维尔·卢斯托",
-      "塞德里克·韦伯",
-      "卡米尔·雅毕",
-      "弗兰西斯·莱珀雷"
+      "瑞安·雷诺兹",
+      "肯尼思·布拉纳",
+      "马辛·多洛辛斯基",
+      "玛丽亚·巴卡洛娃",
+      "大卫·摩斯",
+      "克拉克·约翰森",
+      "温迪·古逊",
+      "路易斯·坎瑟米",
+      "约什·汉密尔顿",
+      "小亚历克斯·马里亚里"
     ],
     "genres": [
-      "剧情"
-    ],
-    "year": "2025",
-    "region": "法国",
-    "duration": "128分钟",
-    "short_comment": "偽鈔界的塞尚，假幣真品大師，好精彩",
-    "tmdb_id": 1376415,
-    "tmdb_rating": 7.084,
-    "poster": "posters/douban-37116027.jpg"
-  },
-  {
-    "rank": "9",
-    "title": "荣光与暗影",
-    "douban_url": "https://movie.douban.com/subject/36960592/",
-    "subject_id": "36960592",
-    "douban_rating": 7.4,
-    "directors": [
-      "泽维尔·吉亚诺利"
-    ],
-    "actors": [
-      "奥古斯特·迪赫",
-      "让·杜雅尔丹",
-      "娜斯提亚·戈卢别娃·卡拉克斯",
-      "安德烈·马尔孔",
-      "玛丽亚·卡弗利尔-巴赞"
-    ],
-    "genres": [
-      "剧情"
+      "喜剧",
+      "动作",
+      "惊悚",
+      "冒险"
     ],
     "year": "2026",
-    "region": "法国",
-    "duration": "199分钟",
-    "short_comment": "“平庸之恶”外，我们看到人之为人的根本。",
-    "tmdb_id": 1318335,
-    "tmdb_rating": 7.527,
-    "poster": "posters/douban-36960592.jpg"
+    "region": "美国",
+    "duration": "110分钟",
+    "short_comment": "很可能，外国人比美国人更怀念上世纪的美国。",
+    "tmdb_id": 1137844,
+    "tmdb_rating": 7.918,
+    "poster": "posters/douban-36439868.jpg"
   },
   {
-    "rank": "10",
+    "rank": "7",
     "title": "一切从头来过",
     "douban_url": "https://movie.douban.com/subject/36922688/",
     "subject_id": "36922688",
@@ -306,5 +213,103 @@
     "tmdb_id": 1119548,
     "tmdb_rating": 6.0,
     "poster": "posters/douban-36922688.jpg"
+  },
+  {
+    "rank": "8",
+    "title": "一直在这里",
+    "douban_url": "https://movie.douban.com/subject/38481360/",
+    "subject_id": "38481360",
+    "douban_rating": 7.0,
+    "directors": [
+      "丹尼尔·利夫"
+    ],
+    "actors": [
+      "米格尔·拉罗",
+      "迪亚哥·利拉",
+      "黛博拉·法拉贝拉",
+      "米卡·索埃罗",
+      "贝尔·莫雷拉",
+      "奥利维亚·阿劳若",
+      "费尔南多·卡鲁索",
+      "若昂·佩德罗·沙塞利奥夫",
+      "西尔维欧·圭恩丹尼",
+      "奥古斯托·马德拉"
+    ],
+    "genres": [
+      "喜剧",
+      "爱情"
+    ],
+    "year": "2026",
+    "region": "巴西",
+    "duration": "100分钟",
+    "short_comment": "用不上“爱情”这样太大的字眼，是这个暑假两周里和你经历的全部小事，每一件都让我有不一样的心动。你让我开始喜欢自己本来的样子，更享受做自己，这种心情本就有无尽的愉悦，更何况你那么英俊(✧◡✧)",
+    "tmdb_id": 1418582,
+    "tmdb_rating": 7.335,
+    "poster": "posters/douban-38481360.jpg"
+  },
+  {
+    "rank": "9",
+    "title": "战时离婚指南",
+    "douban_url": "https://movie.douban.com/subject/36513585/",
+    "subject_id": "36513585",
+    "douban_rating": 6.9,
+    "directors": [
+      "安德里乌斯·布拉泽维奇"
+    ],
+    "actors": [
+      "马里乌斯·雷普希斯",
+      "西吉曼特·雅克什泰特",
+      "阿梅利亚·阿多迈蒂特",
+      "金塔尔·帕鲁利特",
+      "瓦伦蒂纳斯·克鲁利科夫斯基斯",
+      "阿拉·比涅娃",
+      "拉穆纳斯·奇塞纳斯",
+      "莱玛·阿克斯蒂奈特",
+      "维甘达斯·瓦代沙",
+      "埃米利娅·拉特奈特"
+    ],
+    "genres": [
+      "剧情"
+    ],
+    "year": "2026",
+    "region": "立陶宛",
+    "duration": "108分钟",
+    "short_comment": "一家表演型人格，又重聚到了一起。当老婆提出离婚的时候，你信她没有出轨还是信她是特朗普？而且出轨的对象可能还不是男的。男的打砸俄罗斯车的行为，看来天底下都一个样。",
+    "tmdb_id": 1529024,
+    "tmdb_rating": 7.0,
+    "poster": "posters/douban-36513585.jpg"
+  },
+  {
+    "rank": "10",
+    "title": "夜巡毒枭",
+    "douban_url": "https://movie.douban.com/subject/38220877/",
+    "subject_id": "38220877",
+    "douban_rating": 6.8,
+    "directors": [
+      "查瓦·卡塔斯"
+    ],
+    "actors": [
+      "阿方索·埃雷拉",
+      "诺伊·埃尔南德斯",
+      "赫克托·科特思法基斯",
+      "胡安·巴勃罗·克鲁斯·加西亚",
+      "保拉·费尔南德斯",
+      "安东尼奥·福蒂尔",
+      "艾伦·杜雷尔",
+      "费尔南多·考特尔",
+      "赫拉尔多·特雷霍卢纳",
+      "伊萨克·布拉沃"
+    ],
+    "genres": [
+      "动作",
+      "犯罪"
+    ],
+    "year": "2026",
+    "region": "墨西哥",
+    "duration": "91分钟",
+    "short_comment": "墨西哥治安好，猫见耗子哇哇叫。\n抓到毒枭不敢报，一念之差命难保。\n走的是写实路线，没有好莱坞类型片的紧张刺激，但也勾勒出几个窒息时刻，执法者的恐惧和犹豫跃然纸上。比毒枭更可怕的是无处不在的眼线和内鬼，你永远不知道该相信谁。英雄不敢署名，真相只能在暗中流传，这就是毒品经济的恶果。",
+    "tmdb_id": 1621552,
+    "tmdb_rating": 8.828,
+    "poster": "posters/douban-38220877.jpg"
   }
 ]
