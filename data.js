@@ -21,8 +21,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.7,
-    "douban_votes": "3342897人评价",
-    "tmdb_rating": 8.731,
+    "douban_votes": "3347689人评价",
+    "tmdb_rating": 8.732,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "希望让人自由。",
@@ -53,8 +53,8 @@ const MOVIES = [
       "同性"
     ],
     "douban_rating": 9.6,
-    "douban_votes": "2454833人评价",
-    "tmdb_rating": 7.938,
+    "douban_votes": "2457678人评价",
+    "tmdb_rating": 7.9,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "风华绝代。",
@@ -85,8 +85,8 @@ const MOVIES = [
       "灾难"
     ],
     "douban_rating": 9.5,
-    "douban_votes": "2532141人评价",
-    "tmdb_rating": 7.9,
+    "douban_votes": "2535221人评价",
+    "tmdb_rating": 7.901,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "失去的才是永恒的。",
@@ -116,8 +116,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 9.5,
-    "douban_votes": "2459193人评价",
-    "tmdb_rating": 8.462,
+    "douban_votes": "2461895人评价",
+    "tmdb_rating": 8.5,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "一部美国近现代史。",
@@ -148,7 +148,7 @@ const MOVIES = [
       "奇幻"
     ],
     "douban_rating": 9.4,
-    "douban_votes": "2571037人评价",
+    "douban_votes": "2573923人评价",
     "tmdb_rating": 8.535,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -180,8 +180,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 9.4,
-    "douban_votes": "2227521人评价",
-    "tmdb_rating": 8.5,
+    "douban_votes": "2231142人评价",
+    "tmdb_rating": 8.489,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "爱是一种力量，让我们超越时空感知它的存在。",
@@ -213,8 +213,8 @@ const MOVIES = [
       "战争"
     ],
     "douban_rating": 9.5,
-    "douban_votes": "1499582人评价",
-    "tmdb_rating": 8.436,
+    "douban_votes": "1501166人评价",
+    "tmdb_rating": 8.4,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "最美的谎言。",
@@ -235,7 +235,7 @@ const MOVIES = [
       "让·雷诺",
       "娜塔莉·波特曼",
       "加里·奥德曼",
-      "丹尼尔·艾洛",
+      "丹尼·艾洛",
       "彼得·阿佩尔",
       "迈克尔·巴达卢科"
     ],
@@ -245,8 +245,8 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 9.4,
-    "douban_votes": "2578441人评价",
-    "tmdb_rating": 8.291,
+    "douban_votes": "2580890人评价",
+    "tmdb_rating": 8.289,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "怪蜀黍和小萝莉不得不说的故事。",
@@ -278,7 +278,7 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 9.4,
-    "douban_votes": "2358574人评价",
+    "douban_votes": "2361470人评价",
     "tmdb_rating": 8.374,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -309,8 +309,8 @@ const MOVIES = [
       "科幻"
     ],
     "douban_rating": 9.4,
-    "douban_votes": "2052166人评价",
-    "tmdb_rating": 8.159,
+    "douban_votes": "2055132人评价",
+    "tmdb_rating": 8.16,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "如果再也不能见到你，祝你早安，午安，晚安。",
@@ -341,8 +341,8 @@ const MOVIES = [
       "战争"
     ],
     "douban_rating": 9.5,
-    "douban_votes": "1261350人评价",
-    "tmdb_rating": 8.57,
+    "douban_votes": "1262694人评价",
+    "tmdb_rating": 8.6,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "拯救一个人，就是拯救整个世界。",
@@ -371,8 +371,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.4,
-    "douban_votes": "1559699人评价",
-    "tmdb_rating": 8.002,
+    "douban_votes": "1561138人评价",
+    "tmdb_rating": 8.004,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "永远都不能忘记你所爱的人。",
@@ -402,8 +402,8 @@ const MOVIES = [
       "音乐"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "1901267人评价",
-    "tmdb_rating": 8.234,
+    "douban_votes": "1903203人评价",
+    "tmdb_rating": 8.231,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "每个人都要走一条自己坚定了的路，就算是粉身碎骨。",
@@ -434,7 +434,7 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "2358083人评价",
+    "douban_votes": "2361146人评价",
     "tmdb_rating": 7.765,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -467,8 +467,8 @@ const MOVIES = [
       "歌舞"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "2103260人评价",
-    "tmdb_rating": 8.0,
+    "douban_votes": "2105497人评价",
+    "tmdb_rating": 8.011,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "英俊版憨豆，高情商版谢耳朵。",
@@ -499,8 +499,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "1524553人评价",
-    "tmdb_rating": 8.124,
+    "douban_votes": "1526859人评价",
+    "tmdb_rating": 8.1,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "小瓦力，大人生。",
@@ -530,8 +530,8 @@ const MOVIES = [
       "音乐"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "1491892人评价",
-    "tmdb_rating": 7.7,
+    "douban_votes": "1493577人评价",
+    "tmdb_rating": 7.744,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "天籁一般的童声，是最接近上帝的存在。",
@@ -562,8 +562,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "1587883人评价",
-    "tmdb_rating": 7.806,
+    "douban_votes": "1590018人评价",
+    "tmdb_rating": 7.805,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "香港电影史上永不过时的杰作。",
@@ -595,8 +595,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 9.6,
-    "douban_votes": "762548人评价",
-    "tmdb_rating": 8.203,
+    "douban_votes": "764459人评价",
+    "tmdb_rating": 8.202,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "比利·怀德满分作品。",
@@ -628,8 +628,8 @@ const MOVIES = [
       "音乐"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "2026826人评价",
-    "tmdb_rating": 8.197,
+    "douban_votes": "2029965人评价",
+    "tmdb_rating": 8.2,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "死亡不是真的逝去，遗忘才是永恒的消亡。",
@@ -661,8 +661,8 @@ const MOVIES = [
       "古装"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "1730987人评价",
-    "tmdb_rating": 7.7,
+    "douban_votes": "1732717人评价",
+    "tmdb_rating": 7.745,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "一生所爱。",
@@ -691,8 +691,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "1046793人评价",
-    "tmdb_rating": 8.162,
+    "douban_votes": "1047828人评价",
+    "tmdb_rating": 8.159,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "我们一路奋战不是为了改变世界，而是为了不让世界改变我们。",
@@ -707,7 +707,7 @@ const MOVIES = [
     "title_en": "Intouchables",
     "year": "2011",
     "directors": [
-      "奥利维埃·纳卡什"
+      "埃里克·托莱达诺"
     ],
     "actors": [
       "弗朗索瓦·克鲁塞",
@@ -722,8 +722,8 @@ const MOVIES = [
       "喜剧"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "1315054人评价",
-    "tmdb_rating": 8.273,
+    "douban_votes": "1316902人评价",
+    "tmdb_rating": 8.272,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "满满温情的高雅喜剧。",
@@ -753,8 +753,8 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "1123647人评价",
-    "tmdb_rating": 8.687,
+    "douban_votes": "1125221人评价",
+    "tmdb_rating": 8.7,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "千万不要记恨你的对手，这样会让你失去理智。",
@@ -784,8 +784,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "1447507人评价",
-    "tmdb_rating": 7.903,
+    "douban_votes": "1449788人评价",
+    "tmdb_rating": 7.904,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "童话世界的开端。",
@@ -816,8 +816,8 @@ const MOVIES = [
       "历史"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "1044267人评价",
-    "tmdb_rating": 7.59,
+    "douban_votes": "1045956人评价",
+    "tmdb_rating": 7.589,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "“不要跟我比惨，我比你更惨”再适合这部电影不过了。",
@@ -848,7 +848,7 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "1707595人评价",
+    "douban_votes": "1709385人评价",
     "tmdb_rating": 7.882,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -880,8 +880,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "1428002人评价",
-    "tmdb_rating": 8.067,
+    "douban_votes": "1429492人评价",
+    "tmdb_rating": 8.069,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "人人心中都有个龙猫，童年就永远不会消失。",
@@ -912,8 +912,8 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "984844人评价",
-    "tmdb_rating": 8.08,
+    "douban_votes": "986296人评价",
+    "tmdb_rating": 8.069,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "张艺谋最好的电影。",
@@ -944,8 +944,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "2075382人评价",
-    "tmdb_rating": 8.017,
+    "douban_votes": "2077516人评价",
+    "tmdb_rating": 8.021,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "真正的幸福是来自内心深处。",
@@ -978,8 +978,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "1213089人评价",
-    "tmdb_rating": 8.535,
+    "douban_votes": "1214826人评价",
+    "tmdb_rating": 8.537,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "无尽的黑暗。",
@@ -1011,8 +1011,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "924162人评价",
-    "tmdb_rating": 8.506,
+    "douban_votes": "925483人评价",
+    "tmdb_rating": 8.505,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "史诗的终章。",
@@ -1042,8 +1042,8 @@ const MOVIES = [
       "喜剧"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "2381839人评价",
-    "tmdb_rating": 8.212,
+    "douban_votes": "2384300人评价",
+    "tmdb_rating": 8.202,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "对我们国家而言，这样的电影多一部是一部。",
@@ -1075,8 +1075,8 @@ const MOVIES = [
       "战争"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "808640人评价",
-    "tmdb_rating": 7.904,
+    "douban_votes": "810082人评价",
+    "tmdb_rating": 7.9,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "Tomorrow is another day.",
@@ -1108,7 +1108,7 @@ const MOVIES = [
       "西部"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "1943452人评价",
+    "douban_votes": "1945501人评价",
     "tmdb_rating": 7.8,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -1141,7 +1141,7 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "1521921人评价",
+    "douban_votes": "1523733人评价",
     "tmdb_rating": 7.96,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -1174,7 +1174,7 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "1314233人评价",
+    "douban_votes": "1316275人评价",
     "tmdb_rating": 8.388,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -1204,8 +1204,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.4,
-    "douban_votes": "589280人评价",
-    "tmdb_rating": 8.571,
+    "douban_votes": "590336人评价",
+    "tmdb_rating": 8.574,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "1957年的理想主义。",
@@ -1236,8 +1236,8 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "802500人评价",
-    "tmdb_rating": 7.3,
+    "douban_votes": "804533人评价",
+    "tmdb_rating": 7.264,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "如果生活中有什么使你感到快乐，那就去做吧！不要管别人说什么。",
@@ -1266,8 +1266,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "786313人评价",
-    "tmdb_rating": 8.4,
+    "douban_votes": "787231人评价",
+    "tmdb_rating": 8.401,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "受过伤害的人总是笑得最开心，因为他们不愿意让身边的人承受一样的痛苦。",
@@ -1298,7 +1298,7 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "1231635人评价",
+    "douban_votes": "1233687人评价",
     "tmdb_rating": 7.978,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -1330,8 +1330,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "1022280人评价",
-    "tmdb_rating": 7.971,
+    "douban_votes": "1023431人评价",
+    "tmdb_rating": 8.0,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "对天空的追逐，永不停止。",
@@ -1361,8 +1361,8 @@ const MOVIES = [
       "喜剧"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "726408人评价",
-    "tmdb_rating": 8.203,
+    "douban_votes": "727578人评价",
+    "tmdb_rating": 8.201,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "对敌人的仁慈，就是对自己残忍。",
@@ -1394,8 +1394,8 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "1768217人评价",
-    "tmdb_rating": 7.9,
+    "douban_votes": "1770126人评价",
+    "tmdb_rating": 7.864,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "你不是在为你一个人战斗，你要让千千万万的女性看到女生并不是只能相夫教子。",
@@ -1426,7 +1426,7 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "1506135人评价",
+    "douban_votes": "1507577人评价",
     "tmdb_rating": 7.414,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -1456,8 +1456,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "901062人评价",
-    "tmdb_rating": 8.297,
+    "douban_votes": "902692人评价",
+    "tmdb_rating": 8.296,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "当一个死水般的体制内出现一个活跃的变数时，所有的腐臭都站在了光明的对面。",
@@ -1465,39 +1465,6 @@ const MOVIES = [
     "overview": "威尔顿预备学院以其沉稳凝重的教学风格和较高的升学率闻名，作为其毕业班的学生，理想就是升入名校。新学期文学老师约翰·基汀（罗宾·威廉姆斯 饰）的到来如同一阵春风，一反传统名校的严肃刻板...",
     "douban_url": "https://movie.douban.com/subject/1291548/",
     "tmdb_id": 207
-  },
-  {
-    "id": "douban-1296736",
-    "title": "钢琴家",
-    "title_en": "The Pianist",
-    "year": "2002",
-    "directors": [
-      "罗曼·波兰斯基"
-    ],
-    "actors": [
-      "阿德里安·布罗迪",
-      "托马斯·克莱舒曼",
-      "弗兰克·芬莱",
-      "穆琳·利普曼",
-      "艾米莉娅·福克斯",
-      "埃德·斯托帕德"
-    ],
-    "genres": [
-      "剧情",
-      "传记",
-      "战争",
-      "音乐"
-    ],
-    "douban_rating": 9.3,
-    "douban_votes": "761312人评价",
-    "tmdb_rating": 8.372,
-    "rt_tomatometer": null,
-    "rt_audience": null,
-    "reason": "豆瓣 Top 250 第 47 名，评分 9.3。",
-    "poster": "posters/douban-1296736.jpg",
-    "overview": "第二次世界大战爆发前夕，波兰犹太裔钢琴家瓦迪斯瓦夫·什皮尔曼仍在华沙电台演奏钢琴。随着德军占领波兰，针对犹太人的迫害不断升级，他和家人被迫迁入华沙犹太区，原本平静的生活也彻底崩塌。在饥饿、暴力与死亡的阴影下，什皮尔曼与家人艰难求生，却又在战争中被迫分离。侥幸逃过驱逐后，他只能依靠朋友的帮助辗转藏身，并在逐渐沦为废墟的华沙中独自躲避搜捕。曾经陪伴他的音乐几乎从生活中消失，而活下去成为他唯一能够坚持的事情……",
-    "douban_url": "https://movie.douban.com/subject/1296736/",
-    "tmdb_id": 423
   },
   {
     "id": "douban-1291572",
@@ -1522,8 +1489,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "870815人评价",
-    "tmdb_rating": 8.429,
+    "douban_votes": "872087人评价",
+    "tmdb_rating": 8.43,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "承前启后的史诗篇章。",
@@ -1531,6 +1498,39 @@ const MOVIES = [
     "overview": "在J.R.R.托尔金史诗三部曲的第二篇章中，护戒同盟队面对难以想象的敌军与诡谲阴谋，同时见证了远古奇迹与同胞未觉醒的力量。",
     "douban_url": "https://movie.douban.com/subject/1291572/",
     "tmdb_id": 121
+  },
+  {
+    "id": "douban-1296736",
+    "title": "钢琴家",
+    "title_en": "The Pianist",
+    "year": "2002",
+    "directors": [
+      "罗曼·波兰斯基"
+    ],
+    "actors": [
+      "阿德里安·布罗迪",
+      "托马斯·克莱舒曼",
+      "弗兰克·芬莱",
+      "穆琳·利普曼",
+      "艾米莉娅·福克斯",
+      "埃德·斯托帕德"
+    ],
+    "genres": [
+      "剧情",
+      "传记",
+      "战争",
+      "音乐"
+    ],
+    "douban_rating": 9.3,
+    "douban_votes": "762518人评价",
+    "tmdb_rating": 8.4,
+    "rt_tomatometer": null,
+    "rt_audience": null,
+    "reason": "豆瓣 Top 250 第 48 名，评分 9.3。",
+    "poster": "posters/douban-1296736.jpg",
+    "overview": "第二次世界大战爆发前夕，波兰犹太裔钢琴家瓦迪斯瓦夫·什皮尔曼仍在华沙电台演奏钢琴。随着德军占领波兰，针对犹太人的迫害不断升级，他和家人被迫迁入华沙犹太区，原本平静的生活也彻底崩塌。在饥饿、暴力与死亡的阴影下，什皮尔曼与家人艰难求生，却又在战争中被迫分离。侥幸逃过驱逐后，他只能依靠朋友的帮助辗转藏身，并在逐渐沦为废墟的华沙中独自躲避搜捕。曾经陪伴他的音乐几乎从生活中消失，而活下去成为他唯一能够坚持的事情……",
+    "douban_url": "https://movie.douban.com/subject/1296736/",
+    "tmdb_id": 423
   },
   {
     "id": "douban-1299398",
@@ -1555,8 +1555,8 @@ const MOVIES = [
       "古装"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "1385040人评价",
-    "tmdb_rating": 7.5,
+    "douban_votes": "1386524人评价",
+    "tmdb_rating": 7.547,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 49 名，评分 9.0。",
@@ -1588,7 +1588,7 @@ const MOVIES = [
       "音乐"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "1920660人评价",
+    "douban_votes": "1922984人评价",
     "tmdb_rating": 8.224,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -1618,8 +1618,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "1174599人评价",
-    "tmdb_rating": 8.151,
+    "douban_votes": "1175740人评价",
+    "tmdb_rating": 8.147,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "凝视卑弱生命，用电影改变命运。",
@@ -1648,8 +1648,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "1036967人评价",
-    "tmdb_rating": 7.794,
+    "douban_votes": "1038259人评价",
+    "tmdb_rating": 7.79,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 52 名，评分 9.1。",
@@ -1680,8 +1680,8 @@ const MOVIES = [
       "古装"
     ],
     "douban_rating": 9.4,
-    "douban_votes": "518404人评价",
-    "tmdb_rating": 7.753,
+    "douban_votes": "519169人评价",
+    "tmdb_rating": 7.776,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 53 名，评分 9.4。",
@@ -1711,8 +1711,8 @@ const MOVIES = [
       "科幻"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "965793人评价",
-    "tmdb_rating": 8.259,
+    "douban_votes": "967462人评价",
+    "tmdb_rating": 8.3,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 54 名，评分 9.1。",
@@ -1744,7 +1744,7 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "975129人评价",
+    "douban_votes": "976637人评价",
     "tmdb_rating": 8.4,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -1776,8 +1776,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "1059783人评价",
-    "tmdb_rating": 7.891,
+    "douban_votes": "1060871人评价",
+    "tmdb_rating": 7.885,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 56 名，评分 9.1。",
@@ -1807,8 +1807,8 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "651313人评价",
-    "tmdb_rating": 8.572,
+    "douban_votes": "652403人评价",
+    "tmdb_rating": 8.573,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 57 名，评分 9.3。",
@@ -1839,7 +1839,7 @@ const MOVIES = [
       "歌舞"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "974723人评价",
+    "douban_votes": "975953人评价",
     "tmdb_rating": 8.251,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -1870,8 +1870,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "750556人评价",
-    "tmdb_rating": 8.433,
+    "douban_votes": "751367人评价",
+    "tmdb_rating": 8.4,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 59 名，评分 9.2。",
@@ -1901,8 +1901,8 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "739772人评价",
-    "tmdb_rating": 7.622,
+    "douban_votes": "741451人评价",
+    "tmdb_rating": 7.614,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 60 名，评分 9.2。",
@@ -1931,8 +1931,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "664599人评价",
-    "tmdb_rating": 7.797,
+    "douban_votes": "665242人评价",
+    "tmdb_rating": 7.798,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "电影的现实意义大过电影本身。",
@@ -1963,8 +1963,8 @@ const MOVIES = [
       "奇幻"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "1119110人评价",
-    "tmdb_rating": 7.602,
+    "douban_votes": "1120390人评价",
+    "tmdb_rating": 7.603,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "在时间之河里感受溺水之苦。",
@@ -1996,7 +1996,7 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "993656人评价",
+    "douban_votes": "995480人评价",
     "tmdb_rating": 8.437,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -2027,8 +2027,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "862303人评价",
-    "tmdb_rating": 7.853,
+    "douban_votes": "863128人评价",
+    "tmdb_rating": 7.852,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 64 名，评分 9.1。",
@@ -2058,7 +2058,7 @@ const MOVIES = [
       "战争"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "650413人评价",
+    "douban_votes": "651198人评价",
     "tmdb_rating": 7.818,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -2067,37 +2067,6 @@ const MOVIES = [
     "overview": "八岁的布鲁诺随身为纳粹军官的父亲从柏林搬到乡下。离开熟悉的朋友后，孤独的布鲁诺很快注意到新家附近一片被铁丝网围住的地方，那里的人终日穿着相似的“条纹睡衣”，这让他充满好奇。一次偷偷探索中，布鲁诺结识了铁丝网另一边的同龄男孩施穆尔，并时常带食物给他。尽管两人身处截然不同的世界，他们仍逐渐成为彼此重要的朋友。随着家庭中的紧张气氛不断加剧，布鲁诺也开始透过这段纯真的友情，接触到一个他尚无法理解的残酷现实……",
     "douban_url": "https://movie.douban.com/subject/3008247/",
     "tmdb_id": 14574
-  },
-  {
-    "id": "douban-3011235",
-    "title": "哈利·波特与死亡圣器(下)",
-    "title_en": "Harry Potter and the Deathly Hallows: Part 2",
-    "year": "2011",
-    "directors": [
-      "大卫·叶茨"
-    ],
-    "actors": [
-      "丹尼尔·雷德克里夫",
-      "艾玛·沃森",
-      "鲁伯特·格林特",
-      "拉尔夫·费因斯",
-      "艾伦·瑞克曼",
-      "迈克尔·甘本"
-    ],
-    "genres": [
-      "奇幻",
-      "冒险"
-    ],
-    "douban_rating": 9.0,
-    "douban_votes": "986196人评价",
-    "tmdb_rating": 8.081,
-    "rt_tomatometer": null,
-    "rt_audience": null,
-    "reason": "10年的完美句点。",
-    "poster": "posters/douban-3011235.jpg",
-    "overview": "哈利、罗恩和赫敏继续寻找并摧毁伏地魔剩余的魂器，而新的线索最终将他们再次带回已经被食死徒控制的霍格沃茨。随着哈利归来，麦格教授、纳威以及学校的师生和反抗力量开始集结，准备守卫霍格沃茨；伏地魔则率领食死徒大军向学校逼近，一场决定魔法世界命运的大战就此爆发。在战火之中，哈利三人必须赶在伏地魔之前找到最后的魂器，而关于伏地魔、死亡圣器以及哈利自身命运的秘密也逐渐接近最终答案。多年恩怨与所有未解的谜团，都将在霍格沃茨迎来最后的对决……",
-    "douban_url": "https://movie.douban.com/subject/3011235/",
-    "tmdb_id": 12445
   },
   {
     "id": "douban-1291543",
@@ -2122,8 +2091,8 @@ const MOVIES = [
       "奇幻"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "1366015人评价",
-    "tmdb_rating": 7.516,
+    "douban_votes": "1368040人评价",
+    "tmdb_rating": 7.518,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "警恶惩奸，维护世界和平这个任务就交给你了，好吗？",
@@ -2131,6 +2100,37 @@ const MOVIES = [
     "overview": "20世纪40年代的上海，街头混混阿星自小受尽欺辱，一心想加入横行上海的黑道势力“斧头帮”，借此出人头地。一次，他假冒斧头帮成员来到贫民社区“猪笼城寨”敲诈居民，却阴差阳错招来了真正的斧头帮。谁也没有想到，这个看似破败的城寨其实卧虎藏龙，除了脾气火爆的包租婆和看似懦弱的包租公，居民中还隐藏着多位身怀绝技的武林高手。原本只想借斧头帮之名谋取好处的阿星，也因此被卷入斧头帮与猪笼城寨之间不断升级的冲突，并开始面对自己究竟要成为怎样的人……",
     "douban_url": "https://movie.douban.com/subject/1291543/",
     "tmdb_id": 9470
+  },
+  {
+    "id": "douban-3011235",
+    "title": "哈利·波特与死亡圣器(下)",
+    "title_en": "Harry Potter and the Deathly Hallows: Part 2",
+    "year": "2011",
+    "directors": [
+      "大卫·叶茨"
+    ],
+    "actors": [
+      "丹尼尔·雷德克里夫",
+      "艾玛·沃森",
+      "鲁伯特·格林特",
+      "拉尔夫·费因斯",
+      "艾伦·瑞克曼",
+      "迈克尔·甘本"
+    ],
+    "genres": [
+      "奇幻",
+      "冒险"
+    ],
+    "douban_rating": 9.0,
+    "douban_votes": "987525人评价",
+    "tmdb_rating": 8.08,
+    "rt_tomatometer": null,
+    "rt_audience": null,
+    "reason": "10年的完美句点。",
+    "poster": "posters/douban-3011235.jpg",
+    "overview": "哈利、罗恩和赫敏继续寻找并摧毁伏地魔剩余的魂器，而新的线索最终将他们再次带回已经被食死徒控制的霍格沃茨。随着哈利归来，麦格教授、纳威以及学校的师生和反抗力量开始集结，准备守卫霍格沃茨；伏地魔则率领食死徒大军向学校逼近，一场决定魔法世界命运的大战就此爆发。在战火之中，哈利三人必须赶在伏地魔之前找到最后的魂器，而关于伏地魔、死亡圣器以及哈利自身命运的秘密也逐渐接近最终答案。多年恩怨与所有未解的谜团，都将在霍格沃茨迎来最后的对决……",
+    "douban_url": "https://movie.douban.com/subject/3011235/",
+    "tmdb_id": 12445
   },
   {
     "id": "douban-1293350",
@@ -2154,7 +2154,7 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "688495人评价",
+    "douban_votes": "689513人评价",
     "tmdb_rating": 8.093,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -2185,8 +2185,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "1345695人评价",
-    "tmdb_rating": 7.841,
+    "douban_votes": "1347484人评价",
+    "tmdb_rating": 7.814,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 69 名，评分 8.9。",
@@ -2218,8 +2218,8 @@ const MOVIES = [
       "歌舞"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "694327人评价",
-    "tmdb_rating": 7.729,
+    "douban_votes": "695251人评价",
+    "tmdb_rating": 7.728,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 70 名，评分 9.1。",
@@ -2249,8 +2249,8 @@ const MOVIES = [
       "悬疑"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "640070人评价",
-    "tmdb_rating": 8.038,
+    "douban_votes": "640764人评价",
+    "tmdb_rating": 8.037,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "别样人生。",
@@ -2280,8 +2280,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "907827人评价",
-    "tmdb_rating": 8.012,
+    "douban_votes": "909295人评价",
+    "tmdb_rating": 8.013,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "不一样的导演，不一样的哈利·波特。",
@@ -2312,8 +2312,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "1604338人评价",
-    "tmdb_rating": 7.609,
+    "douban_votes": "1605755人评价",
+    "tmdb_rating": 7.61,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "绝对意义上的美轮美奂。",
@@ -2344,8 +2344,8 @@ const MOVIES = [
       "情色"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "1106199人评价",
-    "tmdb_rating": 7.566,
+    "douban_votes": "1107307人评价",
+    "tmdb_rating": 7.568,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 74 名，评分 8.9。",
@@ -2377,8 +2377,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "1460500人评价",
-    "tmdb_rating": 8.074,
+    "douban_votes": "1462218人评价",
+    "tmdb_rating": 8.071,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "你以为你以为的就是你以为的。",
@@ -2408,8 +2408,8 @@ const MOVIES = [
       "战争"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "737881人评价",
-    "tmdb_rating": 8.233,
+    "douban_votes": "739085人评价",
+    "tmdb_rating": 8.232,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 76 名，评分 9.1。",
@@ -2440,8 +2440,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "1031188人评价",
-    "tmdb_rating": 8.345,
+    "douban_votes": "1032599人评价",
+    "tmdb_rating": 8.3,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 77 名，评分 8.9。",
@@ -2472,8 +2472,8 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "475090人评价",
-    "tmdb_rating": 7.882,
+    "douban_votes": "475892人评价",
+    "tmdb_rating": 7.878,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 78 名，评分 9.2。",
@@ -2504,8 +2504,8 @@ const MOVIES = [
       "历史"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "390616人评价",
-    "tmdb_rating": 8.067,
+    "douban_votes": "392034人评价",
+    "tmdb_rating": 8.065,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 79 名，评分 9.3。",
@@ -2520,7 +2520,7 @@ const MOVIES = [
     "title_en": "The Butterfly Effect",
     "year": "2004",
     "directors": [
-      "J·麦基·格鲁伯"
+      "埃里克·布雷斯"
     ],
     "actors": [
       "阿什顿·库彻",
@@ -2537,8 +2537,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "1085097人评价",
-    "tmdb_rating": 7.578,
+    "douban_votes": "1086540人评价",
+    "tmdb_rating": 7.58,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "人的命运被自己瞬间的抉择改变。",
@@ -2569,8 +2569,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "1101856人评价",
-    "tmdb_rating": 8.026,
+    "douban_votes": "1103342人评价",
+    "tmdb_rating": 8.0,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "小清新的故事里注入了大历史的情怀。",
@@ -2599,8 +2599,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "612592人评价",
-    "tmdb_rating": 8.405,
+    "douban_votes": "613178人评价",
+    "tmdb_rating": 8.404,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 82 名，评分 9.1。",
@@ -2631,8 +2631,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "1131664人评价",
-    "tmdb_rating": 8.197,
+    "douban_votes": "1133129人评价",
+    "tmdb_rating": 8.2,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "昔日翩翩少年，今日大腹便便。",
@@ -2661,8 +2661,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "828169人评价",
-    "tmdb_rating": 8.166,
+    "douban_votes": "829347人评价",
+    "tmdb_rating": 8.165,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 84 名，评分 9.0。",
@@ -2693,8 +2693,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "980794人评价",
-    "tmdb_rating": 8.212,
+    "douban_votes": "982195人评价",
+    "tmdb_rating": 8.2,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "孪生蝙蝠侠大战克隆金刚狼。",
@@ -2725,8 +2725,8 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "975806人评价",
-    "tmdb_rating": 8.481,
+    "douban_votes": "977552人评价",
+    "tmdb_rating": 8.5,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 86 名，评分 8.9。",
@@ -2756,8 +2756,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "934871人评价",
-    "tmdb_rating": 7.707,
+    "douban_votes": "936428人评价",
+    "tmdb_rating": 7.709,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 87 名，评分 8.9。",
@@ -2788,8 +2788,8 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "528788人评价",
-    "tmdb_rating": 7.951,
+    "douban_votes": "530484人评价",
+    "tmdb_rating": 7.946,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 88 名，评分 9.1。",
@@ -2818,8 +2818,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "736071人评价",
-    "tmdb_rating": 7.623,
+    "douban_votes": "737175人评价",
+    "tmdb_rating": 7.621,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "穷尽一生，我们要学会的，不过是彼此拥抱。",
@@ -2850,8 +2850,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "1115851人评价",
-    "tmdb_rating": 7.4,
+    "douban_votes": "1117193人评价",
+    "tmdb_rating": 7.369,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 90 名，评分 8.8。",
@@ -2882,7 +2882,7 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "968679人评价",
+    "douban_votes": "970215人评价",
     "tmdb_rating": 7.18,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -2916,8 +2916,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "853141人评价",
-    "tmdb_rating": 8.062,
+    "douban_votes": "854555人评价",
+    "tmdb_rating": 8.063,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 92 名，评分 8.9。",
@@ -2948,8 +2948,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "353317人评价",
-    "tmdb_rating": 8.283,
+    "douban_votes": "353853人评价",
+    "tmdb_rating": 8.282,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 93 名，评分 9.3。",
@@ -2980,7 +2980,7 @@ const MOVIES = [
       "奇幻"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "985258人评价",
+    "douban_votes": "986644人评价",
     "tmdb_rating": 7.835,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -3010,8 +3010,8 @@ const MOVIES = [
       "同性"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "718539人评价",
-    "tmdb_rating": 7.599,
+    "douban_votes": "719386人评价",
+    "tmdb_rating": 7.6,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 95 名，评分 9.0。",
@@ -3040,8 +3040,8 @@ const MOVIES = [
       "纪录片"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "385667人评价",
-    "tmdb_rating": 7.952,
+    "douban_votes": "385974人评价",
+    "tmdb_rating": 7.951,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "海豚的微笑，是世界上最高明的伪装。",
@@ -3071,8 +3071,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "479985人评价",
-    "tmdb_rating": 8.373,
+    "douban_votes": "480733人评价",
+    "tmdb_rating": 8.368,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 97 名，评分 9.1。",
@@ -3104,8 +3104,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "1081452人评价",
-    "tmdb_rating": 8.381,
+    "douban_votes": "1083122人评价",
+    "tmdb_rating": 8.382,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 98 名，评分 8.8。",
@@ -3137,8 +3137,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "583472人评价",
-    "tmdb_rating": 7.814,
+    "douban_votes": "584638人评价",
+    "tmdb_rating": 7.8,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "梦的勾结。",
@@ -3169,13 +3169,13 @@ const MOVIES = [
       "古装"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "1245597人评价",
+    "douban_votes": "1247013人评价",
     "tmdb_rating": 7.5,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 100 名，评分 8.8。",
     "poster": "posters/douban-1306249.jpg",
-    "overview": "江南四大才子之首唐伯虎才华横溢，却有着旁人不知的烦恼。面对意图拉拢自己图谋大事的宁王，他只想设法脱身，过些自在日子。一次与好友出游时，唐伯虎偶遇华府丫鬟秋香，并对她一见钟情。为了接近心上人，他费尽心思混入华府，化名“华安”成为家丁，由此闹出一连串令人啼笑皆非的故事。然而随着唐伯虎与秋香逐渐靠近，他也发现华府与唐家之间隐藏着一段旧日恩怨，而虎视眈眈的宁王也再次找上门来……",
+    "overview": "唐伯虎（周星驰 饰）身为江南四大才子之首，却有道不尽的心酸。宁王想唐伯虎帮忙图谋作反，唐伯虎只好用内功改变脉象，令众人都相信他命不久矣。母亲埋怨他不应该把功夫暴露，因为他们家族一直被当年的仇人追杀。唐伯虎在与朋友出游时，遇到了貌若天仙的秋香并对她一见钟情，决心要到华府当家丁以追求秋香，唐伯虎被取名华安。期间华太师遇到了宁王上门刁难，幸好有唐伯虎出面相助，并暴露了自己是唐伯虎的身份。秋香才知道华安是自己欣赏的唐伯虎。华夫人跟唐家有怨，因此二人便开始斗法。怎料宁王跟夺命书生再次上门，华夫人不是对手，幸得唐伯虎出手，华夫人也答应把秋香许配给唐伯虎。",
     "douban_url": "https://movie.douban.com/subject/1306249/",
     "tmdb_id": 37703
   },
@@ -3199,8 +3199,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "480827人评价",
-    "tmdb_rating": 8.097,
+    "douban_votes": "481642人评价",
+    "tmdb_rating": 8.1,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "人言可畏。",
@@ -3229,7 +3229,7 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "1570872人评价",
+    "douban_votes": "1572794人评价",
     "tmdb_rating": 8.49,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -3261,8 +3261,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "681468人评价",
-    "tmdb_rating": 8.321,
+    "douban_votes": "682316人评价",
+    "tmdb_rating": 8.322,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 103 名，评分 8.9。",
@@ -3292,8 +3292,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "686606人评价",
-    "tmdb_rating": 7.867,
+    "douban_votes": "687655人评价",
+    "tmdb_rating": 7.847,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 104 名，评分 8.9。",
@@ -3326,8 +3326,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "831129人评价",
-    "tmdb_rating": 7.797,
+    "douban_votes": "832406人评价",
+    "tmdb_rating": 7.798,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "诺兰就是保证。",
@@ -3357,8 +3357,8 @@ const MOVIES = [
       "奇幻"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "344291人评价",
-    "tmdb_rating": 7.822,
+    "douban_votes": "344956人评价",
+    "tmdb_rating": 7.8,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 106 名，评分 9.2。",
@@ -3391,8 +3391,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "1164604人评价",
-    "tmdb_rating": 7.725,
+    "douban_votes": "1165997人评价",
+    "tmdb_rating": 7.726,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "Balalala~~~",
@@ -3422,8 +3422,8 @@ const MOVIES = [
       "历史"
     ],
     "douban_rating": 9.5,
-    "douban_votes": "218103人评价",
-    "tmdb_rating": 8.7,
+    "douban_votes": "218852人评价",
+    "tmdb_rating": 8.568,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 108 名，评分 9.5。",
@@ -3454,8 +3454,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "651612人评价",
-    "tmdb_rating": 7.954,
+    "douban_votes": "652604人评价",
+    "tmdb_rating": 7.956,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 109 名，评分 8.9。",
@@ -3486,8 +3486,8 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "630820人评价",
-    "tmdb_rating": 7.885,
+    "douban_votes": "631458人评价",
+    "tmdb_rating": 7.889,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "《我是山姆》的《美丽人生》。",
@@ -3517,8 +3517,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "668615人评价",
-    "tmdb_rating": 7.806,
+    "douban_votes": "669773人评价",
+    "tmdb_rating": 7.808,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "九年后的重逢是世俗和责任的交叠，没了悸动和青涩，沧桑而温暖。",
@@ -3526,37 +3526,6 @@ const MOVIES = [
     "overview": "九年前，杰西（伊桑·霍克 饰）与席琳（朱莉·德尔佩 饰）在火车上不期而遇，怦然心动。在维也纳渡过疯狂而又浪漫的一夜后，他们在日出前分手，并相约在维也纳重逢。\r 九年之后，杰西已成为畅销书作家，而席琳则是法国环保组织成员。杰西在新书里娓娓道来的，正是九年前的浪漫夜晚。在巴黎促销新书时，杰西与席琳在书店相遇，然而他们只有一下午的时光相处，日落之前，杰西要乘飞机赶回美国。两人在午后的巴黎街头散步，在美丽的护城河上泛舟，无所不谈，兴致勃勃。可是就像命运的捉弄，快乐的时光像烟花一样醉人却短暂。",
     "douban_url": "https://movie.douban.com/subject/1291990/",
     "tmdb_id": 80
-  },
-  {
-    "id": "douban-1296339",
-    "title": "爱在黎明破晓前",
-    "title_en": "Before Sunrise",
-    "year": "1995",
-    "directors": [
-      "理查德·林克莱特"
-    ],
-    "actors": [
-      "伊桑·霍克",
-      "朱莉·德尔佩",
-      "安德里亚·埃克特",
-      "汉诺·波西尔",
-      "卡尔·布鲁克施瓦格",
-      "特克斯·鲁比诺威茨"
-    ],
-    "genres": [
-      "剧情",
-      "爱情"
-    ],
-    "douban_rating": 8.8,
-    "douban_votes": "819084人评价",
-    "tmdb_rating": 7.968,
-    "rt_tomatometer": null,
-    "rt_audience": null,
-    "reason": "豆瓣 Top 250 第 112 名，评分 8.8。",
-    "poster": "posters/douban-1296339.jpg",
-    "overview": "美国青年杰西（伊桑·霍克 饰）在火车上偶遇了法国女学生塞琳娜（朱莉·德尔佩 饰），两人在火车上交谈甚欢。当火车到达维也纳时，杰西盛情邀请塞琳娜一起在维也纳游览一番，即使杰西翌日便要坐飞机离开。与杰西一见钟情的塞琳娜接受了杰西的邀请。\r 他们一边游览城市，一边谈论着彼此的过去 ，彼此对生活的感想，两人了解越加深刻。他们非常珍惜这美妙的晚上，这对恋人一起经历了很多浪漫的经历因为他们约定在半年后再见，而此次约会将会在日出之间结束……",
-    "douban_url": "https://movie.douban.com/subject/1296339/",
-    "tmdb_id": 76
   },
   {
     "id": "douban-10533913",
@@ -3580,8 +3549,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "825841人评价",
-    "tmdb_rating": 7.906,
+    "douban_votes": "827236人评价",
+    "tmdb_rating": 7.905,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "愿我们都不用长大，每一座城堡都能永远存在。",
@@ -3589,6 +3558,37 @@ const MOVIES = [
     "overview": "11岁的莱莉原本在明尼苏达州过着快乐而熟悉的生活，直到父亲因为工作带着全家搬到旧金山。陌生的城市、新家和学校让她一时难以适应，而在莱莉的大脑总部里，乐乐、忧忧、怒怒、怕怕和厌厌五种情绪也在努力帮助她面对生活中的变化。一次意外却让乐乐和忧忧带着重要的核心记忆离开了总部，迷失在莱莉庞大而复杂的脑海世界。失去她们的平衡后，莱莉的生活也开始逐渐失控。为了回到大脑总部，乐乐与忧忧不得不携手穿越记忆深处，而这段旅程也将让她们重新认识每一种情绪真正的意义……",
     "douban_url": "https://movie.douban.com/subject/10533913/",
     "tmdb_id": 150540
+  },
+  {
+    "id": "douban-1296339",
+    "title": "爱在黎明破晓前",
+    "title_en": "Before Sunrise",
+    "year": "1995",
+    "directors": [
+      "理查德·林克莱特"
+    ],
+    "actors": [
+      "伊桑·霍克",
+      "朱莉·德尔佩",
+      "安德里亚·埃克特",
+      "汉诺·波西尔",
+      "卡尔·布鲁克施瓦格",
+      "特克斯·鲁比诺威茨"
+    ],
+    "genres": [
+      "剧情",
+      "爱情"
+    ],
+    "douban_rating": 8.8,
+    "douban_votes": "820457人评价",
+    "tmdb_rating": 7.968,
+    "rt_tomatometer": null,
+    "rt_audience": null,
+    "reason": "豆瓣 Top 250 第 113 名，评分 8.8。",
+    "poster": "posters/douban-1296339.jpg",
+    "overview": "美国青年杰西（伊桑·霍克 饰）在火车上偶遇了法国女学生塞琳娜（朱莉·德尔佩 饰），两人在火车上交谈甚欢。当火车到达维也纳时，杰西盛情邀请塞琳娜一起在维也纳游览一番，即使杰西翌日便要坐飞机离开。与杰西一见钟情的塞琳娜接受了杰西的邀请。\r 他们一边游览城市，一边谈论着彼此的过去 ，彼此对生活的感想，两人了解越加深刻。他们非常珍惜这美妙的晚上，这对恋人一起经历了很多浪漫的经历因为他们约定在半年后再见，而此次约会将会在日出之间结束……",
+    "douban_url": "https://movie.douban.com/subject/1296339/",
+    "tmdb_id": 76
   },
   {
     "id": "douban-1309055",
@@ -3612,8 +3612,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "819710人评价",
-    "tmdb_rating": 7.802,
+    "douban_votes": "821121人评价",
+    "tmdb_rating": 7.803,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 114 名，评分 8.8。",
@@ -3646,8 +3646,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "435919人评价",
-    "tmdb_rating": 8.306,
+    "douban_votes": "436819人评价",
+    "tmdb_rating": 8.3,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 115 名，评分 9.1。",
@@ -3677,7 +3677,7 @@ const MOVIES = [
       "歌舞"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "784168人评价",
+    "douban_votes": "784855人评价",
     "tmdb_rating": 7.794,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -3708,8 +3708,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "936926人评价",
-    "tmdb_rating": 7.977,
+    "douban_votes": "938098人评价",
+    "tmdb_rating": 7.975,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 117 名，评分 8.8。",
@@ -3740,8 +3740,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "638449人评价",
-    "tmdb_rating": 7.681,
+    "douban_votes": "639217人评价",
+    "tmdb_rating": 7.7,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "曾经的那段美好会沉淀为一辈子的记忆。",
@@ -3771,8 +3771,8 @@ const MOVIES = [
       "喜剧"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "685139人评价",
-    "tmdb_rating": 7.522,
+    "douban_votes": "685947人评价",
+    "tmdb_rating": 7.517,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 119 名，评分 8.9。",
@@ -3801,8 +3801,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "751092人评价",
-    "tmdb_rating": 7.851,
+    "douban_votes": "751695人评价",
+    "tmdb_rating": 7.854,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "死可能是一道门，逝去并不是终结，而是超越，走向下一程。",
@@ -3834,8 +3834,8 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "795356人评价",
-    "tmdb_rating": 7.783,
+    "douban_votes": "796454人评价",
+    "tmdb_rating": 7.782,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "每个人心中都有一座断背山。",
@@ -3866,8 +3866,8 @@ const MOVIES = [
       "奇幻"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "1132488人评价",
-    "tmdb_rating": 7.72,
+    "douban_votes": "1133428人评价",
+    "tmdb_rating": 7.719,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 122 名，评分 8.7。",
@@ -3875,6 +3875,38 @@ const MOVIES = [
     "overview": "爱德华（约翰尼·戴普 饰）是一个机器人，他拥有人的心智，却有一双剪刀手，孤独地生活在古堡里，闯入古堡的化妆品推销员佩格把他带回家，让他走进了人类的世界。单纯的爱德华爱上了佩格的女儿金（薇诺娜·瑞德 饰），金也慢慢的被爱德华的善良所吸引。但是，一连串的意外事情让周围的人邻居对爱德华的态度从喜欢变成无法接受，爱德华痛苦地发现，他总是好心办坏事，连自己的爱人都不能拥抱，或许，他注定就不属于这个世界。",
     "douban_url": "https://movie.douban.com/subject/1292370/",
     "tmdb_id": 162
+  },
+  {
+    "id": "douban-10577869",
+    "title": "时空恋旅人",
+    "title_en": "About Time",
+    "year": "2013",
+    "directors": [
+      "理查德·柯蒂斯"
+    ],
+    "actors": [
+      "多姆纳尔·格里森",
+      "瑞秋·麦克亚当斯",
+      "比尔·奈伊",
+      "汤姆·霍兰德尔",
+      "玛格特·罗比",
+      "莉迪亚·威尔逊"
+    ],
+    "genres": [
+      "喜剧",
+      "爱情",
+      "奇幻"
+    ],
+    "douban_rating": 8.8,
+    "douban_votes": "811717人评价",
+    "tmdb_rating": 7.901,
+    "rt_tomatometer": null,
+    "rt_audience": null,
+    "reason": "把每天当作最后一天般珍惜度过，积极拥抱生活，就是幸福。",
+    "poster": "posters/douban-10577869.jpg",
+    "overview": "21岁的时候，蒂姆·雷克（多姆纳尔·格里森 饰）突然得知自己有穿越时空的能力。在和往年一样不欢而散的年夜饭之后，蒂姆的爸爸（比尔·奈伊 饰）跟他坦诚布公：我们这个家族的男人，生来就有着穿越时空的神力。蒂姆虽然不能改变历史，但是他能够改变自己生命中发生过的和将要发生的一些小事，所以他决定运用自己的能力，让生活变得美好——说白了他是希望给自己找一个女朋友。然而，这并非像他想象中那么容易。蒂姆从康沃尔海岸搬到了伦敦，受训成为律师，在这里他终于遇上了一位漂亮但不那么自信的姑娘，名叫玛丽（瑞秋·麦克亚当斯 饰）。两人相爱了。然而一次“穿越”当中，蒂姆不小心改变的一件小事就像“蝴蝶效应”一样让他在将来生活中没有机会遇到玛丽。通过一次又一次的尝试，蒂姆一次又一次地和玛丽相遇，他终于赢得了她的心。",
+    "douban_url": "https://movie.douban.com/subject/10577869/",
+    "tmdb_id": 122906
   },
   {
     "id": "douban-1294639",
@@ -3900,47 +3932,15 @@ const MOVIES = [
       "战争"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "612590人评价",
-    "tmdb_rating": 7.944,
+    "douban_votes": "613200人评价",
+    "tmdb_rating": 7.945,
     "rt_tomatometer": null,
     "rt_audience": null,
-    "reason": "豆瓣 Top 250 第 123 名，评分 8.9。",
+    "reason": "豆瓣 Top 250 第 124 名，评分 8.9。",
     "poster": "posters/douban-1294639.jpg",
     "overview": "威廉·华莱士童年时，其父、苏格兰民族英雄马索·华莱士在与英军的斗争中牺牲，他开始接受父亲好友的指导，学习苏格兰文化和武术。青年华莱士（梅尔·吉布森 饰）学成回到故乡，向美丽的少女梅伦求婚，不想梅伦被英军抢去且遭杀害。在广大村民“英雄之后”的呼声中，华莱士率众揭竿起义，并与苏格兰贵族罗伯结成联盟，但不久他发现，苏格兰贵族考虑的只是自身的利益。英王为缓和局势，派伊莎贝拉（苏菲·玛索 饰）前去和华莱士谈判，由于英王只想收买华莱士，根本不顾苏格兰人民的自由和平等，谈判失败，但这一切并不为伊莎贝拉所知。伊莎贝拉归国后发现事情真相，且知晓英王正策划阴招，忙送信给华莱士，而两人的爱情，也在战争与阴谋中悄然滋生。",
     "douban_url": "https://movie.douban.com/subject/1294639/",
     "tmdb_id": 197
-  },
-  {
-    "id": "douban-10577869",
-    "title": "时空恋旅人",
-    "title_en": "About Time",
-    "year": "2013",
-    "directors": [
-      "理查德·柯蒂斯"
-    ],
-    "actors": [
-      "多姆纳尔·格里森",
-      "瑞秋·麦克亚当斯",
-      "比尔·奈伊",
-      "汤姆·霍兰德尔",
-      "玛格特·罗比",
-      "莉迪亚·威尔逊"
-    ],
-    "genres": [
-      "喜剧",
-      "爱情",
-      "奇幻"
-    ],
-    "douban_rating": 8.8,
-    "douban_votes": "810264人评价",
-    "tmdb_rating": 7.902,
-    "rt_tomatometer": null,
-    "rt_audience": null,
-    "reason": "把每天当作最后一天般珍惜度过，积极拥抱生活，就是幸福。",
-    "poster": "posters/douban-10577869.jpg",
-    "overview": "21岁的时候，蒂姆·雷克（多姆纳尔·格里森 饰）突然得知自己有穿越时空的能力。在和往年一样不欢而散的年夜饭之后，蒂姆的爸爸（比尔·奈伊 饰）跟他坦诚布公：我们这个家族的男人，生来就有着穿越时空的神力。蒂姆虽然不能改变历史，但是他能够改变自己生命中发生过的和将要发生的一些小事，所以他决定运用自己的能力，让生活变得美好——说白了他是希望给自己找一个女朋友。然而，这并非像他想象中那么容易。蒂姆从康沃尔海岸搬到了伦敦，受训成为律师，在这里他终于遇上了一位漂亮但不那么自信的姑娘，名叫玛丽（瑞秋·麦克亚当斯 饰）。两人相爱了。然而一次“穿越”当中，蒂姆不小心改变的一件小事就像“蝴蝶效应”一样让他在将来生活中没有机会遇到玛丽。通过一次又一次的尝试，蒂姆一次又一次地和玛丽相遇，他终于赢得了她的心。",
-    "douban_url": "https://movie.douban.com/subject/10577869/",
-    "tmdb_id": 122906
   },
   {
     "id": "douban-1858711",
@@ -3965,8 +3965,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "612337人评价",
-    "tmdb_rating": 7.817,
+    "douban_votes": "613287人评价",
+    "tmdb_rating": 7.8,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "跨度十五年的欢乐与泪水。",
@@ -3996,8 +3996,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "959195人评价",
-    "tmdb_rating": 8.051,
+    "douban_votes": "960884人评价",
+    "tmdb_rating": 8.052,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "爱是摈弃傲慢与偏见之后的曙光。",
@@ -4028,8 +4028,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "882039人评价",
-    "tmdb_rating": 7.867,
+    "douban_votes": "883270人评价",
+    "tmdb_rating": 7.868,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "和谐的生活离不开摸头与被摸头。",
@@ -4059,8 +4059,8 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "540384人评价",
-    "tmdb_rating": 7.435,
+    "douban_votes": "541351人评价",
+    "tmdb_rating": 7.441,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "要做就做得狠一点，这样才能活下去。",
@@ -4092,8 +4092,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "1089643人评价",
-    "tmdb_rating": 7.889,
+    "douban_votes": "1090795人评价",
+    "tmdb_rating": 7.9,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "年度最佳date movie。",
@@ -4122,8 +4122,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "379761人评价",
-    "tmdb_rating": 8.012,
+    "douban_votes": "380327人评价",
+    "tmdb_rating": 8.014,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "我的平常生活就是他人的幸福。",
@@ -4155,8 +4155,8 @@ const MOVIES = [
       "古装"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "847565人评价",
-    "tmdb_rating": 7.32,
+    "douban_votes": "848483人评价",
+    "tmdb_rating": 7.3,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 131 名，评分 8.8。",
@@ -4186,8 +4186,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "822700人评价",
-    "tmdb_rating": 8.091,
+    "douban_votes": "824089人评价",
+    "tmdb_rating": 8.089,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 132 名，评分 8.8。",
@@ -4218,8 +4218,8 @@ const MOVIES = [
       "情色"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "981628人评价",
-    "tmdb_rating": 7.286,
+    "douban_votes": "983219人评价",
+    "tmdb_rating": 7.284,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "假戏真情，爱欲深海",
@@ -4248,7 +4248,7 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "581774人评价",
+    "douban_votes": "582762人评价",
     "tmdb_rating": 7.605,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -4282,8 +4282,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "784515人评价",
-    "tmdb_rating": 7.857,
+    "douban_votes": "785496人评价",
+    "tmdb_rating": 7.858,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 135 名，评分 8.8。",
@@ -4313,8 +4313,8 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "366581人评价",
-    "tmdb_rating": 7.501,
+    "douban_votes": "367067人评价",
+    "tmdb_rating": 7.508,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 136 名，评分 9.1。",
@@ -4344,8 +4344,8 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "441667人评价",
-    "tmdb_rating": 7.416,
+    "douban_votes": "442357人评价",
+    "tmdb_rating": 7.414,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 137 名，评分 9.0。",
@@ -4376,8 +4376,8 @@ const MOVIES = [
       "古装"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "812678人评价",
-    "tmdb_rating": 7.465,
+    "douban_votes": "813835人评价",
+    "tmdb_rating": 7.468,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 138 名，评分 8.8。",
@@ -4406,8 +4406,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "481245人评价",
-    "tmdb_rating": 7.766,
+    "douban_votes": "481943人评价",
+    "tmdb_rating": 7.774,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "那些静得只能听见呼吸的日子里，你明白孤独即生活。",
@@ -4438,8 +4438,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "1031155人评价",
-    "tmdb_rating": 7.92,
+    "douban_votes": "1031932人评价",
+    "tmdb_rating": 7.921,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 140 名，评分 8.7。",
@@ -4469,8 +4469,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "706343人评价",
-    "tmdb_rating": 7.845,
+    "douban_votes": "707163人评价",
+    "tmdb_rating": 7.8,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 141 名，评分 8.8。",
@@ -4501,8 +4501,8 @@ const MOVIES = [
       "奇幻"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "314739人评价",
-    "tmdb_rating": 7.738,
+    "douban_votes": "315170人评价",
+    "tmdb_rating": 7.711,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 142 名，评分 9.2。",
@@ -4534,7 +4534,7 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "706909人评价",
+    "douban_votes": "708063人评价",
     "tmdb_rating": 8.193,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -4566,8 +4566,8 @@ const MOVIES = [
       "动画"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "528655人评价",
-    "tmdb_rating": 7.944,
+    "douban_votes": "529236人评价",
+    "tmdb_rating": 7.941,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 144 名，评分 8.9。",
@@ -4598,7 +4598,7 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "652798人评价",
+    "douban_votes": "653661人评价",
     "tmdb_rating": 7.355,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -4630,8 +4630,8 @@ const MOVIES = [
       "同性"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "840036人评价",
-    "tmdb_rating": 8.08,
+    "douban_votes": "841164人评价",
+    "tmdb_rating": 8.079,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "沉醉在电影的情感和视听氛围中无法自拔。",
@@ -4662,8 +4662,8 @@ const MOVIES = [
       "灾难"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "1372704人评价",
-    "tmdb_rating": 7.749,
+    "douban_votes": "1374361人评价",
+    "tmdb_rating": 7.75,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "揭露人性的丧尸题材力作。",
@@ -4694,8 +4694,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "1063342人评价",
-    "tmdb_rating": 7.261,
+    "douban_votes": "1064396人评价",
+    "tmdb_rating": 7.262,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "Mr. I Don't Care其实也有Care的时候。",
@@ -4724,8 +4724,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "426877人评价",
-    "tmdb_rating": 7.808,
+    "douban_votes": "427382人评价",
+    "tmdb_rating": 7.818,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "尊敬他人，尊敬你生活的这片土地，明白孤独是人生的常态。",
@@ -4758,8 +4758,8 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "442874人评价",
-    "tmdb_rating": 7.217,
+    "douban_votes": "443992人评价",
+    "tmdb_rating": 7.216,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 150 名，评分 9.0。",
@@ -4791,8 +4791,8 @@ const MOVIES = [
       "奇幻"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "623402人评价",
-    "tmdb_rating": 8.258,
+    "douban_votes": "624280人评价",
+    "tmdb_rating": 8.256,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "触不到的恋人。",
@@ -4822,13 +4822,13 @@ const MOVIES = [
       "悬疑"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "755241人评价",
-    "tmdb_rating": 7.587,
+    "douban_votes": "756138人评价",
+    "tmdb_rating": 7.586,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "没有一人完全善，也没有一人完全恶。",
     "poster": "posters/douban-4268598.jpg",
-    "overview": "一所平凡的中学，1年B组即将迎来春假。不知天高地厚的学生们肆意吵闹，殊不知一场绵亘数月的风暴正向他们袭来。级任教师森口悠子（松隆子 饰）全然无视这片混乱，静静地向学生们做出最后的告白。这个单亲妈妈独自抚养着可爱的女儿（芦田爱菜 饰），然而女儿最终在游泳池中溺水身亡。警察 认定这是一起意外，森口则认定女儿死于班上两个学生之手。她不动声色地指责着犯人A和B，并宣布用自己的方式进行复仇。在此之后，森口辞去教师职务，1年B班的学生也心怀惴惴迎来了春假。新学期开始，残酷的风暴袭向了这群无知无畏的少男少女……本片根据湊かなえ的原作改编，并成为2010年电影旬报十佳影片；第34届日本电影学院奖最佳作品、最佳导演、最佳剧本和最佳剪辑4项大奖。",
+    "overview": "一所平凡的中学，1年B组即将迎来春假。不知天高地厚的学生们肆意吵闹，殊不知一场绵亘数月的风暴正向他们袭来。级任教师森口悠子（松隆子 饰）全然无视这片混乱，静静地向学生们做出最后的告白。这个单亲妈妈独自抚养着可爱的女儿（芦田爱菜 饰），然而女儿最终在游泳池中溺水身亡。警察 认定这是一起意外，森口则认定女儿死于班上两个学生之手。她不动声色地指责着犯人A和B，并宣布用自己的方式进行复仇。在此之后，森口辞去教师职务，1年B班的学生也心怀惴惴迎来了春假。新学期开始，残酷的风暴袭向了这群无知无畏的少男少女…… 本片根据湊かなえ的原作改编，并成为2010年电影旬报十佳影片；第34届日本电影学院奖最佳作品、最佳导演、最佳剧本和最佳剪辑4项大奖。",
     "douban_url": "https://movie.douban.com/subject/4268598/",
     "tmdb_id": 54186
   },
@@ -4854,8 +4854,8 @@ const MOVIES = [
       "音乐"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "466033人评价",
-    "tmdb_rating": 7.95,
+    "douban_votes": "467982人评价",
+    "tmdb_rating": 7.961,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 153 名，评分 9.1。",
@@ -4886,8 +4886,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "241796人评价",
-    "tmdb_rating": 8.452,
+    "douban_votes": "242332人评价",
+    "tmdb_rating": 8.5,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 154 名，评分 9.3。",
@@ -4918,8 +4918,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "1540105人评价",
-    "tmdb_rating": 7.587,
+    "douban_votes": "1541670人评价",
+    "tmdb_rating": 7.585,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "写给影迷，动漫迷和游戏迷的一封情书。",
@@ -4949,9 +4949,9 @@ const MOVIES = [
       "喜剧",
       "动画"
     ],
-    "douban_rating": 9.0,
-    "douban_votes": "477838人评价",
-    "tmdb_rating": 7.879,
+    "douban_rating": 8.9,
+    "douban_votes": "478335人评价",
+    "tmdb_rating": 7.881,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "你是我最好的朋友，你是我唯一的朋友 。",
@@ -4983,47 +4983,15 @@ const MOVIES = [
       "同性"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "730499人评价",
-    "tmdb_rating": 7.98,
+    "douban_votes": "731316人评价",
+    "tmdb_rating": 7.978,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "他给机器起名“克里斯托弗”，因为这是他初恋的名字。",
     "poster": "posters/douban-10463953.jpg",
-    "overview": "根据Andrew Hodges所写的传记《艾伦·图灵》（Alan Turing: The Enigma）改编。艾伦·图灵是英国数学家、逻辑学家，二战中曾协助军方破解德国的著名密码系统Enigma，对盟军取得了二战的胜利有一定的帮助。图灵对于人工智能的发展有诸多贡献，著名的图灵机模型为现代计算机的逻辑工作方式奠定了基础。图灵是著名的同性恋之一，并因为其同性恋倾向而遭到迫害，使得他的职业生涯尽毁。1952年，他的同性伴侣协同一名同谋一起闯进了图灵的房子实施盗窃。图灵为此而报警。但是警方的调查结果使得他被控以“明显的猥亵和性颠倒行为”。他没有申辩，并被定罪。在著名的公审后，他被给予了两个选择：坐牢或荷尔蒙疗法。他选择了荷尔蒙注射，并持续了一年。在这段时间里，药物产生了包括乳房不断发育的副作用。1954年，图灵因食用浸过氰化物溶液的苹果死亡。很多人相信他是自杀。但是他的母亲极力争论他的死是意外，因为他在实验室里不小心堆放了很多化学物品。",
+    "overview": "改编自安德鲁·霍奇斯的传记《艾伦·图灵：谜》。二战期间，数学家艾伦·图灵加入英国绝密密码破译小组，设计机器破解德国“恩尼格玛”密码，在拯救无数生命的同时，也经历了战后人生的悲剧。",
     "douban_url": "https://movie.douban.com/subject/10463953/",
     "tmdb_id": 205596
-  },
-  {
-    "id": "douban-1293181",
-    "title": "惊魂记",
-    "title_en": "Psycho",
-    "year": "1960",
-    "directors": [
-      "阿尔弗雷德·希区柯克"
-    ],
-    "actors": [
-      "安东尼·帕金斯",
-      "珍妮特·利",
-      "薇拉·迈尔斯",
-      "约翰·加文",
-      "马丁·巴尔萨姆",
-      "约翰·麦金太尔"
-    ],
-    "genres": [
-      "悬疑",
-      "惊悚",
-      "恐怖"
-    ],
-    "douban_rating": 9.0,
-    "douban_votes": "365583人评价",
-    "tmdb_rating": 8.407,
-    "rt_tomatometer": null,
-    "rt_audience": null,
-    "reason": "豆瓣 Top 250 第 158 名，评分 9.0。",
-    "poster": "posters/douban-1293181.jpg",
-    "overview": "凤凰城一女秘书卷走客户四万美元公款，仓皇出逃途中入住一家偏僻汽车旅馆。旅馆经营者诺曼·贝茨是位受其母亲支配的年轻人。",
-    "douban_url": "https://movie.douban.com/subject/1293181/",
-    "tmdb_id": 539
   },
   {
     "id": "douban-24733428",
@@ -5047,15 +5015,47 @@ const MOVIES = [
       "音乐"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "1165092人评价",
+    "douban_votes": "1166557人评价",
     "tmdb_rating": 8.088,
     "rt_tomatometer": null,
     "rt_audience": null,
-    "reason": "豆瓣 Top 250 第 159 名，评分 8.7。",
+    "reason": "豆瓣 Top 250 第 158 名，评分 8.7。",
     "poster": "posters/douban-24733428.jpg",
-    "overview": "乔·加德纳是一位中学乐队老师，他获得了毕生难逢的机会——在纽约最好的爵士俱乐部演奏。但一次小小的失误将他从纽约街头带到了一个奇幻之境“生之来处”。这是一个新生灵魂在前往地球之前获得个性、怪癖和兴趣的地方。决心重返自己生活的乔，与一个名叫22的早熟灵魂结成了伙伴。22始终无法理解人类生活的吸引力。当乔拼命试图向22展示生命的精彩之处时，他或许也将发现一些关于生命最重要问题的答案。",
+    "overview": "乔·加德纳一名中学乐队教师，终于获得在顶级爵士俱乐部演出的机会。但一次意外让他来到“生之彼岸”，在那里他遇见了对人类生活毫无兴趣的灵魂22。为了回到自己的生活，乔试图让22发现活着的美好，也重新思考人生最重要的问题。",
     "douban_url": "https://movie.douban.com/subject/24733428/",
     "tmdb_id": 508442
+  },
+  {
+    "id": "douban-1293181",
+    "title": "惊魂记",
+    "title_en": "Psycho",
+    "year": "1960",
+    "directors": [
+      "阿尔弗雷德·希区柯克"
+    ],
+    "actors": [
+      "安东尼·帕金斯",
+      "珍妮特·利",
+      "薇拉·迈尔斯",
+      "约翰·加文",
+      "马丁·巴尔萨姆",
+      "约翰·麦金太尔"
+    ],
+    "genres": [
+      "悬疑",
+      "惊悚",
+      "恐怖"
+    ],
+    "douban_rating": 9.0,
+    "douban_votes": "366332人评价",
+    "tmdb_rating": 8.406,
+    "rt_tomatometer": null,
+    "rt_audience": null,
+    "reason": "豆瓣 Top 250 第 159 名，评分 9.0。",
+    "poster": "posters/douban-1293181.jpg",
+    "overview": "凤凰城一女秘书卷走客户四万美元公款，仓皇出逃途中入住一家偏僻汽车旅馆。旅馆经营者诺曼·贝茨是位受其母亲支配的年轻人。",
+    "douban_url": "https://movie.douban.com/subject/1293181/",
+    "tmdb_id": 539
   },
   {
     "id": "douban-1291545",
@@ -5080,8 +5080,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "635660人评价",
-    "tmdb_rating": 7.744,
+    "douban_votes": "636296人评价",
+    "tmdb_rating": 7.745,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 160 名，评分 8.8。",
@@ -5110,7 +5110,7 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.4,
-    "douban_votes": "186773人评价",
+    "douban_votes": "187292人评价",
     "tmdb_rating": 8.3,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -5142,8 +5142,8 @@ const MOVIES = [
       "动画"
     ],
     "douban_rating": 8.5,
-    "douban_votes": "1620497人评价",
-    "tmdb_rating": 8.487,
+    "douban_votes": "1622148人评价",
+    "tmdb_rating": 8.489,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "穿越错位的时空，仰望陨落的星辰，你没留下你的名字，我却无法忘记那句“我爱你”。",
@@ -5175,7 +5175,7 @@ const MOVIES = [
       "战争"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "872567人评价",
+    "douban_votes": "873732人评价",
     "tmdb_rating": 8.193,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -5184,39 +5184,6 @@ const MOVIES = [
     "overview": "第二次世界大战期间，来自弗吉尼亚州的戴斯蒙德·道斯主动参军，希望以医疗兵的身份救助战场上的伤员。然而由于个人信仰，他坚持不携带武器，也拒绝杀害任何人，这一选择让他在军营中遭到战友和上级的质疑、排斥，甚至一度面临无法继续服役的困境。尽管如此，道斯始终没有放弃自己的原则，也不愿放弃奔赴前线救人的愿望。当他最终随部队来到冲绳岛，被派往伤亡惨重的钢锯岭战场时，这个从未拿起过武器的医疗兵，也将在真正的枪林弹雨中面对对信念与勇气最严酷的考验……",
     "douban_url": "https://movie.douban.com/subject/26325320/",
     "tmdb_id": 324786
-  },
-  {
-    "id": "douban-1316510",
-    "title": "射雕英雄传之东成西就",
-    "title_en": "射鵰英雄傳之東成西就",
-    "year": "1993",
-    "directors": [
-      "刘镇伟"
-    ],
-    "actors": [
-      "张国荣",
-      "林青霞",
-      "张曼玉",
-      "梁朝伟",
-      "梁家辉",
-      "张学友"
-    ],
-    "genres": [
-      "喜剧",
-      "奇幻",
-      "武侠",
-      "古装"
-    ],
-    "douban_rating": 8.7,
-    "douban_votes": "728470人评价",
-    "tmdb_rating": 7.1,
-    "rt_tomatometer": null,
-    "rt_audience": null,
-    "reason": "豆瓣 Top 250 第 164 名，评分 8.7。",
-    "poster": "posters/douban-1316510.jpg",
-    "overview": "金轮国王妃与表哥欧阳锋暗中勾结，企图夺取王位，却始终找不到象征王权的传国玉玺。原来玉玺已经落到三公主手中，她带着玉玺逃离王宫，并前往九宫山寻找援手。为了斩草除根并夺回玉玺，欧阳锋一路紧追不舍，却在阴差阳错间惹出一连串荒唐事端。随着黄药师、洪七、周伯通等各路人物先后卷入其中，原本的夺位阴谋也逐渐演变成一场鸡飞狗跳、笑料百出的江湖混战……",
-    "douban_url": "https://movie.douban.com/subject/1316510/",
-    "tmdb_id": 55157
   },
   {
     "id": "douban-1422283",
@@ -5239,11 +5206,11 @@ const MOVIES = [
       "战争"
     ],
     "douban_rating": 9.5,
-    "douban_votes": "170029人评价",
-    "tmdb_rating": 8.435,
+    "douban_votes": "170956人评价",
+    "tmdb_rating": 8.4,
     "rt_tomatometer": null,
     "rt_audience": null,
-    "reason": "豆瓣 Top 250 第 165 名，评分 9.5。",
+    "reason": "豆瓣 Top 250 第 164 名，评分 9.5。",
     "poster": "posters/douban-1422283.jpg",
     "overview": "影片跟随一支解放军连队从训练、参加1979年对越自卫反击战到战后余波的全过程，聚焦军队内部因特权现象激发的矛盾与反思。",
     "douban_url": "https://movie.douban.com/subject/1422283/",
@@ -5271,15 +5238,48 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "363023人评价",
+    "douban_votes": "364164人评价",
     "tmdb_rating": 7.595,
     "rt_tomatometer": null,
     "rt_audience": null,
-    "reason": "豆瓣 Top 250 第 166 名，评分 9.0。",
+    "reason": "豆瓣 Top 250 第 165 名，评分 9.0。",
     "poster": "posters/douban-1291992.jpg",
     "overview": "两位女性，一辆青绿色雷鸟跑车，一场终身难忘的旅程。凭借这部流行文化里程碑之作，编剧卡莉·库利与动作片名导雷德利·斯科特改写了公路电影的规则，讲述一对闺蜜在周末旅行失控后意外沦为亡命之徒的故事——她们在西南公路上急速狂飙，躲避追捕的同时以自我意志追寻自由。苏珊·萨兰登与吉娜·戴维斯令人屏息的表演（加上布拉德·皮特性感耀眼的首秀）推动着剧情，影片获六项奥斯卡提名，并为库利赢得一座奖杯。本片这场酣畅淋漓的灵魂洗礼，堪称电影史上对生死与共的女性情谊最极致的礼赞。[标准收藏]",
     "douban_url": "https://movie.douban.com/subject/1291992/",
     "tmdb_id": 1541
+  },
+  {
+    "id": "douban-1316510",
+    "title": "射雕英雄传之东成西就",
+    "title_en": "射鵰英雄傳之東成西就",
+    "year": "1993",
+    "directors": [
+      "刘镇伟"
+    ],
+    "actors": [
+      "张国荣",
+      "林青霞",
+      "张曼玉",
+      "梁朝伟",
+      "梁家辉",
+      "张学友"
+    ],
+    "genres": [
+      "喜剧",
+      "奇幻",
+      "武侠",
+      "古装"
+    ],
+    "douban_rating": 8.7,
+    "douban_votes": "729280人评价",
+    "tmdb_rating": 7.1,
+    "rt_tomatometer": null,
+    "rt_audience": null,
+    "reason": "豆瓣 Top 250 第 166 名，评分 8.7。",
+    "poster": "posters/douban-1316510.jpg",
+    "overview": "金轮国王妃与表哥欧阳锋暗中勾结，企图夺取王位，却始终找不到象征王权的传国玉玺。原来玉玺已经落到三公主手中，她带着玉玺逃离王宫，并前往九宫山寻找援手。为了斩草除根并夺回玉玺，欧阳锋一路紧追不舍，却在阴差阳错间惹出一连串荒唐事端。随着黄药师、洪七、周伯通等各路人物先后卷入其中，原本的夺位阴谋也逐渐演变成一场鸡飞狗跳、笑料百出的江湖混战……",
+    "douban_url": "https://movie.douban.com/subject/1316510/",
+    "tmdb_id": 55157
   },
   {
     "id": "douban-1306861",
@@ -5302,7 +5302,7 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "383865人评价",
+    "douban_votes": "384390人评价",
     "tmdb_rating": 7.56,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -5333,8 +5333,8 @@ const MOVIES = [
       "喜剧"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "647013人评价",
-    "tmdb_rating": 7.8,
+    "douban_votes": "647686人评价",
+    "tmdb_rating": 7.793,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "再多各自牛逼的时光，也比不上一起傻逼的岁月。",
@@ -5364,8 +5364,8 @@ const MOVIES = [
       "科幻"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "505596人评价",
-    "tmdb_rating": 6.758,
+    "douban_votes": "506297人评价",
+    "tmdb_rating": 6.8,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 169 名，评分 8.8。",
@@ -5396,8 +5396,8 @@ const MOVIES = [
       "悬疑"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "739543人评价",
-    "tmdb_rating": 7.191,
+    "douban_votes": "740349人评价",
+    "tmdb_rating": 7.19,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "恐怖分子的“秋菊打官司”。",
@@ -5428,8 +5428,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "481179人评价",
-    "tmdb_rating": 7.443,
+    "douban_votes": "482090人评价",
+    "tmdb_rating": 7.445,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "像吃了苏打饼一样干脆的电影。",
@@ -5460,7 +5460,7 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "1139677人评价",
+    "douban_votes": "1140749人评价",
     "tmdb_rating": 8.1,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -5492,8 +5492,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "580960人评价",
-    "tmdb_rating": 7.3,
+    "douban_votes": "581847人评价",
+    "tmdb_rating": 7.284,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 173 名，评分 8.8。",
@@ -5523,7 +5523,7 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "934213人评价",
+    "douban_votes": "935211人评价",
     "tmdb_rating": 8.052,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -5555,7 +5555,7 @@ const MOVIES = [
       "恐怖"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "626087人评价",
+    "douban_votes": "627112人评价",
     "tmdb_rating": 7.428,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -5587,7 +5587,7 @@ const MOVIES = [
       "同性"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "514630人评价",
+    "douban_votes": "515327人评价",
     "tmdb_rating": 7.905,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -5619,8 +5619,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "934614人评价",
-    "tmdb_rating": 6.947,
+    "douban_votes": "935520人评价",
+    "tmdb_rating": 6.95,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "老少皆宜，这就是好莱坞动画的魅力。",
@@ -5650,8 +5650,8 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "942193人评价",
-    "tmdb_rating": 7.6,
+    "douban_votes": "943335人评价",
+    "tmdb_rating": 7.622,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "中国版《两杆大烟枪》。",
@@ -5683,8 +5683,8 @@ const MOVIES = [
       "悬疑"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "396669人评价",
-    "tmdb_rating": 8.5,
+    "douban_votes": "397280人评价",
+    "tmdb_rating": 8.505,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 179 名，评分 8.9。",
@@ -5715,8 +5715,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 9.1,
-    "douban_votes": "275602人评价",
-    "tmdb_rating": 8.1,
+    "douban_votes": "276079人评价",
+    "tmdb_rating": 8.124,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 180 名，评分 9.1。",
@@ -5724,37 +5724,6 @@ const MOVIES = [
     "overview": "　　1927年，由唐·洛克伍德（吉恩·凯利 饰）和丽娜·雷蒙德（简·哈根 饰）主演的《皇家流氓》在好莱坞首映。由于丽娜刺耳的嗓音无法匹配其夺目的外貌，为了维护明星形象，宣传部只得安排唐一人讲话。首映后，由于钢琴师科斯莫·布朗（唐纳德·奥康纳 饰）的汽车爆胎，为了躲避疯狂的影迷，唐意外结识了能歌善舞的凯西·塞尔登（黛比·雷诺斯 饰），并被其深深吸引。数周后，首部有声电影《爵士歌手》爆红，唐与丽娜的新片《决斗骑士》不得不临时改变拍摄方式，而凯西也成为歌舞片演员。因预映口碑极差，科斯莫提议将《决斗骑士》改为歌舞片，由凯西为丽娜配音，凯西积极附议。与凯西吻别后，唐心花怒放，在雨中载歌载舞。科斯莫的计划能否奏效？幕后的凯西能否走到台前接受观众的掌声？",
     "douban_url": "https://movie.douban.com/subject/1293460/",
     "tmdb_id": 872
-  },
-  {
-    "id": "douban-10808442",
-    "title": "爱在午夜降临前",
-    "title_en": "Before Midnight",
-    "year": "2013",
-    "directors": [
-      "理查德·林克莱特"
-    ],
-    "actors": [
-      "伊桑·霍克",
-      "朱莉·德尔佩",
-      "肖姆斯·戴维-菲茨帕特里克",
-      "詹妮弗·普赖尔",
-      "夏洛特·普赖尔",
-      "仙尼娅·卡洛格罗普卢"
-    ],
-    "genres": [
-      "剧情",
-      "爱情"
-    ],
-    "douban_rating": 8.8,
-    "douban_votes": "486267人评价",
-    "tmdb_rating": 7.498,
-    "rt_tomatometer": null,
-    "rt_audience": null,
-    "reason": "所谓爱情，就是话唠一路，都不会心生腻烦，彼此嫌弃。",
-    "poster": "posters/douban-10808442.jpg",
-    "overview": "作为“爱在”三部曲的终章，故事展现塞利娜与杰西相伴数年后，带着双胞胎女儿与友人们在希腊展开阳光斑驳的夏日旅居。然而这对伴侣很快发现，长久积压的矛盾逐渐浮出水面，使假期陷入波澜。林克莱特与演员们历经二十年打磨出的情感深度、锐利机锋与酣畅对白，在此凝结成篇。本片深入探讨长期亲密关系的复杂肌理，叩问当爱情褪去往日幻影，究竟将归于何种模样。[标准收藏]",
-    "douban_url": "https://movie.douban.com/subject/10808442/",
-    "tmdb_id": 132344
   },
   {
     "id": "douban-1292226",
@@ -5778,15 +5747,46 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "407864人评价",
-    "tmdb_rating": 8.044,
+    "douban_votes": "408747人评价",
+    "tmdb_rating": 8.043,
     "rt_tomatometer": null,
     "rt_audience": null,
-    "reason": "豆瓣 Top 250 第 182 名，评分 8.9。",
+    "reason": "豆瓣 Top 250 第 181 名，评分 8.9。",
     "poster": "posters/douban-1292226.jpg",
     "overview": "本片是一次通向未来的倒计时，一张指引人类命运的地图，一场对无限的求索。库布里克为开启这场未来之旅，先回溯至我们史前的猿类祖先时期，随即跨越数千年（通过电影史上一次极具震撼的跳接）来到已被殖民的太空，最终将宇航员鲍曼（凯尔·杜拉 饰）送入未知的星际领域，乃至可能抵达不朽之境。“打开分离舱门，哈尔。”让这场无与伦比、充满敬畏与奥秘的旅程就此启程。[华纳兄弟]",
     "douban_url": "https://movie.douban.com/subject/1292226/",
     "tmdb_id": 62
+  },
+  {
+    "id": "douban-10808442",
+    "title": "爱在午夜降临前",
+    "title_en": "Before Midnight",
+    "year": "2013",
+    "directors": [
+      "理查德·林克莱特"
+    ],
+    "actors": [
+      "伊桑·霍克",
+      "朱莉·德尔佩",
+      "肖姆斯·戴维-菲茨帕特里克",
+      "詹妮弗·普赖尔",
+      "夏洛特·普赖尔",
+      "仙尼娅·卡洛格罗普卢"
+    ],
+    "genres": [
+      "剧情",
+      "爱情"
+    ],
+    "douban_rating": 8.8,
+    "douban_votes": "487188人评价",
+    "tmdb_rating": 7.499,
+    "rt_tomatometer": null,
+    "rt_audience": null,
+    "reason": "所谓爱情，就是话唠一路，都不会心生腻烦，彼此嫌弃。",
+    "poster": "posters/douban-10808442.jpg",
+    "overview": "作为“爱在”三部曲的终章，故事展现塞利娜与杰西相伴数年后，带着双胞胎女儿与友人们在希腊展开阳光斑驳的夏日旅居。然而这对伴侣很快发现，长久积压的矛盾逐渐浮出水面，使假期陷入波澜。林克莱特与演员们历经二十年打磨出的情感深度、锐利机锋与酣畅对白，在此凝结成篇。本片深入探讨长期亲密关系的复杂肌理，叩问当爱情褪去往日幻影，究竟将归于何种模样。[标准收藏]",
+    "douban_url": "https://movie.douban.com/subject/10808442/",
+    "tmdb_id": 132344
   },
   {
     "id": "douban-25895901",
@@ -5809,8 +5809,8 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "534237人评价",
-    "tmdb_rating": 7.572,
+    "douban_votes": "535182人评价",
+    "tmdb_rating": 7.579,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "是枝裕和的家庭习作。",
@@ -5841,7 +5841,7 @@ const MOVIES = [
       "悬疑"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "630844人评价",
+    "douban_votes": "631816人评价",
     "tmdb_rating": 7.64,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -5872,8 +5872,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "338820人评价",
-    "tmdb_rating": 8.428,
+    "douban_votes": "339257人评价",
+    "tmdb_rating": 8.4,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 185 名，评分 9.0。",
@@ -5904,8 +5904,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "399267人评价",
-    "tmdb_rating": 7.941,
+    "douban_votes": "399707人评价",
+    "tmdb_rating": 7.9,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 186 名，评分 8.9。",
@@ -5937,8 +5937,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "723217人评价",
-    "tmdb_rating": 8.173,
+    "douban_votes": "724370人评价",
+    "tmdb_rating": 8.2,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 187 名，评分 8.7。",
@@ -5969,8 +5969,8 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "616707人评价",
-    "tmdb_rating": 7.357,
+    "douban_votes": "617475人评价",
+    "tmdb_rating": 7.4,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 188 名，评分 8.6。",
@@ -6002,7 +6002,7 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "496930人评价",
+    "douban_votes": "497524人评价",
     "tmdb_rating": 6.9,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -6035,8 +6035,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.5,
-    "douban_votes": "1058846人评价",
-    "tmdb_rating": 6.91,
+    "douban_votes": "1060760人评价",
+    "tmdb_rating": 6.914,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "不要企图在重复中寻找已经失去的爱。",
@@ -6068,8 +6068,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "622770人评价",
-    "tmdb_rating": 7.362,
+    "douban_votes": "623533人评价",
+    "tmdb_rating": 7.361,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "迪士尼和皮克斯拿错剧本的产物。",
@@ -6099,8 +6099,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "198157人评价",
-    "tmdb_rating": 7.984,
+    "douban_votes": "198689人评价",
+    "tmdb_rating": 7.922,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 192 名，评分 9.3。",
@@ -6131,7 +6131,7 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "534812人评价",
+    "douban_votes": "535494人评价",
     "tmdb_rating": 7.84,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -6162,8 +6162,8 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "380861人评价",
-    "tmdb_rating": 8.232,
+    "douban_votes": "381834人评价",
+    "tmdb_rating": 8.222,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 194 名，评分 8.9。",
@@ -6194,8 +6194,8 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "907226人评价",
-    "tmdb_rating": 7.828,
+    "douban_votes": "908188人评价",
+    "tmdb_rating": 7.829,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "我们组成了家。",
@@ -6226,8 +6226,8 @@ const MOVIES = [
       "动画"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "299288人评价",
-    "tmdb_rating": 7.927,
+    "douban_votes": "299899人评价",
+    "tmdb_rating": 7.926,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 196 名，评分 9.0。",
@@ -6235,6 +6235,38 @@ const MOVIES = [
     "overview": "圣诞夜，退役自行车选手Gin，跨性别者花，离家出走的少女美由纪三人在东京的雪夜中无所事事。这是，他们发现垃圾堆中有一位哭泣的弃婴。孩子的襁褓中仅有一个酒吧的名片与照片。婴儿的父母身份成了谜团。花想收留孩子，并将孩子取名清子。但另外2人表示反对。于是三人开始了寻找清子的父母的旅程。圣诞夜幸福的气氛，伴随的却是怀中清子的哭泣。无家可归的三个人，开始为同样无家可归的清子找寻属于她的家。这一队流浪者，在一夜经历了诸多奇妙的事件。他们能找到清子的父母吗？",
     "douban_url": "https://movie.douban.com/subject/1310177/",
     "tmdb_id": 13398
+  },
+  {
+    "id": "douban-1291578",
+    "title": "冰川时代",
+    "title_en": "Ice Age",
+    "year": "2002",
+    "directors": [
+      "克里斯·韦奇"
+    ],
+    "actors": [
+      "雷·罗马诺",
+      "约翰·雷吉扎莫",
+      "丹尼斯·利瑞",
+      "戈兰·维什尼奇",
+      "杰克·布莱克",
+      "塞德里克·凯尔斯"
+    ],
+    "genres": [
+      "喜剧",
+      "动画",
+      "冒险"
+    ],
+    "douban_rating": 8.7,
+    "douban_votes": "696958人评价",
+    "tmdb_rating": 7.385,
+    "rt_tomatometer": null,
+    "rt_audience": null,
+    "reason": "豆瓣 Top 250 第 197 名，评分 8.7。",
+    "poster": "posters/douban-1291578.jpg",
+    "overview": "故事发生在两万年以前的冰河世纪，那时的地球上很多地方都覆盖着冰川，奇形怪状的动物们四处逃窜，希望能够找到一个安身的地方，心地善良的长毛象--曼菲德、嗜食的树獭--希德、狡猾的剑齿虎--迭哥，这三只性格迥异的动物为了使一个人类的小孩重返家园，竟然聚在了一起，组成了一只临时护送队，踏上了漫漫寻亲路。一路上这三只动物矛盾重生，迭哥心生毒计，想诱领队伍踏入自己族类设下的致命伏击，但在他们共同经历了雪崩、饥荒等无数险境之后，这些与严酷环境抗争的经历使迭哥开始对自己的计划动摇了......",
+    "douban_url": "https://movie.douban.com/subject/1291578/",
+    "tmdb_id": 425
   },
   {
     "id": "douban-1291822",
@@ -6259,8 +6291,8 @@ const MOVIES = [
       "战争"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "374082人评价",
-    "tmdb_rating": 7.719,
+    "douban_votes": "374635人评价",
+    "tmdb_rating": 7.72,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "当这个世界闭上双眼，他却敞开了怀抱。",
@@ -6268,38 +6300,6 @@ const MOVIES = [
     "overview": "　　影片来源于一个真实的故事。1962年，卢旺达宣布独立后，胡图族与图西族两部族之间矛盾重重，多次发生冲突，战事持续不断。 1994年4月6日，一架载着卢旺达胡图族总统朱韦纳尔·哈比亚利马纳和布隆迪总统西普里安·恩塔里亚米拉的座机在卢旺达首都基加利上空被火箭击落，两国元首同时罹难。4月7日，空难在卢旺达国内引发了胡图族与图西族两族的互相猜疑，从而爆发了一场规模空前的武装冲突和种族大屠杀，令世界震惊的人间惨剧拉开了帷幕。被胡图族种族主义者控制的广播电台也为大屠杀的行为煽风助阵，他们叫嚣着“让一切的郁积都爆发出来吧。在这样一个时刻，鲜血将滚滚而出”，失控的人群在媒体的号召下四处搜寻和杀死图西族人，空气中弥漫着血腥的味道。 当一个国家陷入了疯狂，世界也闭上了双眼时，有一个名叫保罗·卢斯赛伯吉纳（唐·钱德尔 饰）的饭店经理却敞开了温暖的怀抱，他经营着当地一家云集着欧洲游客和军界政要的米勒·科林斯饭店，八面玲珑地运用着一切关系尽心地呵护着饭店的顾客们。保罗是胡图族人，而他的妻子塔莎娜（苏菲·奥康尼多 饰）却是图西族的，对他而言，在动荡的时局中，保护他的图西族的亲戚与朋友成为了一生中面临的最大使命与挑战。联合国维和部队的无所作为和与世界媒体的隔绝使得保罗夫妇二人和在饭店中避难的1268名当地居民更加坚定了活下去的信心与勇气，“我们一定让全世界都无地自容地去采取应有的行动”。事态越来越严重，百日之内竟有约100万人死于非命，但米勒·科林斯饭店却成为了嗜血荒漠中的一片生命绿洲。",
     "douban_url": "https://movie.douban.com/subject/1291822/",
     "tmdb_id": 205
-  },
-  {
-    "id": "douban-1291578",
-    "title": "冰川时代",
-    "title_en": "Ice Age",
-    "year": "2002",
-    "directors": [
-      "克里斯·韦奇"
-    ],
-    "actors": [
-      "雷·罗马诺",
-      "约翰·雷吉扎莫",
-      "丹尼斯·利瑞",
-      "戈兰·维什尼奇",
-      "杰克·布莱克",
-      "塞德里克·凯尔斯"
-    ],
-    "genres": [
-      "喜剧",
-      "动画",
-      "冒险"
-    ],
-    "douban_rating": 8.7,
-    "douban_votes": "696259人评价",
-    "tmdb_rating": 7.385,
-    "rt_tomatometer": null,
-    "rt_audience": null,
-    "reason": "豆瓣 Top 250 第 198 名，评分 8.7。",
-    "poster": "posters/douban-1291578.jpg",
-    "overview": "故事发生在两万年以前的冰河世纪，那时的地球上很多地方都覆盖着冰川，奇形怪状的动物们四处逃窜，希望能够找到一个安身的地方，心地善良的长毛象--曼菲德、嗜食的树獭--希德、狡猾的剑齿虎--迭哥，这三只性格迥异的动物为了使一个人类的小孩重返家园，竟然聚在了一起，组成了一只临时护送队，踏上了漫漫寻亲路。一路上这三只动物矛盾重生，迭哥心生毒计，想诱领队伍踏入自己族类设下的致命伏击，但在他们共同经历了雪崩、饥荒等无数险境之后，这些与严酷环境抗争的经历使迭哥开始对自己的计划动摇了......",
-    "douban_url": "https://movie.douban.com/subject/1291578/",
-    "tmdb_id": 425
   },
   {
     "id": "douban-1959195",
@@ -6321,7 +6321,7 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 9.2,
-    "douban_votes": "222808人评价",
+    "douban_votes": "223103人评价",
     "tmdb_rating": 7.8,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -6352,8 +6352,8 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "618756人评价",
-    "tmdb_rating": 7.599,
+    "douban_votes": "619228人评价",
+    "tmdb_rating": 7.603,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "岁月流逝，来日可追。",
@@ -6361,38 +6361,6 @@ const MOVIES = [
     "overview": "60年代的香港，风云变幻。一面要忍受港英政府的压制，一面又受到文化大革命的波及，更要面对不时登陆的台风暴雨。老字号的永利街就处在这样一个风暴的旋涡中心。 鞋匠罗一家四口，在街尾以做鞋为生。罗先生（任达华 饰）做得一手好鞋，在那个混乱的年代仅能养家糊口；罗太太（吴君如 饰）为人辛辣直率，人称“侠盗罗嫂”。大儿子罗进一（李治廷 饰）16岁，品学兼优，是运动会的冠军，全家人的希望，也是永利街的骄傲；小儿子罗进二（钟绍图 饰）8岁，在父母溺爱之下，天性顽劣，出了名的顽皮整蛊……一家人艰难度日，也算其乐融融。然而大儿子与富家小姐芳菲（蔡颖恩 饰）之间一段纯美的初恋、一场扫荡整个香港的飓风暴雨、更有一场潜伏已久的噩梦，让这个普通家庭的平安幸福在一夜之间陡生变故、支离破碎……面对岁月这个最大的“神偷”，顽强不屈的人该如何去抵抗？",
     "douban_url": "https://movie.douban.com/subject/3792799/",
     "tmdb_id": 39693
-  },
-  {
-    "id": "douban-1867345",
-    "title": "遗愿清单",
-    "title_en": "The Bucket List",
-    "year": "2007",
-    "directors": [
-      "罗伯·莱纳"
-    ],
-    "actors": [
-      "杰克·尼科尔森",
-      "摩根·弗里曼",
-      "肖恩·海耶斯",
-      "贝弗利·陶德",
-      "阿方索·弗里曼",
-      "道恩·刘易斯"
-    ],
-    "genres": [
-      "冒险",
-      "喜剧",
-      "剧情"
-    ],
-    "douban_rating": 8.7,
-    "douban_votes": "552269人评价",
-    "tmdb_rating": 7.191,
-    "rt_tomatometer": null,
-    "rt_audience": null,
-    "reason": "用剩余不多的时间，去燃烧整个生命。",
-    "poster": "posters/douban-1867345.jpg",
-    "overview": "老富翁爱德华•科尔（杰克•尼克尔森 Jack Nicholson 饰）近年来在公立医院的私有化改造事业中获利颇丰，他为节省成本，规定病房“一房两床”的做法颇受非议，但性格强势的科尔不以为意，岂料他不久被检查出罹患癌症，本欲入住单人病房的科尔在舆论压力下只得与另一位病人——老卡特（摩根•弗里曼 Morgan Freeman 饰）同处一室。汽车修理技师老卡特博闻强识，将三个子女培养成才，但代价是牺牲了年轻时要做历史教授的梦想。曾经结婚多次如今却孤身一人的科尔逐渐对卡特产生了兴趣，两位老人在病房中结下了友谊。科尔偶然发现了卡特的“遗愿清单”，他决定运用自己的力量，让那些纸面上的疯狂构想一一实现，去发现人生的真正意义……",
-    "douban_url": "https://movie.douban.com/subject/1867345/",
-    "tmdb_id": 7350
   },
   {
     "id": "douban-2133323",
@@ -6416,15 +6384,47 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "672647人评价",
-    "tmdb_rating": 7.23,
+    "douban_votes": "674468人评价",
+    "tmdb_rating": 7.232,
     "rt_tomatometer": null,
     "rt_audience": null,
-    "reason": "豆瓣 Top 250 第 202 名，评分 8.6。",
+    "reason": "豆瓣 Top 250 第 201 名，评分 8.6。",
     "poster": "posters/douban-2133323.jpg",
     "overview": "沃尔特在《生活》杂志的底片资产部工作多年，性格内向的他习惯把自己藏在平凡的生活中，并时常陷入白日梦，幻想自己成为无所不能的英雄。他甚至始终没有勇气向心仪的同事谢莉尔表达心意。直到公司被并购，杂志即将推出最后一期，摄影师尚恩寄来的底片中，用作封面的第25号底片却神秘失踪。为了找到这张至关重要的照片，沃尔特不得不走出熟悉的生活，踏上一段真正的冒险旅程，而那些曾经只存在于幻想中的经历，也开始一步步成为现实……",
     "douban_url": "https://movie.douban.com/subject/2133323/",
     "tmdb_id": 116745
+  },
+  {
+    "id": "douban-1867345",
+    "title": "遗愿清单",
+    "title_en": "The Bucket List",
+    "year": "2007",
+    "directors": [
+      "罗伯·莱纳"
+    ],
+    "actors": [
+      "杰克·尼科尔森",
+      "摩根·弗里曼",
+      "肖恩·海耶斯",
+      "贝弗利·陶德",
+      "阿方索·弗里曼",
+      "道恩·刘易斯"
+    ],
+    "genres": [
+      "冒险",
+      "喜剧",
+      "剧情"
+    ],
+    "douban_rating": 8.7,
+    "douban_votes": "553194人评价",
+    "tmdb_rating": 7.2,
+    "rt_tomatometer": null,
+    "rt_audience": null,
+    "reason": "用剩余不多的时间，去燃烧整个生命。",
+    "poster": "posters/douban-1867345.jpg",
+    "overview": "老富翁爱德华•科尔（杰克•尼克尔森 Jack Nicholson 饰）近年来在公立医院的私有化改造事业中获利颇丰，他为节省成本，规定病房“一房两床”的做法颇受非议，但性格强势的科尔不以为意，岂料他不久被检查出罹患癌症，本欲入住单人病房的科尔在舆论压力下只得与另一位病人——老卡特（摩根•弗里曼 Morgan Freeman 饰）同处一室。汽车修理技师老卡特博闻强识，将三个子女培养成才，但代价是牺牲了年轻时要做历史教授的梦想。曾经结婚多次如今却孤身一人的科尔逐渐对卡特产生了兴趣，两位老人在病房中结下了友谊。科尔偶然发现了卡特的“遗愿清单”，他决定运用自己的力量，让那些纸面上的疯狂构想一一实现，去发现人生的真正意义……",
+    "douban_url": "https://movie.douban.com/subject/1867345/",
+    "tmdb_id": 7350
   },
   {
     "id": "douban-25934014",
@@ -6448,8 +6448,8 @@ const MOVIES = [
       "歌舞"
     ],
     "douban_rating": 8.4,
-    "douban_votes": "1150480人评价",
-    "tmdb_rating": 7.895,
+    "douban_votes": "1152759人评价",
+    "tmdb_rating": 7.9,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 203 名，评分 8.4。",
@@ -6479,7 +6479,7 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "854679人评价",
+    "douban_votes": "856601人评价",
     "tmdb_rating": 7.746,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -6511,7 +6511,7 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "942890人评价",
+    "douban_votes": "944203人评价",
     "tmdb_rating": 7.312,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -6542,8 +6542,8 @@ const MOVIES = [
       "喜剧"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "567524人评价",
-    "tmdb_rating": 7.911,
+    "douban_votes": "568647人评价",
+    "tmdb_rating": 7.927,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "人们可以登上月球，却永远无法探索人们内心的宇宙。",
@@ -6574,8 +6574,8 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "527974人评价",
-    "tmdb_rating": 7.87,
+    "douban_votes": "528685人评价",
+    "tmdb_rating": 7.867,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "始于荒诞，止于更荒诞。",
@@ -6606,7 +6606,7 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "629756人评价",
+    "douban_votes": "630589人评价",
     "tmdb_rating": 7.639,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -6636,7 +6636,7 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "353042人评价",
+    "douban_votes": "353536人评价",
     "tmdb_rating": 7.607,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -6645,38 +6645,6 @@ const MOVIES = [
     "overview": "　　尕玉（张磊 饰）本来是个警察，为了调查藏羚羊猎杀状况，他假扮记者身份，随考察团来到可可西里——那里气候寒冷、空气稀薄，含氧量极低。就在这个人类生存的“禁区”，尕玉目睹了一幕幕人性的贪婪以及人类与环境的狂暴冲突。首先是藏羚羊保护站的巡山队员被盗猎人枪杀，接下来他们见到了悲惨的一幕：盗猎者逃走，只留下众多只剩嶙峋白骨的藏羚羊。巡山队员在恶劣的环境中追捕凶手，最终只夺回了一部份的藏羚羊皮毛。一方面要与恶劣的自然环境抗争、另一方面还要与凶残的盗猎者周旋，巡山队员和尕玉面临着生死考验。",
     "douban_url": "https://movie.douban.com/subject/1308857/",
     "tmdb_id": 16074
-  },
-  {
-    "id": "douban-4848115",
-    "title": "你看起来好像很好吃",
-    "title_en": "おまえうまそうだな",
-    "year": "2010",
-    "directors": [
-      "藤森雅也"
-    ],
-    "actors": [
-      "山口胜平",
-      "加藤清史郎",
-      "原田知世",
-      "川岛得爱",
-      "别所哲也",
-      "爱河里花子"
-    ],
-    "genres": [
-      "剧情",
-      "动画",
-      "儿童"
-    ],
-    "douban_rating": 8.9,
-    "douban_votes": "382771人评价",
-    "tmdb_rating": 8.12,
-    "rt_tomatometer": null,
-    "rt_audience": null,
-    "reason": "感情不分食草或者食肉。",
-    "poster": "posters/douban-4848115.jpg",
-    "overview": "　　哈特（山口胜平 饰）是一只被草食性恐龙养大的霸王龙。其实，早在它破壳而出时，草食性恐龙的首领就曾命令哈特的母亲（原田知世 饰）抛弃它，但母亲却最终还是偷偷把它养大。随着年龄的增长，每天只吃野果的哈特每天饥饿难耐，最终还是抵不住本能的驱使，开始了自己食肉的残暴生涯。然而，由于母亲的影响，在哈特的内心深处，始终涌动着一颗善良的心灵。一天，偶尔遇到一只破壳而出的食草恐龙宝宝，哈特阴差阳错的被恐龙宝宝误认为是“爸爸”，而且为小恐龙取名为“很美味”，自此开始了又一段奇异的恐龙父子情。然而，伴随着生存环境的恶化，恐龙们的生存遭受着前所未有的破坏，哈特和它的亲人最终能否经得起考验……本篇由日本知名漫画家宫西达也的同名漫画改编，本书曾获剑渊绘本乡绘本奖大奖。",
-    "douban_url": "https://movie.douban.com/subject/4848115/",
-    "tmdb_id": 89825
   },
   {
     "id": "douban-5300054",
@@ -6701,15 +6669,47 @@ const MOVIES = [
       "音乐"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "703249人评价",
-    "tmdb_rating": 7.95,
+    "douban_votes": "704052人评价",
+    "tmdb_rating": 7.949,
     "rt_tomatometer": null,
     "rt_audience": null,
-    "reason": "豆瓣 Top 250 第 211 名，评分 8.6。",
+    "reason": "豆瓣 Top 250 第 210 名，评分 8.6。",
     "poster": "posters/douban-5300054.jpg",
     "overview": "本片是对皇后乐队、传奇主唱弗雷迪·莫库里以及他们音乐的致敬盛宴，这是一段充满爱、痛苦、接纳和音乐的旅程。弗雷迪·莫库里曾是希思罗机场的一名普通搬运工，对音乐满腔热血的他，与布莱恩·梅、罗杰·泰勒、约 翰·迪肯组成皇后乐队。这个殿堂级乐队的从无到有，从疏离到重聚，从低谷到巅峰，仿佛就是弗雷迪一生的缩影。",
     "douban_url": "https://movie.douban.com/subject/5300054/",
     "tmdb_id": 424694
+  },
+  {
+    "id": "douban-4848115",
+    "title": "你看起来好像很好吃",
+    "title_en": "おまえうまそうだな",
+    "year": "2010",
+    "directors": [
+      "藤森雅也"
+    ],
+    "actors": [
+      "山口胜平",
+      "加藤清史郎",
+      "原田知世",
+      "川岛得爱",
+      "别所哲也",
+      "爱河里花子"
+    ],
+    "genres": [
+      "剧情",
+      "动画",
+      "儿童"
+    ],
+    "douban_rating": 8.9,
+    "douban_votes": "383275人评价",
+    "tmdb_rating": 8.1,
+    "rt_tomatometer": null,
+    "rt_audience": null,
+    "reason": "感情不分食草或者食肉。",
+    "poster": "posters/douban-4848115.jpg",
+    "overview": "　　哈特（山口胜平 饰）是一只被草食性恐龙养大的霸王龙。其实，早在它破壳而出时，草食性恐龙的首领就曾命令哈特的母亲（原田知世 饰）抛弃它，但母亲却最终还是偷偷把它养大。随着年龄的增长，每天只吃野果的哈特每天饥饿难耐，最终还是抵不住本能的驱使，开始了自己食肉的残暴生涯。然而，由于母亲的影响，在哈特的内心深处，始终涌动着一颗善良的心灵。一天，偶尔遇到一只破壳而出的食草恐龙宝宝，哈特阴差阳错的被恐龙宝宝误认为是“爸爸”，而且为小恐龙取名为“很美味”，自此开始了又一段奇异的恐龙父子情。然而，伴随着生存环境的恶化，恐龙们的生存遭受着前所未有的破坏，哈特和它的亲人最终能否经得起考验……本篇由日本知名漫画家宫西达也的同名漫画改编，本书曾获剑渊绘本乡绘本奖大奖。",
+    "douban_url": "https://movie.douban.com/subject/4848115/",
+    "tmdb_id": 89825
   },
   {
     "id": "douban-2209573",
@@ -6732,7 +6732,7 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "815599人评价",
+    "douban_votes": "816169人评价",
     "tmdb_rating": 7.727,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -6762,8 +6762,8 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "387839人评价",
-    "tmdb_rating": 7.914,
+    "douban_votes": "389340人评价",
+    "tmdb_rating": 7.909,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 213 名，评分 8.8。",
@@ -6794,8 +6794,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 9.3,
-    "douban_votes": "177311人评价",
-    "tmdb_rating": 8.249,
+    "douban_votes": "177654人评价",
+    "tmdb_rating": 8.245,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 214 名，评分 9.3。",
@@ -6825,7 +6825,7 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "576806人评价",
+    "douban_votes": "577985人评价",
     "tmdb_rating": 8.217,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -6856,7 +6856,7 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "712698人评价",
+    "douban_votes": "713870人评价",
     "tmdb_rating": 7.733,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -6887,8 +6887,8 @@ const MOVIES = [
       "科幻"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "395089人评价",
-    "tmdb_rating": 8.169,
+    "douban_votes": "395854人评价",
+    "tmdb_rating": 8.2,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 217 名，评分 8.8。",
@@ -6918,7 +6918,7 @@ const MOVIES = [
       "音乐"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "705239人评价",
+    "douban_votes": "706443人评价",
     "tmdb_rating": 8.4,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -6951,8 +6951,8 @@ const MOVIES = [
       "古装"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "610775人评价",
-    "tmdb_rating": 7.258,
+    "douban_votes": "611486人评价",
+    "tmdb_rating": 7.3,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 219 名，评分 8.6。",
@@ -6985,8 +6985,8 @@ const MOVIES = [
       "古装"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "644033人评价",
-    "tmdb_rating": 7.08,
+    "douban_votes": "644894人评价",
+    "tmdb_rating": 7.057,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 220 名，评分 8.6。",
@@ -7016,8 +7016,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "858138人评价",
-    "tmdb_rating": 7.683,
+    "douban_votes": "858890人评价",
+    "tmdb_rating": 7.7,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "黑暗之美。",
@@ -7049,8 +7049,8 @@ const MOVIES = [
       "古装"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "520489人评价",
-    "tmdb_rating": 7.36,
+    "douban_votes": "521303人评价",
+    "tmdb_rating": 7.4,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 222 名，评分 8.7。",
@@ -7058,38 +7058,6 @@ const MOVIES = [
     "overview": "宦官专权的明朝中叶，东厂曹少钦（甄子丹）假造圣旨杀害了忠良杨宇轩，并想斩草除根杀死其后代。侠女邱莫言（林青霞）、江湖义士贺虎等人冒死救出忠良后代后，逃至边关沙漠里的龙门客栈，与杨宇轩部下周淮安（梁家辉）会合。龙门客栈实则黑店，老板娘金镶玉（张曼玉）利用乱世，以美貌和风骚 作诱饵杀人越货聚敛钱财，但她却为英俊潇洒的周淮安动了真心。为了摸清潜藏于龙门客栈中的出关暗道，周淮安将计就计，答应与金镶玉成亲。 洞房花烛夜，楼上的周淮安与金镶玉各怀心事暗中较劲，楼下的邱莫言、贺虎等人也与东厂一众“走狗”展开了明争暗斗，战事一触即发。",
     "douban_url": "https://movie.douban.com/subject/1292287/",
     "tmdb_id": 40213
-  },
-  {
-    "id": "douban-4739952",
-    "title": "初恋这件小事",
-    "title_en": "สิ่งเล็กเล็กที่เรียกว่า...รัก",
-    "year": "2010",
-    "directors": [
-      "Wasin Pokpong"
-    ],
-    "actors": [
-      "马里奥·毛瑞尔",
-      "平采娜·乐维瑟派布恩",
-      "苏达拉·布查蓬",
-      "苏达拉·布查蓬",
-      "พีรวัชร์ เหราบัตย์",
-      "阿卡拉纳德·阿里阿里特维库拉"
-    ],
-    "genres": [
-      "剧情",
-      "喜剧",
-      "爱情"
-    ],
-    "douban_rating": 8.5,
-    "douban_votes": "1063464人评价",
-    "tmdb_rating": 7.8,
-    "rt_tomatometer": null,
-    "rt_audience": null,
-    "reason": "黑小鸭速效美白记。",
-    "poster": "posters/douban-4739952.jpg",
-    "overview": "初中生小水相貌普通、家境平凡，在学校里并不起眼，却有一群陪伴自己的好友。一次偶然的相遇，她喜欢上了帅气又受欢迎的学长阿亮。从此，原本平凡的校园生活因为这场青涩的暗恋变得不同。为了能够离喜欢的人更近一点，小水开始努力学习、参加学校活动，也试着一点点改变自己。在好友们的陪伴下，她经历着青春期的欢笑、烦恼与失落，也在这段看似不起眼的初恋中慢慢成长……",
-    "douban_url": "https://movie.douban.com/subject/4739952/",
-    "tmdb_id": 57627
   },
   {
     "id": "douban-1300117",
@@ -7113,15 +7081,47 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "361636人评价",
+    "douban_votes": "362818人评价",
     "tmdb_rating": 7.567,
     "rt_tomatometer": null,
     "rt_audience": null,
-    "reason": "豆瓣 Top 250 第 224 名，评分 8.8。",
+    "reason": "豆瓣 Top 250 第 223 名，评分 8.8。",
     "poster": "posters/douban-1300117.jpg",
     "overview": "　　未来的世界，科技的力量胜过一切，基因决定命运，几乎成为金科玉律。不幸文森特（伊桑·霍克 Ethan Hawke 饰）是一个基因不良的人，出生以来就决定了他近视和心脏病的缺陷，他只能活到30岁。\r 于是父母为文森特增添了一个有着优良基因的弟弟。文森特的梦想是漫游太空，然而恶劣的基因令他无法圆梦，直到他遇到了太空中心的杰罗姆（裘德·洛 Jude Law 饰）。杰罗姆有优秀的基因，却在一次意外中半身瘫痪。\r 二人决定调换身份，文森特千方百计隐藏自己的基因信息，每天都认真清洗掉自己的皮屑毛发，不暴露任何蛛丝马迹。另一方面，杰罗姆帮他筹备进入太空前需要检查的基因物品。事情进展得非常顺利，然而一桩谋杀案和一根睫毛，让事情节外生枝。",
     "douban_url": "https://movie.douban.com/subject/1300117/",
     "tmdb_id": 782
+  },
+  {
+    "id": "douban-4739952",
+    "title": "初恋这件小事",
+    "title_en": "สิ่งเล็กเล็กที่เรียกว่า...รัก",
+    "year": "2010",
+    "directors": [
+      "Puttipong Promsaka Na Sakolnakorn"
+    ],
+    "actors": [
+      "马里奥·毛瑞尔",
+      "平采娜·乐维瑟派布恩",
+      "苏达拉·布查蓬",
+      "苏达拉·布查蓬",
+      "พีรวัชร์ เหราบัตย์",
+      "阿卡拉纳德·阿里阿里特维库拉"
+    ],
+    "genres": [
+      "剧情",
+      "喜剧",
+      "爱情"
+    ],
+    "douban_rating": 8.5,
+    "douban_votes": "1064294人评价",
+    "tmdb_rating": 7.813,
+    "rt_tomatometer": null,
+    "rt_audience": null,
+    "reason": "黑小鸭速效美白记。",
+    "poster": "posters/douban-4739952.jpg",
+    "overview": "初中生小水相貌普通、家境平凡，在学校里并不起眼，却有一群陪伴自己的好友。一次偶然的相遇，她喜欢上了帅气又受欢迎的学长阿亮。从此，原本平凡的校园生活因为这场青涩的暗恋变得不同。为了能够离喜欢的人更近一点，小水开始努力学习、参加学校活动，也试着一点点改变自己。在好友们的陪伴下，她经历着青春期的欢笑、烦恼与失落，也在这段看似不起眼的初恋中慢慢成长……",
+    "douban_url": "https://movie.douban.com/subject/4739952/",
+    "tmdb_id": 57627
   },
   {
     "id": "douban-1302827",
@@ -7144,8 +7144,8 @@ const MOVIES = [
       "科幻"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "513690人评价",
-    "tmdb_rating": 7.069,
+    "douban_votes": "514463人评价",
+    "tmdb_rating": 7.1,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 225 名，评分 8.7。",
@@ -7176,7 +7176,7 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "587334人评价",
+    "douban_votes": "588064人评价",
     "tmdb_rating": 7.763,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -7208,8 +7208,8 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "704764人评价",
-    "tmdb_rating": 7.21,
+    "douban_votes": "706169人评价",
+    "tmdb_rating": 7.209,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "小成本大魅力。",
@@ -7239,7 +7239,7 @@ const MOVIES = [
       "战争"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "302970人评价",
+    "douban_votes": "303552人评价",
     "tmdb_rating": 7.9,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -7270,7 +7270,7 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "713211人评价",
+    "douban_votes": "714473人评价",
     "tmdb_rating": 7.673,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -7300,7 +7300,7 @@ const MOVIES = [
       "剧情"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "449247人评价",
+    "douban_votes": "449664人评价",
     "tmdb_rating": 7.749,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -7331,8 +7331,8 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "670728人评价",
-    "tmdb_rating": 7.549,
+    "douban_votes": "672064人评价",
+    "tmdb_rating": 7.5,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "我们都有权利不与自己的过去和解。",
@@ -7363,8 +7363,8 @@ const MOVIES = [
       "悬疑"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "365541人评价",
-    "tmdb_rating": 8.033,
+    "douban_votes": "366102人评价",
+    "tmdb_rating": 8.0,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 232 名，评分 8.8。",
@@ -7395,7 +7395,7 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.5,
-    "douban_votes": "859363人评价",
+    "douban_votes": "861023人评价",
     "tmdb_rating": 7.708,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -7426,8 +7426,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 8.5,
-    "douban_votes": "762410人评价",
-    "tmdb_rating": 7.888,
+    "douban_votes": "763475人评价",
+    "tmdb_rating": 7.89,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "爱情没有那么多借口，如果不能圆满，只能说明爱的不够。",
@@ -7459,7 +7459,7 @@ const MOVIES = [
       "歌舞"
     ],
     "douban_rating": 8.5,
-    "douban_votes": "855617人评价",
+    "douban_votes": "857184人评价",
     "tmdb_rating": 7.25,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -7491,7 +7491,7 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 8.5,
-    "douban_votes": "817107人评价",
+    "douban_votes": "817780人评价",
     "tmdb_rating": 7.098,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -7522,8 +7522,8 @@ const MOVIES = [
       "科幻"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "464601人评价",
-    "tmdb_rating": 7.085,
+    "douban_votes": "465363人评价",
+    "tmdb_rating": 7.086,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 237 名，评分 8.7。",
@@ -7555,8 +7555,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "774062人评价",
-    "tmdb_rating": 8.401,
+    "douban_votes": "775004人评价",
+    "tmdb_rating": 8.402,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 238 名，评分 8.6。",
@@ -7586,8 +7586,8 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "336513人评价",
-    "tmdb_rating": 7.801,
+    "douban_votes": "337137人评价",
+    "tmdb_rating": 7.796,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "日本的家庭电影已经是世界巅峰了，步履不停是巅峰中的佳作。",
@@ -7618,7 +7618,7 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "409937人评价",
+    "douban_votes": "410784人评价",
     "tmdb_rating": 7.334,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -7650,8 +7650,8 @@ const MOVIES = [
       "爱情"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "325231人评价",
-    "tmdb_rating": 7.856,
+    "douban_votes": "325780人评价",
+    "tmdb_rating": 7.855,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 241 名，评分 8.8。",
@@ -7669,12 +7669,12 @@ const MOVIES = [
       "斯蒂芬·卓博斯基"
     ],
     "actors": [
-      "雅各布·特伦布莱",
-      "朱莉娅·罗伯茨",
-      "欧文·威尔逊",
-      "伊莎贝拉·维多维奇",
-      "诺亚·尤佩",
-      "米莉·戴维斯"
+      "盖尔·加朵",
+      "克里斯·派恩",
+      "康妮·尼尔森",
+      "罗宾·怀特",
+      "丹尼·休斯顿",
+      "大卫·休里斯"
     ],
     "genres": [
       "剧情",
@@ -7682,15 +7682,15 @@ const MOVIES = [
       "家庭"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "608570人评价",
-    "tmdb_rating": 8.098,
+    "douban_votes": "609093人评价",
+    "tmdb_rating": 7.2,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "世界不完美，爱会有奇迹。",
     "poster": "posters/douban-26787574.jpg",
-    "overview": "10岁的奥吉天生面部缺陷，从小经历多次手术，一直由母亲在家中教导。五年级时，他第一次走进普通学校，开始真正接触家人之外的世界。然而与众不同的外表让奥吉成为同学关注和议论的焦点，也让他不得不面对疏远、嘲笑与校园霸凌。好在家人的陪伴和新朋友的善意始终给予他勇气。在一次次受伤、误解与重新接纳中，奥吉努力找到属于自己的位置，而他身边的人也开始学着用不同的眼光去认识这个特别的男孩……",
+    "overview": "戴安娜是女王希波吕忒的女儿，自幼生活在天堂岛上。巨大的屏障将这座岛屿同外界的纷纷扰扰隔开犹如一个世外桃源，而岛上生活着的亦都是女性。在女武官安提奥普的教导之下，戴安娜习得了高强的武艺，而她的体内，似乎隐藏着某种强大的未知力量。一场意外中，一位名为史蒂夫的男子来到了岛上，从他口中，戴安娜得知外面的世界正在经历战争的磨难，而造成这一切的罪魁祸首，是战神阿瑞斯。为了拯救人类于水火之中，戴安娜依然拿起了长剑与盾牌，发誓要彻底摧毁阿瑞斯的阴谋。",
     "douban_url": "https://movie.douban.com/subject/26787574/",
-    "tmdb_id": 406997
+    "tmdb_id": 297762
   },
   {
     "id": "douban-1419936",
@@ -7713,7 +7713,7 @@ const MOVIES = [
       "犯罪"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "422959人评价",
+    "douban_votes": "423515人评价",
     "tmdb_rating": 7.348,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -7745,8 +7745,8 @@ const MOVIES = [
       "动画"
     ],
     "douban_rating": 9.0,
-    "douban_votes": "226128人评价",
-    "tmdb_rating": 7.9,
+    "douban_votes": "226740人评价",
+    "tmdb_rating": 7.93,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 244 名，评分 9.0。",
@@ -7754,6 +7754,37 @@ const MOVIES = [
     "overview": "公元2029年，未来世界是高科技与信息化的世界。人类生活水平的提高伴随着犯罪活动的高科技化，于是，专门镇压高科技犯罪的特殊部队——公安9课成立了。队长草薙素子，作为一位全身“义体化”的女警，带领公安9课不断展开行动。这次，公安9课帮助公安6课秘密解决了一位程序员外逃他国的麻烦琐事，又卷入传说中的黑客“傀儡师”的犯罪事件。当行动陷入僵局之际，傀儡师竟然不请自来，出现在公安9课！素子与她的战友们，不知不觉地被卷入了一场涉及政府的阴谋之中。",
     "douban_url": "https://movie.douban.com/subject/1291936/",
     "tmdb_id": 9323
+  },
+  {
+    "id": "douban-27113517",
+    "title": "血观音",
+    "title_en": "血觀音",
+    "year": "2017",
+    "directors": [
+      "杨雅喆"
+    ],
+    "actors": [
+      "惠英红",
+      "吴可熙",
+      "文淇",
+      "陈莎莉",
+      "柯佳嬿",
+      "Maya Showlen"
+    ],
+    "genres": [
+      "剧情",
+      "悬疑"
+    ],
+    "douban_rating": 8.6,
+    "douban_votes": "590967人评价",
+    "tmdb_rating": 7.1,
+    "rt_tomatometer": null,
+    "rt_audience": null,
+    "reason": "豆瓣 Top 250 第 245 名，评分 8.6。",
+    "poster": "posters/douban-27113517.jpg",
+    "overview": "棠家一脉花开，将军身故，棠夫人 (惠英红 饰) 站在家族宗法宝塔上，也就立足弥陀乡政治的顶端。黑白两道，茶盏交错之间，玲珑心，剔透眼，柔软身段，霹雳手段，女人天下。大女儿棠宁 (吴可熙 饰) 玲珑八面，却怀一股心思幽微，小女儿棠真 (文淇 饰) 乖巧听话，学着继承泡茶待客之道，随棠夫人帘后织手暗操线，青春初丰满的羽翼，能如何担起腥风血雨？棠家牵线的土地开发计划出现变数，好友议员一家遭灭门惨案，以血掀变，弥陀乡势力重新洗牌，暗潮涌动，台北二十年，大家深宅三代女人，千手染血的观音，骨与血，治与乱，情欲与权力层层密谋穿织。",
+    "douban_url": "https://movie.douban.com/subject/27113517/",
+    "tmdb_id": 478804
   },
   {
     "id": "douban-1428175",
@@ -7777,8 +7808,8 @@ const MOVIES = [
       "冒险"
     ],
     "douban_rating": 8.7,
-    "douban_votes": "428902人评价",
-    "tmdb_rating": 7.559,
+    "douban_votes": "429398人评价",
+    "tmdb_rating": 7.56,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "每个美丽事物背后都是滴血的现实。",
@@ -7810,46 +7841,15 @@ const MOVIES = [
       "同性"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "594784人评价",
-    "tmdb_rating": 8.179,
+    "douban_votes": "596048人评价",
+    "tmdb_rating": 8.178,
     "rt_tomatometer": null,
     "rt_audience": null,
-    "reason": "豆瓣 Top 250 第 246 名，评分 8.6。",
+    "reason": "豆瓣 Top 250 第 247 名，评分 8.6。",
     "poster": "posters/douban-25977027.jpg",
     "overview": "故事背景设定在1930年代日本占领时期的朝鲜。新人女仆淑熙受雇服侍日本贵族秀子，后者与专横的舅舅居住在一座偏僻的乡间大宅中。然而女仆怀揣秘密：她实为一名扒手，受假冒日本伯爵的骗子招募，企图助其引诱小姐私奔，夺取财产后将秀子关进疯人院。计划似乎顺利进行，直到淑熙与秀子之间萌生了意料之外的情愫。",
     "douban_url": "https://movie.douban.com/subject/25977027/",
     "tmdb_id": 290098
-  },
-  {
-    "id": "douban-27113517",
-    "title": "血观音",
-    "title_en": "血觀音",
-    "year": "2017",
-    "directors": [
-      "杨雅喆"
-    ],
-    "actors": [
-      "惠英红",
-      "吴可熙",
-      "文淇",
-      "陈莎莉",
-      "柯佳嬿",
-      "Maya Showlen"
-    ],
-    "genres": [
-      "剧情",
-      "悬疑"
-    ],
-    "douban_rating": 8.6,
-    "douban_votes": "585875人评价",
-    "tmdb_rating": 7.081,
-    "rt_tomatometer": null,
-    "rt_audience": null,
-    "reason": "豆瓣 Top 250 第 247 名，评分 8.6。",
-    "poster": "posters/douban-27113517.jpg",
-    "overview": "棠家一脉花开，将军身故，棠夫人站在家族宗法宝塔上，也就立足弥陀乡政治的顶端。黑白两道，茶盏交错之间，玲珑心，剔透眼，柔软身段，霹雳手段，女人天下。大女儿棠宁玲珑八面，却怀一股心思幽微，小女儿棠真乖巧听话，学着继承泡茶待客之道，随棠夫人帘后织手暗操线，青春初丰满的羽翼，能如何担起腥风血雨？棠家牵线的土地开发计划出现变数，好友议员一家遭灭门惨案，以血掀变，弥陀乡势力重新洗牌，暗潮涌动，台北二十年，大家深宅三代女人，千手染血的观音，骨与血，治与乱，情欲与权力层层密谋穿织。",
-    "douban_url": "https://movie.douban.com/subject/27113517/",
-    "tmdb_id": 478804
   },
   {
     "id": "douban-26615208",
@@ -7873,8 +7873,8 @@ const MOVIES = [
       "历史"
     ],
     "douban_rating": 8.9,
-    "douban_votes": "281086人评价",
-    "tmdb_rating": 8.048,
+    "douban_votes": "281784人评价",
+    "tmdb_rating": 8.049,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 248 名，评分 8.9。",
@@ -7905,8 +7905,8 @@ const MOVIES = [
       "战争"
     ],
     "douban_rating": 8.8,
-    "douban_votes": "315791人评价",
-    "tmdb_rating": 7.522,
+    "douban_votes": "316212人评价",
+    "tmdb_rating": 7.5,
     "rt_tomatometer": null,
     "rt_audience": null,
     "reason": "豆瓣 Top 250 第 249 名，评分 8.8。",
@@ -7937,7 +7937,7 @@ const MOVIES = [
       "惊悚"
     ],
     "douban_rating": 8.6,
-    "douban_votes": "500318人评价",
+    "douban_votes": "501499人评价",
     "tmdb_rating": 7.486,
     "rt_tomatometer": null,
     "rt_audience": null,
@@ -7954,7 +7954,7 @@ const CHART = [
     "title": "罗斯",
     "douban_url": "https://movie.douban.com/subject/35322132/",
     "subject_id": "35322132",
-    "douban_rating": 8.6,
+    "douban_rating": 8.5,
     "directors": [
       "马库斯·施莱泽"
     ],
@@ -7977,39 +7977,48 @@ const CHART = [
     "region": "奥地利",
     "duration": "94分钟",
     "short_comment": "#16th BJIFF# 他们好像法纪严明，轮奸的事倒没有人追究了",
-    "tmdb_id": 1176962,
-    "tmdb_rating": 7.7,
+    "tmdb_id": 70981,
+    "tmdb_rating": 6.612,
     "poster": "posters/douban-35322132.jpg"
   },
   {
     "rank": "2",
-    "title": "童年记忆",
-    "douban_url": "https://movie.douban.com/subject/35496965/",
-    "subject_id": "35496965",
-    "douban_rating": 7.5,
+    "title": "500英里",
+    "douban_url": "https://movie.douban.com/subject/36772727/",
+    "subject_id": "36772727",
+    "douban_rating": 7.7,
     "directors": [
-      "弗拉德连娜·桑杜"
+      "摩根·马修斯"
     ],
     "actors": [
-      "弗拉德连娜·桑杜"
+      "迪尔德丽·莫娜汉",
+      "洛雷·阿德乌西",
+      "德克斯特·索尔·安塞尔",
+      "欧因·达菲",
+      "克莱尔·邓恩",
+      "罗曼·格里芬·戴维斯",
+      "Shauna Harris",
+      "Steve Hartland",
+      "比尔·奈伊",
+      "大卫·赖恩"
     ],
     "genres": [
-      "纪录片"
+      "剧情"
     ],
-    "year": "2025",
-    "region": "法国",
-    "duration": "98分钟",
-    "short_comment": "HKIFF 50#12\n-\n确实拍得很漂亮，但有过于审美化的倾向，基本和我想象中的拍法差不多，全程旁白加上一些搬演，容易疲劳。结尾使用的那些真实影像是更有力的存在。",
-    "tmdb_id": 838301,
-    "tmdb_rating": 6.3,
-    "poster": "posters/douban-35496965.jpg"
+    "year": "2026",
+    "region": "英国",
+    "duration": "102分钟",
+    "short_comment": "一个关于告别的片子 挺完整的故事 喜欢骑马的那段 在爱尔兰就算出现意外也会觉得正好可以多看看风景 音乐风格好明显 凄凉又悠扬\n一定要去到爱尔兰！\n边上的大妈好吵 认出了电影里的某个地标建筑就发出尖叫 这就是一生英伦情吧",
+    "tmdb_id": 1242876,
+    "tmdb_rating": 6.333,
+    "poster": "posters/douban-36772727.jpg"
   },
   {
     "rank": "3",
     "title": "求救信号",
     "douban_url": "https://movie.douban.com/subject/36439868/",
     "subject_id": "36439868",
-    "douban_rating": 7.1,
+    "douban_rating": 7.2,
     "directors": [
       "约翰·弗朗西斯·戴利",
       "乔纳森·戈尔茨坦"
@@ -8037,114 +8046,155 @@ const CHART = [
     "duration": "110分钟",
     "short_comment": "很可能，外国人比美国人更怀念上世纪的美国。",
     "tmdb_id": 1137844,
-    "tmdb_rating": 8.038,
+    "tmdb_rating": 7.969,
     "poster": "posters/douban-36439868.jpg"
   },
   {
     "rank": "4",
-    "title": "歪心狼对阵ACME",
-    "douban_url": "https://movie.douban.com/subject/27190137/",
-    "subject_id": "27190137",
-    "douban_rating": 7.5,
-    "directors": [
-      "戴夫·格林"
-    ],
-    "actors": [
-      "威尔·福特",
-      "约翰·塞纳",
-      "拉娜·康多",
-      "P·J·伯恩",
-      "Zoe Buchansky",
-      "南茜·林韩·查尔斯",
-      "艾米·麦圭尔",
-      "道格·蒙托亚",
-      "Kelsey Leos Montoya",
-      "特拉维斯·西蒙"
-    ],
-    "genres": [
-      "喜剧",
-      "动画",
-      "奇幻",
-      "冒险"
-    ],
-    "year": "2026",
-    "region": "美国",
-    "duration": "101分钟",
-    "short_comment": "华纳这部动画+真人电影有太多IP了，估计现在的小朋友都不认识兔八哥、达菲鸭、翠迪鸟、猪小弟，片子里有很多复古老动画片的搞笑桥段，果然，动画角色就是韧性十足！歪心狼虽然是反派，但也不能这么欺负人家吧，用了几十年的道具，没有一个攒劲的，必须支持维权！最后哔哔鸟出庭真的感动哭了歪心狼，对手都看不过去了。可见黑心公司给歪心狼造成了多大的伤害。西西弗斯在他的巨石见证下显得更加伟岸！",
-    "tmdb_id": 1204680,
-    "tmdb_rating": 7.555,
-    "poster": "posters/douban-27190137.jpg"
-  },
-  {
-    "rank": "5",
-    "title": "欧盟制造",
-    "douban_url": "https://movie.douban.com/subject/36956292/",
-    "subject_id": "36956292",
+    "title": "电动维纳斯",
+    "douban_url": "https://movie.douban.com/subject/37193887/",
+    "subject_id": "37193887",
     "douban_rating": 7.4,
     "directors": [
-      "斯特凡·科曼达雷夫"
+      "皮埃尔·沙尔瓦多利"
     ],
     "actors": [
-      "伊万·博尔内夫",
-      "Francesco Frattini",
-      "Gerasim Georgiev",
-      "伊瓦洛·克里斯托夫",
-      "Anastasia Ingilizova",
-      "Todor Kotzev",
-      "Martina Peneva",
-      "Gergana Pletnyova",
-      "Ovanes Torosian"
+      "皮奥·马麦",
+      "阿娜伊斯·德穆斯蒂埃",
+      "吉尔·勒卢什",
+      "维玛拉·庞斯",
+      "古斯塔弗·科文",
+      "玛德琳·博多",
+      "卡罗琳·盖伊",
+      "伊萨·莫奎尔",
+      "帕特里斯·泰帕索",
+      "让-保尔·米埃尔"
     ],
     "genres": [
-      "剧情"
-    ],
-    "year": "2025",
-    "region": "德国",
-    "duration": "102分钟",
-    "short_comment": "有什么好稀奇的。无非一部保加利亚人拍的中国电影。",
-    "tmdb_id": 974236,
-    "tmdb_rating": 6.9,
-    "poster": "posters/douban-36956292.jpg"
-  },
-  {
-    "rank": "6",
-    "title": "百分之十(电影版)",
-    "douban_url": "https://movie.douban.com/subject/36988706/",
-    "subject_id": "36988706",
-    "douban_rating": 7.0,
-    "directors": [
-      "埃米莉·诺布莱"
-    ],
-    "actors": [
-      "卡米尔·科坦",
-      "劳尔·卡拉米",
-      "蒂博·德·蒙塔朗贝尔",
-      "格雷戈里·蒙泰尔",
-      "尼古拉斯·莫里",
-      "芬妮·西德尼",
-      "莉莲娜·罗维埃",
-      "欧菲莉亚·科尔布",
-      "安·玛丽文",
-      "乔治·克鲁尼"
-    ],
-    "genres": [
-      "剧情",
       "喜剧"
     ],
     "year": "2026",
     "region": "法国",
-    "duration": "",
-    "short_comment": "感觉就那么回事儿，除了乔治格鲁尼那段那段有点搞笑之外",
-    "tmdb_id": 1365884,
-    "tmdb_rating": 6.433,
-    "poster": "posters/douban-36988706.jpg"
+    "duration": "122分钟",
+    "short_comment": "三星半。当人们纵情于爱情的美好忘乎所以之时，陡然间这样的阶段性痴迷默认成了两个人的忠贞不渝。然，情感会流动，爱自然也会转移。爱情本就是个人需求的一部分，很自私，没那么可靠，甚至是一种人生的进阶修炼手段。可但凡你爱过，你的人生某处便有过千言万语，悸动又美妙。基于兹罗托斯基与坎皮略的妙趣原创点子，查比特、格拉芬、沙尔瓦多利一同炮制的剧本非常轻盈扎实。它或许冒犯了很多情感洁癖患者，可人谈情不就是这样，吃了吐、吐了吃，依旧回味无穷。虽在部分段落上略显仓促，但作为一部商业爱情喜剧还是很上乘的，皮奥·马麦、阿娜伊斯·德穆斯蒂埃的表演令人印象深刻。",
+    "tmdb_id": 1442669,
+    "tmdb_rating": 7.179,
+    "poster": "posters/douban-37193887.jpg"
+  },
+  {
+    "rank": "5",
+    "title": "童年记忆",
+    "douban_url": "https://movie.douban.com/subject/35496965/",
+    "subject_id": "35496965",
+    "douban_rating": 7.4,
+    "directors": [
+      "弗拉德连娜·桑杜"
+    ],
+    "actors": [
+      "弗拉德连娜·桑杜"
+    ],
+    "genres": [
+      "纪录片"
+    ],
+    "year": "2025",
+    "region": "法国",
+    "duration": "98分钟",
+    "short_comment": "HKIFF 50#12\n-\n确实拍得很漂亮，但有过于审美化的倾向，基本和我想象中的拍法差不多，全程旁白加上一些搬演，容易疲劳。结尾使用的那些真实影像是更有力的存在。",
+    "tmdb_id": 838301,
+    "tmdb_rating": 6.3,
+    "poster": "posters/douban-35496965.jpg"
+  },
+  {
+    "rank": "6",
+    "title": "瘴气营地的青春性事与死亡",
+    "douban_url": "https://movie.douban.com/subject/36801617/",
+    "subject_id": "36801617",
+    "douban_rating": 6.8,
+    "directors": [
+      "简·申布伦"
+    ],
+    "actors": [
+      "汉娜·爱宾德",
+      "吉莲·安德森",
+      "派特里克·费斯克勒",
+      "贾思敏·萨沃伊·布朗",
+      "莎拉·谢尔曼",
+      "杰克·黑文",
+      "阿曼达·菲克斯",
+      "迪伦·贝克",
+      "扎克·切利",
+      "伊娃·维克托"
+    ],
+    "genres": [
+      "喜剧",
+      "恐怖"
+    ],
+    "year": "2026",
+    "region": "美国",
+    "duration": "112分钟",
+    "short_comment": "请问没有对上这部电影的电波会被开除queer籍吗…asking for a friend",
+    "tmdb_id": 1240889,
+    "tmdb_rating": 6.258,
+    "poster": "posters/douban-36801617.jpg"
   },
   {
     "rank": "7",
+    "title": "别为往事懊恼",
+    "douban_url": "https://movie.douban.com/subject/37295475/",
+    "subject_id": "37295475",
+    "douban_rating": 7.4,
+    "directors": [
+      "威尔·拉芙雷斯",
+      "迪伦·索敦"
+    ],
+    "actors": [
+      "利亚姆·加拉格尔",
+      "诺尔·加拉格",
+      "Oasis"
+    ],
+    "genres": [
+      "纪录片",
+      "音乐"
+    ],
+    "year": "2026",
+    "region": "英国",
+    "duration": "122分钟",
+    "short_comment": "在近两千人的大厅第一排，全身心沉浸感受绿洲的巡回演出剪辑。是的，这部纪录片更像是巡回演出现场记录，观众的镜头占了三分之二，耳熟能详的歌曲一首接着一首，听到最后几首，神经被扰动到几乎就要跟着唱起来了。兄弟俩的旁白，极其口语化，出现最多的词应该是fuck，没错，音乐就是现代化的宗教。肖申克的救赎里也特地指出了这点。音乐的魅力超越种族和语言，它让人们感动流泪获得力量获得释放化干戈为玉帛。有意思的是这部接着下午的哲学基础，刚好成了一种互文。一个问如何原谅？一个答不要悔恨，去原谅父母或者自己吧。生命如此珍贵，放下手机，去爱，去感受一切，就够了。",
+    "tmdb_id": 1447853,
+    "tmdb_rating": 7.5,
+    "poster": "posters/douban-37295475.jpg"
+  },
+  {
+    "rank": "8",
+    "title": "隐迹之书：重写自我",
+    "douban_url": "https://movie.douban.com/subject/36554090/",
+    "subject_id": "36554090",
+    "douban_rating": 7.8,
+    "directors": [
+      "雪美莲"
+    ],
+    "actors": [
+      "雪美莲"
+    ],
+    "genres": [
+      "传记",
+      "历史",
+      "纪录片"
+    ],
+    "year": "2025",
+    "region": "中国台湾",
+    "duration": "108分钟",
+    "short_comment": "不愧是剪辑师出身 功底深厚。如此庞大的素材库和文字资料不敢想象要多久才能理出剧本头绪。VO常有第一人称和第三人称的重叠，导演的评价、反思和质疑持续出现，直到最后揭示了如何在已被重写的家族故事中再次重写自己的家族史。（虽然讲述的方式沉闷，但内容很有深意）对性别 种族 殖民 身份 东西文化 甚至西方电影节的反思都很真诚，多次提到自己从家族财富和白人姓氏中获得的特权和优待，是华裔少有的自我揭露。片中大量提及香港殖民史 日军侵华史，对西方观众了解更全面的中国也很重要。总之形式平平，但意义值得四星，受到很多启发",
+    "tmdb_id": 1525646,
+    "tmdb_rating": 8.2,
+    "poster": "posters/douban-36554090.jpg"
+  },
+  {
+    "rank": "9",
     "title": "海上心狱",
     "douban_url": "https://movie.douban.com/subject/37193508/",
     "subject_id": "37193508",
-    "douban_rating": 7.1,
+    "douban_rating": 7.0,
     "directors": [
       "海伦·沃尔什"
     ],
@@ -8156,8 +8206,8 @@ const CHART = [
       "塞林·琼斯",
       "丹尼·韦伯",
       "卡勒姆·希梅斯",
-      "Sheldon Jones",
-      "Tristan Jones",
+      "谢尔顿·琼斯",
+      "特里斯坦·琼斯",
       "基兰·罗伯茨"
     ],
     "genres": [
@@ -8167,101 +8217,42 @@ const CHART = [
     "year": "2025",
     "region": "英国",
     "duration": "115分钟",
-    "short_comment": "第一次是前几个评分的哈哈哈。爱丁堡国际电影节上看的一部片子，放映环境很不错，电影本身的影像摄影也比较有氛围感，演员演技也ok。但是核心剧情上我觉得有些单薄和噱头化，逻辑略显生硬，刻板印象重：怎么两人就突然相爱了？最终用生离死别想要为渣男开脱也有些幼稚了。整体一般吧。导演们能不能少拍点这种抹黑LGBT群体的电影，我看了都有点怕了。",
+    "short_comment": "大海就是那座断背山，只有漂泊在海上，脱离小镇所有人的目光，他们才可以安心面对自己的欲望，但内核有区别，《上帝之国》最后是世俗层面的圆满；《断背山》是被时代与偏见撕碎；而这部的悲剧是早就埋好的伏笔—男主身患癌症。妻子是痛苦的受害者，但在知晓一切后，没有歇斯底里的仇恨，最终选择接纳，成全丈夫生命最后的时刻，安排爱人来到他面前，完成最后的拥抱告别，或许她看清这个男人短暂的生命、看清他一辈子压抑自我之后，一种沉重的释然。结尾的拥抱联想到《都是陌生人》，都面对了永世的诀别。影片的叙事是向内的，优先拍男主身体衰败、欲望压抑的内心，而不是去编织跌宕的故事。镜头太碎片化，而且根本没有体现身为乡土背景的酷儿故事，没有把悲剧全部推给外界的歧视，死亡来自命运与病痛，反而家人迟来的理解，却是苦难里那一点点易碎的暖意",
     "tmdb_id": 1507796,
-    "tmdb_rating": 7.107,
+    "tmdb_rating": 7.0,
     "poster": "posters/douban-37193508.jpg"
   },
   {
-    "rank": "8",
-    "title": "凤仙花",
-    "douban_url": "https://movie.douban.com/subject/36907269/",
-    "subject_id": "36907269",
-    "douban_rating": 7.3,
+    "rank": "10",
+    "title": "坂本日常 真人版",
+    "douban_url": "https://movie.douban.com/subject/37233625/",
+    "subject_id": "37233625",
+    "douban_rating": 6.7,
     "directors": [
-      "木下麦"
+      "福田雄一"
     ],
     "actors": [
-      "小林薰",
+      "目黑莲",
+      "高桥文哉",
+      "上户彩",
+      "吉本实由",
+      "横田真悠",
       "户塚纯贵",
-      "满岛光",
-      "宫崎美子",
-      "泷正则"
-    ],
-    "genres": [
-      "动画"
-    ],
-    "year": "2025",
-    "region": "日本",
-    "duration": "90分钟",
-    "short_comment": "以植物的尺度，以烟花的记忆深度，以昭和末的疯狂和平成泡沫的崩溃速度。",
-    "tmdb_id": 1294972,
-    "tmdb_rating": 8.0,
-    "poster": "posters/douban-36907269.jpg"
-  },
-  {
-    "rank": "9",
-    "title": "托尼",
-    "douban_url": "https://movie.douban.com/subject/37002986/",
-    "subject_id": "37002986",
-    "douban_rating": 6.9,
-    "directors": [
-      "马特·约翰逊"
-    ],
-    "actors": [
-      "多米尼克·塞萨",
-      "安东尼奥·班德拉斯",
-      "艾米莉亚·琼斯",
-      "利奥·伍德尔",
-      "达格玛拉·多敏齐克",
-      "里奇·索莫",
-      "斯塔夫罗斯·哈尔基阿斯",
-      "莫妮卡·雷蒙德",
-      "杜利·维杰瓦德纳",
-      "德克兰·康登"
+      "盐野瑛久",
+      "渡边圭祐",
+      "北村匠海",
+      "八木勇征"
     ],
     "genres": [
       "剧情",
-      "传记"
+      "动作"
     ],
     "year": "2026",
-    "region": "美国",
-    "duration": "106分钟",
-    "short_comment": "被片中每位白男的anger issue吓晕",
-    "tmdb_id": 1329016,
-    "tmdb_rating": 7.6,
-    "poster": "posters/douban-37002986.jpg"
-  },
-  {
-    "rank": "10",
-    "title": "四减三",
-    "douban_url": "https://movie.douban.com/subject/37105254/",
-    "subject_id": "37105254",
-    "douban_rating": 6.9,
-    "directors": [
-      "阿德里安·戈伊金格"
-    ],
-    "actors": [
-      "瓦莱丽·帕赫纳",
-      "罗伯特·施塔德洛伯",
-      "Jonas Recklie",
-      "Victoria Wild",
-      "Conrado Molina",
-      "Jona Widling",
-      "斯蒂芬妮·海因里希",
-      "斯蒂芬·雷斯佩格",
-      "沃尔夫冈·兰普尔",
-      "Felix Draschl"
-    ],
-    "genres": [
-      "剧情"
-    ],
-    "year": "2026",
-    "region": "奥地利",
-    "duration": "121分钟",
-    "short_comment": "3.5 颇有些动人的段落，情感的反复、不稳定、强烈的压抑和释放、向性的发散均有其可信性，但闪回基本都是败笔，可惜。",
-    "tmdb_id": 1249152,
-    "tmdb_rating": 8.2,
-    "poster": "posters/douban-37105254.jpg"
+    "region": "日本",
+    "duration": "128分钟",
+    "short_comment": "福田雄一漫改能力越来越差，这次没有启用福田组老熟人们，也没有很多他的无厘头搞笑梗加持，所以看起来很不舒服。虽然剧情和人物服化道都很好地贴近原著，但这种 100% 复刻又有啥意义呢？目黑莲帅气确实适合这个角色，可没有过多颜艺就不是福田雄一的作品啦。相比之下我更怀念他的《银魂》真人版时期的作品",
+    "tmdb_id": 1548708,
+    "tmdb_rating": 7.5,
+    "poster": "posters/douban-37233625.jpg"
   }
 ];
