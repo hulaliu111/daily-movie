@@ -1,38 +1,171 @@
 [
   {
     "rank": "1",
-    "title": "罗斯",
-    "douban_url": "https://movie.douban.com/subject/35322132/",
-    "subject_id": "35322132",
-    "douban_rating": 8.5,
+    "title": "生日快乐",
+    "douban_url": "https://movie.douban.com/subject/37322586/",
+    "subject_id": "37322586",
+    "douban_rating": 8.9,
     "directors": [
-      "马库斯·施莱泽"
+      "萨拉·戈赫尔"
     ],
     "actors": [
-      "桑德拉·惠勒",
-      "卡洛·布劳恩",
-      "玛丽莎·格罗瓦尔德",
-      "戈德哈尔德·吉瑟",
-      "奥古斯丁诺·伦肯",
-      "罗伯特·格维斯戴克",
-      "玛丽亚·德拉格斯",
-      "斯文·埃里克·贝希托夫",
-      "赖纳·埃格",
-      "Maurice Leonhard"
+      "朵哈·拉马丹",
+      "哈南·莫特韦",
+      "哈南·优素福",
+      "哈迪贾·艾哈迈德",
+      "卡罗琳",
+      "哈赞姆·伊哈卜",
+      "亚斯明·埃尔·哈瓦里",
+      "萨米尔·戈哈尔",
+      "格海德·霍萨姆",
+      "乔马娜·易卜拉欣"
     ],
     "genres": [
       "剧情"
     ],
-    "year": "2026",
-    "region": "奥地利",
-    "duration": "94分钟",
-    "short_comment": "#16th BJIFF# 他们好像法纪严明，轮奸的事倒没有人追究了",
-    "tmdb_id": 70981,
-    "tmdb_rating": 6.613,
-    "poster": "posters/douban-35322132.jpg"
+    "year": "2025",
+    "region": "埃及",
+    "duration": "92分钟",
+    "short_comment": "最喜欢的一场戏，是女孩穿上粉色蓬蓬裙前往生日派对，装点着彩灯的三蹦子像南瓜马车般散发出失真的光晕，载着她前往不属于她的世界。有多浪漫迷幻，就有多残忍辛酸。",
+    "tmdb_id": 1303034,
+    "tmdb_rating": 7.8,
+    "poster": "posters/douban-37322586.jpg"
   },
   {
     "rank": "2",
+    "title": "登峰传奇：丹增诺盖",
+    "douban_url": "https://movie.douban.com/subject/36887293/",
+    "subject_id": "36887293",
+    "douban_rating": 7.7,
+    "directors": [
+      "詹妮弗·皮多姆"
+    ],
+    "actors": [
+      "更登彭措",
+      "汤姆·希德勒斯顿",
+      "威廉·达福",
+      "凯特芮娜·巴尔夫",
+      "Tenzin Jigmey",
+      "Umesh Tamang",
+      "廷妮·拉姆"
+    ],
+    "genres": [
+      "剧情",
+      "传记",
+      "历史",
+      "冒险"
+    ],
+    "year": "2026",
+    "region": "澳大利亚",
+    "duration": "128分钟",
+    "short_comment": "影片时长标错了，应该是125分钟。剧情设计的好像队长约翰偏向自己人，让英国的埃文斯二人作为第一组冲顶，其实现实中约翰没有偏向英国人的私心，先让埃文斯和布尔迪永作为第一组冲顶是很合理的，因为第一组用的最先进的闭路循环氧气罐是布尔迪永父子设计的，只有2套也只有布尔迪永会修，况且埃文斯和布尔迪永的实力绝不弱于丹增和希拉里，他们冲顶失败的核心是因为氧气罐出现问题，其实他们冲顶的行进速度很快（得益于闭路循环氧气罐几乎是纯氧，但故障率高也是失败的关键），只不过他们是从南坳的8号营地开始冲顶，线路更长难度更大，而他们的失败给丹增二人探明核实了路线，所以丹增的第二组才会增加了一个冲顶用的9号营地，并且埃文斯二人探明了后来称作希拉里台阶的那块岩壁，让丹增二人提前有了准备，贡献巨大。影片质量不错，4星7.6分！",
+    "tmdb_id": 1288069,
+    "tmdb_rating": 8.322,
+    "poster": "posters/douban-36887293.jpg"
+  },
+  {
+    "rank": "3",
+    "title": "害群之马",
+    "douban_url": "https://movie.douban.com/subject/36623663/",
+    "subject_id": "36623663",
+    "douban_rating": 7.5,
+    "directors": [
+      "乔纳坦·埃茨勒"
+    ],
+    "actors": [
+      "西尔莎·罗南",
+      "埃迪·沃勒",
+      "尼亚·布朗",
+      "雅各布·安德森",
+      "芮姬·阿约拉",
+      "罗伯特·埃姆斯",
+      "肖恩·吉尔德",
+      "杰克·阿什顿",
+      "凯莉·霍华德",
+      "Jaye Jacobs"
+    ],
+    "genres": [
+      "喜剧",
+      "惊悚"
+    ],
+    "year": "2025",
+    "region": "英国",
+    "duration": "100分钟",
+    "short_comment": "我以为会把可怕的女学生跟可怕的男学生一起关起来，然后越关越多……😂",
+    "tmdb_id": 1198654,
+    "tmdb_rating": 6.773,
+    "poster": "posters/douban-36623663.jpg"
+  },
+  {
+    "rank": "4",
+    "title": "杯雪·一战成名",
+    "douban_url": "https://movie.douban.com/subject/37516455/",
+    "subject_id": "37516455",
+    "douban_rating": 7.5,
+    "directors": [
+      "刘文普"
+    ],
+    "actors": [
+      "潘斌龙",
+      "安志杰",
+      "奚望",
+      "淳于珊珊",
+      "姜政宇",
+      "郭宏杰",
+      "胡笑源",
+      "许明虎",
+      "赵靖舒玉",
+      "宁小花"
+    ],
+    "genres": [
+      "犯罪",
+      "武侠",
+      "古装"
+    ],
+    "year": "2026",
+    "region": "中国大陆",
+    "duration": "98分钟",
+    "short_comment": "文官无缚鸡之力，却搅动满堂杀局。潘斌龙举重若轻，安志杰暗剑生风。一点算力就可以满屏王八拳的时代，仍有人在拍传统武侠。雨夜生寒，寒刃余温。这口气，别松。",
+    "tmdb_id": 1563627,
+    "tmdb_rating": 7.167,
+    "poster": "posters/douban-37516455.jpg"
+  },
+  {
+    "rank": "5",
+    "title": "逃出布迪秀",
+    "douban_url": "https://movie.douban.com/subject/37446297/",
+    "subject_id": "37446297",
+    "douban_rating": 7.3,
+    "directors": [
+      "加斯帕·凯利"
+    ],
+    "actors": [
+      "德莱尼·奎因",
+      "凯莱布·威廉姆斯",
+      "科甘-迈克尔·凯",
+      "克里斯汀·米利欧缇",
+      "托弗·格雷斯",
+      "特里斯坦·博德斯",
+      "麦迪逊·波兰",
+      "卢克·斯皮克曼",
+      "帕顿·奥斯瓦尔特",
+      "克林特·霍华德"
+    ],
+    "genres": [
+      "奇幻",
+      "惊悚",
+      "恐怖"
+    ],
+    "year": "2026",
+    "region": "美国",
+    "duration": "95分钟",
+    "short_comment": "阴阴的邪邪的，用手推出去那一下，影片就升华了。除了buddy 好像还有Benny啥的，看样子想搞个邪典宇宙了。",
+    "tmdb_id": 1514026,
+    "tmdb_rating": 7.057,
+    "poster": "posters/douban-37446297.jpg"
+  },
+  {
+    "rank": "6",
     "title": "生化危机：爆发夜",
     "douban_url": "https://movie.douban.com/subject/37068446/",
     "subject_id": "37068446",
@@ -62,11 +195,36 @@
     "duration": "94分钟",
     "short_comment": "B站有一个短评写的很好：“我感觉最后看着烂是因为导演想讽刺这个世界就是个巨大的草台班子，医生收到货不签字 病毒会泄露是因为不专业，解决问题只派了两个公司人员，甚至只有一个武装人员，全程无政府参与，最后不检查放人，变异了不扎针 ，全都想t ，m跑路。所以故事从开头就暗示了结尾，所有看似很专业的人踏马的一点都不靠谱，而主角这个送外卖的小人物反而完成了任务。”",
     "tmdb_id": 1423191,
-    "tmdb_rating": 7.3,
+    "tmdb_rating": 7.309,
     "poster": "posters/douban-37068446.jpg"
   },
   {
-    "rank": "3",
+    "rank": "7",
+    "title": "一个夜晚与三个夏天",
+    "douban_url": "https://movie.douban.com/subject/36449264/",
+    "subject_id": "36449264",
+    "douban_rating": 7.2,
+    "directors": [
+      "岗珍"
+    ],
+    "actors": [
+      "次仁央金",
+      "次吉美朵",
+      "泽仁顿珠"
+    ],
+    "genres": [
+      "剧情"
+    ],
+    "year": "2025",
+    "region": "中国大陆",
+    "duration": "100分钟",
+    "short_comment": "在日本靠日英字幕看带龙标的片子，蛮新鲜。我仔细一想这不就是留子放暑假？中国真的太大了，即便境内一样能讲好多identity/ ethnicity的故事；中国又太统一了，远在西藏，父母也还是：你都要考试了不用去爷爷葬礼 他要还在也会担心",
+    "tmdb_id": 1308545,
+    "tmdb_rating": null,
+    "poster": "posters/douban-36449264.jpg"
+  },
+  {
+    "rank": "8",
     "title": "野兽之心",
     "douban_url": "https://movie.douban.com/subject/36828393/",
     "subject_id": "36828393",
@@ -92,222 +250,67 @@
     "duration": "102分钟",
     "short_comment": "感谢所有差评，让我把期待降到了足够低，并欣赏到了一部很棒的电影",
     "tmdb_id": 1263337,
-    "tmdb_rating": 7.436,
+    "tmdb_rating": 7.342,
     "poster": "posters/douban-36828393.jpg"
   },
   {
-    "rank": "4",
-    "title": "500英里",
-    "douban_url": "https://movie.douban.com/subject/36772727/",
-    "subject_id": "36772727",
-    "douban_rating": 7.6,
+    "rank": "9",
+    "title": "万人之上：冬攀乔戈里峰",
+    "douban_url": "https://movie.douban.com/subject/37925649/",
+    "subject_id": "37925649",
+    "douban_rating": 7.5,
     "directors": [
-      "摩根·马修斯"
+      "埃米尔·巴尔-列维"
     ],
     "actors": [
-      "迪尔德丽·莫娜汉",
-      "洛雷·阿德乌西",
-      "德克斯特·索尔·安塞尔",
-      "欧因·达菲",
-      "克莱尔·邓恩",
-      "罗曼·格里芬·戴维斯",
-      "Shauna Harris",
-      "Steve Hartland",
-      "比尔·奈伊",
-      "大卫·赖恩"
+      "尼尔玛尔·普尔贾",
+      "穆罕默德·阿里·萨帕拉",
+      "萨吉德·萨帕拉",
+      "约翰·斯诺里·西于尔永松"
     ],
     "genres": [
-      "剧情"
-    ],
-    "year": "2026",
-    "region": "英国",
-    "duration": "102分钟",
-    "short_comment": "一个关于告别的片子 挺完整的故事 喜欢骑马的那段 在爱尔兰就算出现意外也会觉得正好可以多看看风景 音乐风格好明显 凄凉又悠扬\n一定要去到爱尔兰！\n边上的大妈好吵 认出了电影里的某个地标建筑就发出尖叫 这就是一生英伦情吧",
-    "tmdb_id": 1242876,
-    "tmdb_rating": 6.455,
-    "poster": "posters/douban-36772727.jpg"
-  },
-  {
-    "rank": "5",
-    "title": "风暴",
-    "douban_url": "https://movie.douban.com/subject/36488589/",
-    "subject_id": "36488589",
-    "douban_rating": 7.6,
-    "directors": [
-      "弗蕾维亚·卡斯特罗"
-    ],
-    "actors": [
-      "卡林·特莱斯",
-      "里卡多·特奥多罗",
-      "爱德华多·莫斯科维奇",
-      "露易扎·玛丽安妮",
-      "Magali Biff"
-    ],
-    "genres": [
-      "剧情"
-    ],
-    "year": "2025",
-    "region": "巴西",
-    "duration": "100分钟",
-    "short_comment": "全女主创班底拍出来的真正的女性主义电影。“这次真的会不一样吗？”他们看不到你所处的困境，也不在乎你是否真的有才华，只将你视为某某的附属品，或是助理或是一个问好的工具人。当你穿着精心准备的衣服画着精致的妆容准备上台时，他只会虚伪且假意借着为你考虑的名义继续剥削后将你驱逐，而看到你在流血并将你搀扶的，是女人。\n主创团队耗时十五年的诚意满满的电影，汇焦于19世纪的女性新浪潮背景，而那个年代所拥有的女性困境在今天依然随处可见。映后提问环节主持人接连叫两名男性提问而忽略了举手的女性又怎么不算是这个电影的小彩蛋呢。",
-    "tmdb_id": 811631,
-    "tmdb_rating": 5.735,
-    "poster": "posters/douban-36488589.jpg"
-  },
-  {
-    "rank": "6",
-    "title": "怪化猫：蛇神",
-    "douban_url": "https://movie.douban.com/subject/37170498/",
-    "subject_id": "37170498",
-    "douban_rating": 7.1,
-    "directors": [
-      "越田知明",
-      "中村健治"
-    ],
-    "actors": [
-      "日笠阳子",
-      "平野文",
-      "本多真梨子",
-      "入野自由",
-      "甲斐田裕子",
-      "神谷浩史",
-      "黑泽朋世",
-      "榊原良子",
-      "泽城美雪",
-      "竹本英史"
-    ],
-    "genres": [
-      "动画",
-      "悬疑",
-      "恐怖"
-    ],
-    "year": "2026",
-    "region": "日本",
-    "duration": "89分钟",
-    "short_comment": "《蠕癔传》",
-    "tmdb_id": 1322562,
-    "tmdb_rating": 9.1,
-    "poster": "posters/douban-37170498.jpg"
-  },
-  {
-    "rank": "7",
-    "title": "电动维纳斯",
-    "douban_url": "https://movie.douban.com/subject/37193887/",
-    "subject_id": "37193887",
-    "douban_rating": 7.4,
-    "directors": [
-      "皮埃尔·沙尔瓦多利"
-    ],
-    "actors": [
-      "皮奥·马麦",
-      "阿娜伊斯·德穆斯蒂埃",
-      "吉尔·勒卢什",
-      "维玛拉·庞斯",
-      "古斯塔弗·科文",
-      "玛德琳·博多",
-      "卡罗琳·盖伊",
-      "伊萨·莫奎尔",
-      "帕特里斯·泰帕索",
-      "让-保尔·米埃尔"
-    ],
-    "genres": [
-      "喜剧"
-    ],
-    "year": "2026",
-    "region": "法国",
-    "duration": "122分钟",
-    "short_comment": "三星半。当人们纵情于爱情的美好忘乎所以之时，陡然间这样的阶段性痴迷默认成了两个人的忠贞不渝。然，情感会流动，爱自然也会转移。爱情本就是个人需求的一部分，很自私，没那么可靠，甚至是一种人生的进阶修炼手段。可但凡你爱过，你的人生某处便有过千言万语，悸动又美妙。基于兹罗托斯基与坎皮略的妙趣原创点子，查比特、格拉芬、沙尔瓦多利一同炮制的剧本非常轻盈扎实。它或许冒犯了很多情感洁癖患者，可人谈情不就是这样，吃了吐、吐了吃，依旧回味无穷。虽在部分段落上略显仓促，但作为一部商业爱情喜剧还是很上乘的，皮奥·马麦、阿娜伊斯·德穆斯蒂埃的表演令人印象深刻。",
-    "tmdb_id": 1442669,
-    "tmdb_rating": 7.2,
-    "poster": "posters/douban-37193887.jpg"
-  },
-  {
-    "rank": "8",
-    "title": "隐迹之书：重写自我",
-    "douban_url": "https://movie.douban.com/subject/36554090/",
-    "subject_id": "36554090",
-    "douban_rating": 7.6,
-    "directors": [
-      "雪美莲"
-    ],
-    "actors": [
-      "雪美莲"
-    ],
-    "genres": [
-      "传记",
-      "历史",
       "纪录片"
     ],
-    "year": "2025",
-    "region": "中国台湾",
-    "duration": "108分钟",
-    "short_comment": "不愧是剪辑师出身 功底深厚。如此庞大的素材库和文字资料不敢想象要多久才能理出剧本头绪。VO常有第一人称和第三人称的重叠，导演的评价、反思和质疑持续出现，直到最后揭示了如何在已被重写的家族故事中再次重写自己的家族史。（虽然讲述的方式沉闷，但内容很有深意）对性别 种族 殖民 身份 东西文化 甚至西方电影节的反思都很真诚，多次提到自己从家族财富和白人姓氏中获得的特权和优待，是华裔少有的自我揭露。片中大量提及香港殖民史 日军侵华史，对西方观众了解更全面的中国也很重要。总之形式平平，但意义值得四星，受到很多启发",
-    "tmdb_id": 1525646,
-    "tmdb_rating": 8.2,
-    "poster": "posters/douban-36554090.jpg"
-  },
-  {
-    "rank": "9",
-    "title": "活色生香",
-    "douban_url": "https://movie.douban.com/subject/37899051/",
-    "subject_id": "37899051",
-    "douban_rating": 7.0,
-    "directors": [
-      "罗冬"
-    ],
-    "actors": [
-      "闫妮",
-      "叶童",
-      "倪虹洁",
-      "许亚军",
-      "保剑锋",
-      "赵文瑄",
-      "李玲玉",
-      "柯淳",
-      "陈龙",
-      "刘钧"
-    ],
-    "genres": [
-      "剧情"
-    ],
     "year": "2026",
-    "region": "中国大陆",
-    "duration": "106分钟",
-    "short_comment": "完全的虚假幻想 而且三个人看起来像祖孙三代",
-    "tmdb_id": 1766670,
-    "tmdb_rating": null,
-    "poster": "posters/douban-37899051.jpg"
+    "region": "美国",
+    "duration": "97分钟",
+    "short_comment": "本来只有一个人，结果来了一群人，(最离谱是那个新手商团🤯)。于是有了竞赛，有了江湖，有了民族主义，大家都争先恐后。本来我不理解攀登的意义，山就在那里，为什么要征服它，看完我仍旧不理解。",
+    "tmdb_id": 1596303,
+    "tmdb_rating": 6.475,
+    "poster": "posters/douban-37925649.jpg"
   },
   {
     "rank": "10",
-    "title": "火之试炼",
-    "douban_url": "https://movie.douban.com/subject/36968728/",
-    "subject_id": "36968728",
-    "douban_rating": 7.2,
+    "title": "眩晕",
+    "douban_url": "https://movie.douban.com/subject/38424785/",
+    "subject_id": "38424785",
+    "douban_rating": 6.7,
     "directors": [
-      "Aurélien Peyre"
+      "昆汀·杜皮约"
     ],
     "actors": [
-      "菲利克斯·勒费弗尔",
-      "Anja Verderosa",
-      "苏珊妮·朱安内",
-      "维克多·邦内尔",
-      "萨拉·亨诺克斯伯格",
-      "裘斯·普瑞尔",
-      "Marie Bucas-Français",
-      "Nolan Masraf",
-      "菲尼克斯·布罗萨德",
-      "Aurélien Vacher"
+      "阿兰·夏巴",
+      "乔纳森·科恩",
+      "阿娜伊斯·德穆斯蒂埃",
+      "让-马利·文灵",
+      "让-克里斯托夫·勒盖南",
+      "奥斯卡·弗雷施门",
+      "可可·杜皮约",
+      "安娜-玛丽·菲利佩",
+      "利奥·普利肯",
+      "萨瓦·洛洛夫"
     ],
     "genres": [
-      "剧情"
+      "剧情",
+      "喜剧",
+      "动画"
     ],
-    "year": "2025",
+    "year": "2026",
     "region": "法国",
-    "duration": "105分钟",
-    "short_comment": "摄影质感还不错，小岛夏日氛围扑面而来；男人总是不珍惜拥有的，如果真爱，又岂会被骗。",
-    "tmdb_id": 1303356,
-    "tmdb_rating": 7.3,
-    "poster": "posters/douban-36968728.jpg"
+    "duration": "67分钟",
+    "short_comment": "哈哈哈哈法国《牛来》 不《鸟来》",
+    "tmdb_id": 1668499,
+    "tmdb_rating": 6.039,
+    "poster": "posters/douban-38424785.jpg"
   }
 ]
