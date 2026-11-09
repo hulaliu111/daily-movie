@@ -4,7 +4,7 @@
     "title": "黑球",
     "douban_url": "https://movie.douban.com/subject/37215318/",
     "subject_id": "37215318",
-    "douban_rating": 8.6,
+    "douban_rating": 8.7,
     "directors": [
       "哈维尔·安布罗希",
       "哈维尔·卡尔沃"
@@ -29,107 +29,107 @@
     "year": "2026",
     "region": "西班牙",
     "duration": "160分钟",
-    "short_comment": "说是男同史诗是远远不够的，这是宇宙的轰鸣，是命运的回响，是爱情的彪炳千古。",
+    "short_comment": "表现被男人性取向伤害的女性角色怎么就是黑点了？不表现就不存在了吗？这是一种什么维度上的创作审查制度？",
     "tmdb_id": 1422041,
-    "tmdb_rating": 8.058,
+    "tmdb_rating": 8.1,
     "poster": "posters/douban-37215318.jpg"
   },
   {
     "rank": "2",
-    "title": "生日快乐",
-    "douban_url": "https://movie.douban.com/subject/37322586/",
-    "subject_id": "37322586",
-    "douban_rating": 8.9,
+    "title": "可能的爱",
+    "douban_url": "https://movie.douban.com/subject/36847425/",
+    "subject_id": "36847425",
+    "douban_rating": 8.7,
     "directors": [
-      "萨拉·戈赫尔"
+      "李沧东"
     ],
     "actors": [
-      "朵哈·拉马丹",
-      "哈迪贾·艾哈迈德",
-      "哈南·莫特韦",
-      "内莉·卡里姆",
-      "哈南·优素福",
-      "卡罗琳",
-      "哈赞姆·伊哈卜",
-      "亚斯明·埃尔·哈瓦里",
-      "萨米尔·戈哈尔",
-      "格海德·霍萨姆"
+      "全度妍",
+      "薛景求",
+      "赵寅成",
+      "赵汝贞",
+      "郑燮",
+      "曺柔理",
+      "崔珉",
+      "姜昌权",
+      "全云重",
+      "李柱焕"
+    ],
+    "genres": [
+      "剧情",
+      "爱情"
+    ],
+    "year": "2026",
+    "region": "韩国",
+    "duration": "166分钟",
+    "short_comment": "有钱却要做发表去争取独立电影的资金，爱讲故事的人在袒露自己时第一时间关掉了摄像机，聚焦于劳动者但可以完全忽视穿梭在工作场景里的外籍面孔，感知到对方的痛苦但视线依旧飘向监视器里的画面，所谓自由的海岸也难逃镜头的监视，哨子吹得再响也不会有人再回头，我们看到的究竟是同一个月亮吗？",
+    "tmdb_id": 1483525,
+    "tmdb_rating": 7.6,
+    "poster": "posters/douban-36847425.jpg"
+  },
+  {
+    "rank": "3",
+    "title": "每时每刻",
+    "douban_url": "https://movie.douban.com/subject/36159749/",
+    "subject_id": "36159749",
+    "douban_rating": 7.5,
+    "directors": [
+      "桑德拉·沃纳尔"
+    ],
+    "actors": [
+      "比吉特·米尼希迈尔",
+      "洛特·希林·凯林",
+      "特里斯坦·洛佩斯",
+      "卡拉·胡特曼",
+      "娜奥米·埃利亚·理查德",
+      "Nanon Esja Mo Tara Nin Wendel",
+      "拉斐尔·戈鲍德鲁",
+      "Elias Esser",
+      "Eva Weißenborn",
+      "克努特·贝格尔"
     ],
     "genres": [
       "剧情"
     ],
-    "year": "2025",
-    "region": "埃及",
-    "duration": "92分钟",
-    "short_comment": "最喜欢的一场戏，是女孩穿上粉色蓬蓬裙前往生日派对，装点着彩灯的三蹦子像南瓜马车般散发出失真的光晕，载着她前往不属于她的世界。有多浪漫迷幻，就有多残忍辛酸。",
-    "tmdb_id": 1303034,
-    "tmdb_rating": 7.833,
-    "poster": "posters/douban-37322586.jpg"
-  },
-  {
-    "rank": "3",
-    "title": "害群之马",
-    "douban_url": "https://movie.douban.com/subject/36623663/",
-    "subject_id": "36623663",
-    "douban_rating": 7.5,
-    "directors": [
-      "乔纳坦·埃茨勒"
-    ],
-    "actors": [
-      "西尔莎·罗南",
-      "埃迪·沃勒",
-      "尼亚·布朗",
-      "雅各布·安德森",
-      "芮姬·阿约拉",
-      "罗伯特·埃姆斯",
-      "肖恩·吉尔德",
-      "杰克·阿什顿",
-      "凯莉·霍华德",
-      "Jaye Jacobs"
-    ],
-    "genres": [
-      "喜剧",
-      "惊悚"
-    ],
-    "year": "2025",
-    "region": "英国",
-    "duration": "100分钟",
-    "short_comment": "儿子变坏他不在乎，儿子把同学推下楼他不在乎，儿子失踪了他忽然摇身一变成为好父亲",
-    "tmdb_id": 1198654,
-    "tmdb_rating": 6.908,
-    "poster": "posters/douban-36623663.jpg"
+    "year": "2026",
+    "region": "奥地利",
+    "duration": "121分钟",
+    "short_comment": "四星半。该进主竞赛的片子。导演的影像直觉太强了，特别是那个长镜头调度的单场戏，把屋顶幻作码头，恍若坠入苍绿大海，杰西是否踏入了那个像素世界？落日变成像素网格的入口，深沉的思念化作散漫、无尽的时间，丧亲之痛从未远去。",
+    "tmdb_id": 1655419,
+    "tmdb_rating": 7.4,
+    "poster": "posters/douban-36159749.jpg"
   },
   {
     "rank": "4",
-    "title": "登峰传奇：丹增诺盖",
-    "douban_url": "https://movie.douban.com/subject/36887293/",
-    "subject_id": "36887293",
+    "title": "突如其来",
+    "douban_url": "https://movie.douban.com/subject/37342630/",
+    "subject_id": "37342630",
     "douban_rating": 7.7,
     "directors": [
-      "詹妮弗·皮多姆"
+      "滨口龙介"
     ],
     "actors": [
-      "更登彭措",
-      "汤姆·希德勒斯顿",
-      "威廉·达福",
-      "凯特芮娜·巴尔夫",
-      "Tenzin Jigmey",
-      "Umesh Tamang",
-      "廷妮·拉姆"
+      "维尔日妮·埃菲拉",
+      "冈本多绪",
+      "玛丽·布奈尔",
+      "让-路易斯·盖松",
+      "让-查理·克里切特",
+      "拉扎尔·古索",
+      "热罗姆·夏帕特",
+      "玛戈·马里科",
+      "伊夫琳·伊斯特里亚",
+      "Prescilia Follin"
     ],
     "genres": [
-      "剧情",
-      "传记",
-      "历史",
-      "冒险"
+      "剧情"
     ],
     "year": "2026",
-    "region": "澳大利亚",
-    "duration": "128分钟",
-    "short_comment": "影片时长标错了，应该是125分钟。剧情设计的好像队长约翰偏向自己人，让英国的埃文斯二人作为第一组冲顶，其实现实中约翰没有偏向英国人的私心，先让埃文斯和布尔迪永作为第一组冲顶是很合理的，因为第一组用的最先进的闭路循环氧气罐是布尔迪永父子设计的，只有2套也只有布尔迪永会修，况且埃文斯和布尔迪永的实力绝不弱于丹增和希拉里，他们冲顶失败的核心是因为氧气罐出现问题，其实他们冲顶的行进速度很快（得益于闭路循环氧气罐几乎是纯氧，但故障率高也是失败的关键），只不过他们是从南坳的8号营地开始冲顶，线路更长难度更大，而他们的失败给丹增二人探明核实了路线，所以丹增的第二组才会增加了一个冲顶用的9号营地，并且埃文斯二人探明了后来称作希拉里台阶的那块岩壁，让丹增二人提前有了准备，贡献巨大。影片质量不错，4星7.6分！",
-    "tmdb_id": 1288069,
-    "tmdb_rating": 8.251,
-    "poster": "posters/douban-36887293.jpg"
+    "region": "法国",
+    "duration": "196分钟",
+    "short_comment": "从法国国家图书馆的河畔傍晚，到疗养院的通宵，再到后来京都山村里的破晓，以及互相推着轮椅的散步夜晚，两人的每一次长谈都拍得太好，惊叹于每一镜每一剪全是功力和审美的展现，舍不得眨眼（当然也有一些我假装没看见的东西",
+    "tmdb_id": 1476614,
+    "tmdb_rating": 7.858,
+    "poster": "posters/douban-37342630.jpg"
   },
   {
     "rank": "5",
@@ -160,47 +160,117 @@
     "duration": "121分钟",
     "short_comment": "HKIFF 50 Day 9 No. 2 @ KG｜7.2-7.5，冲这个超爽结局和对亲密关系的cynical态度给到四星。拍得很一板一眼，但其实是部细想非常歹毒的我流爽片，和我现在的想法不谋而合：有家庭爱情亲情又怎样？能保你晚年幸福吗？能把深爱伴侣的你和养老院失智陌生老头区分开吗？能让你爱的家人受惠于你作出的个人牺牲吗？本片就告诉你：不能。身边有再多爱你的人结局还是会搞成这样。而且设置年轻人那条线作对照也大可以理解成“做爱繁衍一时爽老了还得火葬场”。衰老和死亡面前人人平等👌所以们花大力气避免这些搞得自己很焦虑有啥意义啊。不如全部甩掉一人面对衰老和死亡，对大家都好（笑）不搞亲密关系不建立家庭可以少害多少人，这可是行善积德啊😊（比较推荐给喜欢哈内克《爱》或者有拉丝冯提尔式幽默感（？）的人",
     "tmdb_id": 1021848,
-    "tmdb_rating": 7.167,
+    "tmdb_rating": 7.2,
     "poster": "posters/douban-35765242.jpg"
   },
   {
     "rank": "6",
-    "title": "突如其来",
-    "douban_url": "https://movie.douban.com/subject/37342630/",
-    "subject_id": "37342630",
-    "douban_rating": 7.7,
+    "title": "杯雪·一战成名",
+    "douban_url": "https://movie.douban.com/subject/37516455/",
+    "subject_id": "37516455",
+    "douban_rating": 7.5,
     "directors": [
-      "滨口龙介"
+      "刘文普",
+      "许少飞"
     ],
     "actors": [
-      "维尔日妮·埃菲拉",
-      "冈本多绪",
-      "玛丽·布奈尔",
-      "让-路易斯·盖松",
-      "让-查理·克里切特",
-      "拉扎尔·古索",
-      "热罗姆·夏帕特",
-      "玛戈·马里科",
-      "伊夫琳·伊斯特里亚",
-      "Prescilia Follin"
+      "潘斌龙",
+      "安志杰",
+      "奚望",
+      "淳于珊珊",
+      "姜政宇",
+      "郭宏杰",
+      "胡笑源",
+      "许明虎",
+      "赵靖舒玉",
+      "宁小花"
     ],
     "genres": [
-      "剧情"
+      "动作",
+      "武侠",
+      "古装"
     ],
     "year": "2026",
-    "region": "法国",
-    "duration": "196分钟",
-    "short_comment": "从法国国家图书馆的河畔傍晚，到疗养院的通宵，再到后来京都山村里的破晓，以及互相推着轮椅的散步夜晚，两人的每一次长谈都拍得太好，惊叹于每一镜每一剪全是功力和审美的展现，舍不得眨眼（当然也有一些我假装没看见的东西",
-    "tmdb_id": 1476614,
-    "tmdb_rating": 7.775,
-    "poster": "posters/douban-37342630.jpg"
+    "region": "中国大陆",
+    "duration": "98分钟",
+    "short_comment": "文官无缚鸡之力，却搅动满堂杀局。潘斌龙举重若轻，安志杰暗剑生风。一点算力就可以满屏王八拳的时代，仍有人在拍传统武侠。雨夜生寒，寒刃余温。这口气，别松。",
+    "tmdb_id": 1563627,
+    "tmdb_rating": 7.333,
+    "poster": "posters/douban-37516455.jpg"
   },
   {
     "rank": "7",
+    "title": "逃出布迪秀",
+    "douban_url": "https://movie.douban.com/subject/37446297/",
+    "subject_id": "37446297",
+    "douban_rating": 7.3,
+    "directors": [
+      "加斯帕·凯利"
+    ],
+    "actors": [
+      "德莱尼·奎因",
+      "科甘-迈克尔·凯",
+      "克里斯汀·米利欧缇",
+      "凯莱布·威廉姆斯",
+      "托弗·格雷斯",
+      "特里斯坦·博德斯",
+      "麦迪逊·波兰",
+      "卢克·斯皮克曼",
+      "帕顿·奥斯瓦尔特",
+      "克林特·霍华德"
+    ],
+    "genres": [
+      "奇幻",
+      "惊悚",
+      "恐怖"
+    ],
+    "year": "2026",
+    "region": "美国",
+    "duration": "95分钟",
+    "short_comment": "阴阴的邪邪的，用手推出去那一下，影片就升华了。除了buddy 好像还有Benny啥的，看样子想搞个邪典宇宙了。",
+    "tmdb_id": 1514026,
+    "tmdb_rating": 6.909,
+    "poster": "posters/douban-37446297.jpg"
+  },
+  {
+    "rank": "8",
+    "title": "害群之马",
+    "douban_url": "https://movie.douban.com/subject/36623663/",
+    "subject_id": "36623663",
+    "douban_rating": 7.5,
+    "directors": [
+      "乔纳坦·埃茨勒"
+    ],
+    "actors": [
+      "西尔莎·罗南",
+      "埃迪·沃勒",
+      "尼亚·布朗",
+      "雅各布·安德森",
+      "芮姬·阿约拉",
+      "罗伯特·埃姆斯",
+      "肖恩·吉尔德",
+      "杰克·阿什顿",
+      "凯莉·霍华德",
+      "Jaye Jacobs"
+    ],
+    "genres": [
+      "喜剧",
+      "惊悚"
+    ],
+    "year": "2025",
+    "region": "英国",
+    "duration": "100分钟",
+    "short_comment": "儿子变坏他不在乎，儿子把同学推下楼他不在乎，儿子失踪了他忽然摇身一变成为好父亲",
+    "tmdb_id": 1198654,
+    "tmdb_rating": 6.941,
+    "poster": "posters/douban-36623663.jpg"
+  },
+  {
+    "rank": "9",
     "title": "忘却之岛",
     "douban_url": "https://movie.douban.com/subject/37317906/",
     "subject_id": "37317906",
-    "douban_rating": 7.6,
+    "douban_rating": 7.5,
     "directors": [
       "乔尔·克劳福德",
       "贾努埃尔·梅尔卡多"
@@ -230,108 +300,40 @@
     "duration": "109分钟",
     "short_comment": "真是很久没看过好的原创好莱坞动画了，2D画面也是近几年少有的为表达服务而非偷懒。以及这真是完全属于cool girl的冒险，现在轮到们男角色被拯救被疏导了！Frozen RIP",
     "tmdb_id": 1465063,
-    "tmdb_rating": 7.952,
+    "tmdb_rating": 7.938,
     "poster": "posters/douban-37317906.jpg"
   },
   {
-    "rank": "8",
-    "title": "杯雪·一战成名",
-    "douban_url": "https://movie.douban.com/subject/37516455/",
-    "subject_id": "37516455",
-    "douban_rating": 7.5,
-    "directors": [
-      "刘文普"
-    ],
-    "actors": [
-      "潘斌龙",
-      "安志杰",
-      "奚望",
-      "淳于珊珊",
-      "姜政宇",
-      "郭宏杰",
-      "胡笑源",
-      "许明虎",
-      "赵靖舒玉",
-      "宁小花"
-    ],
-    "genres": [
-      "犯罪",
-      "武侠",
-      "古装"
-    ],
-    "year": "2026",
-    "region": "中国大陆",
-    "duration": "98分钟",
-    "short_comment": "文官无缚鸡之力，却搅动满堂杀局。潘斌龙举重若轻，安志杰暗剑生风。一点算力就可以满屏王八拳的时代，仍有人在拍传统武侠。雨夜生寒，寒刃余温。这口气，别松。",
-    "tmdb_id": 1563627,
-    "tmdb_rating": 7.429,
-    "poster": "posters/douban-37516455.jpg"
-  },
-  {
-    "rank": "9",
-    "title": "逃出布迪秀",
-    "douban_url": "https://movie.douban.com/subject/37446297/",
-    "subject_id": "37446297",
-    "douban_rating": 7.4,
-    "directors": [
-      "加斯帕·凯利"
-    ],
-    "actors": [
-      "德莱尼·奎因",
-      "凯莱布·威廉姆斯",
-      "科甘-迈克尔·凯",
-      "克里斯汀·米利欧缇",
-      "托弗·格雷斯",
-      "特里斯坦·博德斯",
-      "麦迪逊·波兰",
-      "卢克·斯皮克曼",
-      "帕顿·奥斯瓦尔特",
-      "克林特·霍华德"
-    ],
-    "genres": [
-      "奇幻",
-      "惊悚",
-      "恐怖"
-    ],
-    "year": "2026",
-    "region": "美国",
-    "duration": "95分钟",
-    "short_comment": "阴阴的邪邪的，用手推出去那一下，影片就升华了。除了buddy 好像还有Benny啥的，看样子想搞个邪典宇宙了。",
-    "tmdb_id": 1514026,
-    "tmdb_rating": 6.993,
-    "poster": "posters/douban-37446297.jpg"
-  },
-  {
     "rank": "10",
-    "title": "托尼",
-    "douban_url": "https://movie.douban.com/subject/37002986/",
-    "subject_id": "37002986",
+    "title": "实习生",
+    "douban_url": "https://movie.douban.com/subject/36944373/",
+    "subject_id": "36944373",
     "douban_rating": 6.8,
     "directors": [
-      "马特·约翰逊"
+      "金度英"
     ],
     "actors": [
-      "多米尼克·塞萨",
-      "安东尼奥·班德拉斯",
-      "艾米莉亚·琼斯",
-      "利奥·伍德尔",
-      "达格玛拉·多敏齐克",
-      "里奇·索莫",
-      "斯塔夫罗斯·哈尔基阿斯",
-      "莫妮卡·雷蒙德",
-      "杜利·维杰瓦德纳",
-      "德克兰·康登"
+      "崔岷植",
+      "韩素希",
+      "金准韩",
+      "柳慧英",
+      "金琴顺",
+      "朴艺妮",
+      "金燿汉",
+      "任晟均",
+      "尹相贞",
+      "姜泰伍"
     ],
     "genres": [
       "剧情",
-      "传记"
+      "喜剧"
     ],
     "year": "2026",
-    "region": "美国",
-    "duration": "106分钟",
-    "short_comment": "被片中每位白男的anger issue吓晕",
-    "tmdb_id": 1329016,
-    "tmdb_rating": 7.367,
-    "poster": "posters/douban-37002986.jpg"
+    "region": "韩国",
+    "duration": "132分钟",
+    "short_comment": "不功不过，但是韩素希演这个角色比预想的更合适，居酒屋那一场是有说服力的。唯一问题是这个故事本身太薄了，不过这也不是改编的问题了。",
+    "tmdb_id": 257211,
+    "tmdb_rating": 7.228,
+    "poster": "posters/douban-36944373.jpg"
   }
 ]
